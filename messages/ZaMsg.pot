@@ -1,31 +1,258 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
 #. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
 #. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
-#. extracted from .\messages\ZaMsg.properties
+#. extracted from ZaMsg.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2017-12-29 14:00+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
+#. # ==================================================================================
+#. # ==================================================================================
+#. # ==================================================================================
+#. # Strings to be used as labels
+#. #
+#. # Syntax:
+#. #     label_<key> = <value>
+#. #
+#: label_yes
+msgctxt "label_yes"
+msgid "Yes"
+msgstr ""
+
+#: label_no
+msgctxt "label_no"
+msgid "No"
+msgstr ""
+
+#: label_text
+msgctxt "label_text"
+msgid "Text"
+msgstr ""
+
+#: label_html
+msgctxt "label_html"
+msgid "HTML"
+msgstr ""
+
+#: label_conversation
+msgctxt "label_conversation"
+msgid "Conversation"
+msgstr ""
+
+#: label_message
+msgctxt "label_message"
+msgid "Message"
+msgstr ""
+
+#: label_prompt
+msgctxt "label_prompt"
+msgid "Prompt"
+msgstr ""
+
+#: label_fontFamily_SansSerif
+msgctxt "label_fontFamily_SansSerif"
+msgid "Sans Serif"
+msgstr ""
+
+#: label_fontFamily_Serif
+msgctxt "label_fontFamily_Serif"
+msgid "Serif"
+msgstr ""
+
+#: label_fontFamily_Wide
+msgctxt "label_fontFamily_Wide"
+msgid "Wide"
+msgstr ""
+
+#: label_fontFamily_WideBlock
+msgctxt "label_fontFamily_WideBlock"
+msgid "Wide Block"
+msgstr ""
+
+#: label_fontFamily_Monospaced
+msgctxt "label_fontFamily_Monospaced"
+msgid "Monospaced"
+msgstr ""
+
+#: label_fontFamily_Comic
+msgctxt "label_fontFamily_Comic"
+msgid "Comic"
+msgstr ""
+
+#: label_fontFamily_Console
+msgctxt "label_fontFamily_Console"
+msgid "Console"
+msgstr ""
+
+#: label_fontFamily_Garamond
+msgctxt "label_fontFamily_Garamond"
+msgid "Garamond"
+msgstr ""
+
+#: label_fontFamily_Elegant
+msgctxt "label_fontFamily_Elegant"
+msgid "Elegant"
+msgstr ""
+
+#: label_fontFamily_Professional
+msgctxt "label_fontFamily_Professional"
+msgid "Professional"
+msgstr ""
+
+#: label_fontFamily_Terminal
+msgctxt "label_fontFamily_Terminal"
+msgid "Terminal"
+msgstr ""
+
+#: label_fontFamily_Modern
+msgctxt "label_fontFamily_Modern"
+msgid "Modern"
+msgstr ""
+
+#. # ==================================================================================
+#. # ==================================================================================
+#. # ==================================================================================
+#. # Strings to be used as values
+#. #
+#. # Syntax:
+#. #     value_<key> = <value>
+#. #
+#: value_unrecognized
+msgctxt "value_unrecognized"
+msgid "Unrecognized"
+msgstr ""
+
+#. # ==================================================================================
+#. # ==================================================================================
+#. # ==================================================================================
+#. # Strings to be used as exceptions
+#. #
+#. # Syntax:
+#. #     exception_<key> = <value>
+#. #
+#: exception_required_lifetime
+msgid "You must specify a value for this lifetime."
+msgstr ""
+
+#. # ==================================================================================
+#. # ==================================================================================
+#. # ==================================================================================
+#. # Help Center Strings
+#: title_help_center
+msgid "Zimbra Administrator Help Center"
+msgstr ""
+
+#: subtitle_help_center_1
+msgid "Zimbra Online Help"
+msgstr ""
+
+#: desc_help_center_1
+msgid ""
+"The Zimbra Online Help explains the usage of the administration console. For "
+"details about new features and issues that have been resolved in this "
+"release, read the release notes in the Zimbra Collaboration Server "
+"Documentation."
+msgstr ""
+
+#: sub_desc_help_center_1
+msgid "Zimbra Collaboration Server Documentation"
+msgstr ""
+
+#: subtitle_help_center_2
+msgid "Administrators' Guide"
+msgstr ""
+
+#: desc_help_center_2
+msgid ""
+"The Administrators' Guide describes the Zimbra system architecture, the "
+"Zimbra components, the administration functions, and the CLI commands."
+msgstr ""
+
+#: sub_desc_help_center_2
+msgid "Administrators' Guide to Zimbra Connector for Microsoft Outlook"
+msgstr ""
+
+#: subtitle_help_center_3
+msgid "End Users' Guide"
+msgstr ""
+
+#: desc_help_center_3
+msgid ""
+"The End Users' Guide describes the features and applications used in the "
+"Zimbra Web Client."
+msgstr ""
+
+#: sub_desc_help_center_3
+msgid "End Users' Guide to Zimbra Connector for Microsoft Outlook"
+msgstr ""
+
+#: title_ask_community
+msgid "Ask the Community"
+msgstr ""
+
+#: desc_ask_community_1
+msgid ""
+"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Zimbra Forums</a> "
+"is a great place to get answers to your questions. You can search for "
+"answers from the postings, and you can post a question."
+msgstr ""
+
+#: desc_ask_community_2
+msgid ""
+"<a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a> includes "
+"articles the support team and community have written in response to "
+"troubleshooting and administration issues that were not covered in the "
+"documentation"
+msgstr ""
+
+#: title_top_migration_questions
+msgid "Top Migration Questions"
+msgstr ""
+
+#: ques_top_migration_questions_1
+msgid "How do I migrate server email accounts from Exchange into Zimbra?"
+msgstr ""
+
+#: ques_top_migration_questions_2
+msgid ""
+"How can my users import the contents of a .pst file from a Microsoft Outlook "
+"2007, 2010, 2013 mailbox into Zimbra?"
+msgstr ""
+
+#: ques_top_migration_questions_3
+msgid "How do I migrate server email accounts from Domino into Zimbra?"
+msgstr ""
+
+#: ques_top_migration_questions_4
+msgid "How do I migrate calendar data over using the iCalendar Migration Tool?"
+msgstr ""
+
+#. # ==================================================================================
+#. # ==================================================================================
+#. # ==================================================================================
 #. #URL for the favorites icon, relative to the webapp directory (eg: /zimbraAdmin)
 #: mandatory
 msgid "mandatory"
@@ -50,10 +277,12 @@ msgid "Never"
 msgstr ""
 
 #: No
+msgctxt "No"
 msgid "No"
 msgstr ""
 
 #: Yes
+msgctxt "Yes"
 msgid "Yes"
 msgstr ""
 
@@ -66,18 +295,22 @@ msgid "messages"
 msgstr ""
 
 #: Message
+msgctxt "Message"
 msgid "Message"
 msgstr ""
 
 #: Conversation
+msgctxt "Conversation"
 msgid "Conversation"
 msgstr ""
 
 #: Text
+msgctxt "Text"
 msgid "Text"
 msgstr ""
 
 #: HTML
+msgctxt "HTML"
 msgid "HTML"
 msgstr ""
 
@@ -716,11 +949,11 @@ msgid "Permissions"
 msgstr ""
 
 #: LBL_DomainQuota
-msgid "Domain Quota:"
+msgid "Domain Quota (Bytes):"
 msgstr ""
 
 #: LBL_DomainAggregateQuota
-msgid "Domain Aggregate Quota:"
+msgid "Domain Aggregate Quota (Bytes):"
 msgstr ""
 
 #: LBL_DomainAggregateQuotaWarnPercent
@@ -1720,6 +1953,10 @@ msgctxt "ACTBB_ChngPwd"
 msgid "Change Password"
 msgstr ""
 
+#: ACTBB_ViewMail
+msgid "View Mail"
+msgstr ""
+
 #: ACTBB_ExpireSessions
 msgid "Invalidate Sessions"
 msgstr ""
@@ -2315,7 +2552,7 @@ msgstr ""
 
 #: Alert_ServerRestart
 msgid ""
-"<b>Note:</b> Changes to settings requires server restart in order to take "
+"<b>Warning:</b> Changes to settings requires server restart in order to take "
 "effect."
 msgstr ""
 
@@ -2333,9 +2570,9 @@ msgstr ""
 
 #: Alert_HSM
 msgid ""
-"<b>Note:</b> You can initiate an HSM session manually by pressing \"Start HSM "
-"Session\" button. HSM sessions can also be scheduled on servers through cron "
-"jobs. <br> "
+"<b>Note:</b> You can initiate an HSM session manually by pressing \"Start "
+"HSM Session\" button. HSM sessions can also be scheduled on servers through "
+"cron jobs. <br> "
 msgstr ""
 
 #: Alert_InternalPassword
@@ -2392,8 +2629,8 @@ msgstr ""
 #: Alert_Flush_Theme_Cache
 msgid ""
 "<b>Note:</b> Changes to theme settings require the server theme cache to be "
-"flushed. You can do this by using the \"Flush Cache\" button on the toolbar in "
-"server settings."
+"flushed. You can do this by using the \"Flush Cache\" button on the toolbar "
+"in server settings."
 msgstr ""
 
 #: Alert_Ngnix
@@ -2504,6 +2741,11 @@ msgstr ""
 #: CLV_Description_col
 msgctxt "CLV_Description_col"
 msgid "Description"
+msgstr ""
+
+#: CLV_Version_col
+msgctxt "CLV_Version_col"
+msgid "Version"
 msgstr ""
 
 #: DLV_Name_col
@@ -3076,7 +3318,7 @@ msgid ""
 msgstr ""
 
 #: NAD_MTA_MyNetworks
-msgid "MTA Trusted Networks:"
+msgid "MTA Trusted Networks: "
 msgstr ""
 
 #: tt_MTA_MyNetworks
@@ -3096,9 +3338,7 @@ msgid "Maximum message size (KB):"
 msgstr ""
 
 #: NAD_DOC_MaxUploadSize
-msgid ""
-"Maximum size of an uploaded file for Briefcase, Email messages, Calendar "
-"appointments and Tasks (KB):"
+msgid "Maximum size of a file uploaded from the desktop (KB):"
 msgstr ""
 
 #: NAD_MTA_Options
@@ -3114,11 +3354,11 @@ msgstr ""
 msgid "Protocol checks"
 msgstr ""
 
-#: NAD_MTA_reject_invalid_hostname
+#: NAD_MTA_reject_invalid_helo_hostname
 msgid "Hostname in greeting violates RFC (reject_invalid_helo_hostname)"
 msgstr ""
 
-#: NAD_MTA_reject_non_fqdn_hostname
+#: NAD_MTA_reject_non_fqdn_helo_hostname
 msgid ""
 "Client must greet with a fully qualified hostname "
 "(reject_non_fqdn_helo_hostname)"
@@ -3156,16 +3396,21 @@ msgstr ""
 msgid "List of Sender RHSBLs:"
 msgstr ""
 
-#: NAD_MTA_reject_unknown_client
+#: NAD_MTA_reject_unknown_client_hostname
 msgid "Client's IP address (reject_unknown_client_hostname)"
 msgstr ""
 
-#: NAD_MTA_reject_unknown_hostname
-msgid "Hostname in greeting (reject_unknown_helo_hostname)"
+#: NAD_MTA_reject_unknown_reverse_client_hostname
+msgid "Hostname in greeting (reject_unknown_reverse_client_hostname)"
 msgstr ""
 
 #: NAD_MTA_reject_unknown_sender_domain
 msgid "Sender's domain (reject_unknown_sender_domain)"
+msgstr ""
+
+#: NAD_MTA_reject_unknown_helo_hostname
+msgid ""
+"Client must greet with a resolving hostname (reject_unknown_helo_hostname)"
 msgstr ""
 
 #: NAD_add_x_orginate_IP
@@ -3332,7 +3577,7 @@ msgid "Enabled"
 msgstr ""
 
 #: NAD_Virus_DefUpdateFreq
-msgid "Definition update frequency (hrs):"
+msgid "Definition update frequency:"
 msgstr ""
 
 #: NAD_Virus_Options
@@ -3459,6 +3704,7 @@ msgid "Enable mandatory spell check"
 msgstr ""
 
 #: SEND_READ_RECEIPT_PROMPT
+msgctxt "SEND_READ_RECEIPT_PROMPT"
 msgid "Prompt"
 msgstr ""
 
@@ -3784,6 +4030,7 @@ msgid "Password:"
 msgstr ""
 
 #: NAD_Notes
+msgctxt "NAD_Notes"
 msgid "Notes:"
 msgstr ""
 
@@ -3840,11 +4087,11 @@ msgid "Mail Box Size:"
 msgstr ""
 
 #: MSG_zimbraContactMaxNumEntries
-msgid "Maximum number of contacts allowed in address book"
+msgid "Maximum number of contacts allowed in folder"
 msgstr ""
 
 #: LBL_zimbraContactMaxNumEntries
-msgid "Maximum number of contacts allowed in address book:"
+msgid "Maximum number of contacts allowed in folder:"
 msgstr ""
 
 #: LBL_zimbraQuotaWarnPercent
@@ -4211,8 +4458,7 @@ msgstr ""
 
 #: CannonicalWarning
 msgid ""
-"Modifying canonical address may break mail routing and calendar "
-"appointments!"
+"Modifying canonical address may break mail routing and calendar appointments!"
 msgstr ""
 
 #: LBL_zimbraHideInGal
@@ -4388,6 +4634,14 @@ msgstr ""
 msgid "Chart Settings"
 msgstr ""
 
+#: NAD_AdvStatsHideChartSettingsLabel
+msgid "Hide Chart Settings"
+msgstr ""
+
+#: NAD_AdvStatsShowChartSettingsLabel
+msgid "Show Chart Settings"
+msgstr ""
+
 #: NAD_AdvStatsUpdateChartLabel
 msgid "Update Chart"
 msgstr ""
@@ -4421,7 +4675,7 @@ msgid "Standard (HTML) client"
 msgstr ""
 
 #: NAD_ContactsOptions
-msgid "Address Book Options"
+msgid "Contacts Options"
 msgstr ""
 
 #: NAD_CalendarOptions
@@ -4999,8 +5253,20 @@ msgstr ""
 msgid "MAPI (Microsoft Outlook) Connector"
 msgstr ""
 
+#: LBL_zimbraFeatureEwsEnabled
+msgid "EWS (Exchange) client access"
+msgstr ""
+
+#: LBL_zimbraFeatureTouchClientEnabled
+msgid "Touch Client (Mobile Web App)"
+msgstr ""
+
+#: LBL_zimbraFeatureWebClientOfflineAccessEnabled
+msgid "Offline support for Advanced (Ajax) client"
+msgstr ""
+
 #: LBL_zimbraFeatureContactsEnabled
-msgid "Address Book"
+msgid "Contacts"
 msgstr ""
 
 #: LBL_zimbraFeatureMailEnabled
@@ -5235,6 +5501,10 @@ msgstr ""
 
 #: theme-lake
 msgid "Lake"
+msgstr ""
+
+#: theme-harmony
+msgid "Harmony"
 msgstr ""
 
 #: theme-hotrod
@@ -5576,50 +5846,62 @@ msgid "Enable audible appointment notification"
 msgstr ""
 
 #: LBL_fontFamilySansSerif
+msgctxt "LBL_fontFamilySansSerif"
 msgid "Sans Serif"
 msgstr ""
 
 #: LBL_fontFamilySerif
+msgctxt "LBL_fontFamilySerif"
 msgid "Serif"
 msgstr ""
 
 #: LBL_fontFamilyWideBlock
+msgctxt "LBL_fontFamilyWideBlock"
 msgid "Wide Block"
 msgstr ""
 
 #: LBL_fontFamilyMonospaced
+msgctxt "LBL_fontFamilyMonospaced"
 msgid "Monospaced"
 msgstr ""
 
 #: LBL_fontFamilyComic
+msgctxt "LBL_fontFamilyComic"
 msgid "Comic"
 msgstr ""
 
 #: LBL_fontFamilyConsole
+msgctxt "LBL_fontFamilyConsole"
 msgid "Console"
 msgstr ""
 
 #: LBL_fontFamilyGaramond
+msgctxt "LBL_fontFamilyGaramond"
 msgid "Garamond"
 msgstr ""
 
 #: LBL_fontFamilyElegant
+msgctxt "LBL_fontFamilyElegant"
 msgid "Elegant"
 msgstr ""
 
 #: LBL_fontFamilyProfessional
+msgctxt "LBL_fontFamilyProfessional"
 msgid "Professional"
 msgstr ""
 
 #: LBL_fontFamilyTerminal
+msgctxt "LBL_fontFamilyTerminal"
 msgid "Terminal"
 msgstr ""
 
 #: LBL_fontFamilyModern
+msgctxt "LBL_fontFamilyModern"
 msgid "Modern"
 msgstr ""
 
 #: LBL_fontFamilyWide
+msgctxt "LBL_fontFamilyWide"
 msgid "Wide"
 msgstr ""
 
@@ -5729,8 +6011,8 @@ msgstr ""
 #: NAD_DomainsAuthStr
 msgid ""
 "expansions for LDAP filter:<br>%n = username with @ (or without, if no @ was "
-"specified)<br>%u = username with @ removed<br>%d = domain as foo.com<br>%D "
-"= domain as dc=foo,dc=com"
+"specified)<br>%u = username with @ removed<br>%d = domain as foo.com<br>%D = "
+"domain as dc=foo,dc=com"
 msgstr ""
 
 #: NAD_ZERO_UNLIMETED
@@ -5979,7 +6261,7 @@ msgid "Page {0} of {1}"
 msgstr ""
 
 #: MBXStats_NoMbx
-msgid "There is no mailbox on this server."
+msgid "There are no mailboxes to list."
 msgstr ""
 
 #: Stats_MC_Header
@@ -6444,8 +6726,8 @@ msgstr ""
 
 #: ERROR_MAX_MIN_PWDLENGTH
 msgid ""
-"Value of \"Minimum Password Length\" cannot be greater than value of \"Maximum "
-"Password Length\""
+"Value of \"Minimum Password Length\" cannot be greater than value of \""
+"Maximum Password Length\""
 msgstr ""
 
 #: ERROR_MAX_MIN_PWDAGE
@@ -6603,34 +6885,36 @@ msgid ""
 "Error! Value {0} is not a valid list of subnets. Please consult with "
 "documentation for help on configuring MTA Trusted Networks. <br/>Additional "
 "information about MTA Trusted Networks configuration can be found at <a "
-"target=\"new\" href=\"http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetwork"
-"s\">http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
+"target=\"new\" href=\"http://wiki.zimbra.com/index.php?title="
+"ZimbraMtaMyNetworks\""
+">http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
 msgstr ""
 
 #: ERROR_MISSING_LOCAL
 msgid ""
 "Error! Value for MTA Trusted Networks must contain local network interfaces: "
 "{0}. <br/>Additional information about MTA Trusted Networks configuration "
-"can be found at <a target=\"new\" href=\"http://wiki.zimbra.com/index.php?title"
-"=ZimbraMtaMyNetworks\">http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetw"
-"orks</a>."
+"can be found at <a target=\"new\" href=\""
+"http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks\""
+">http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
 msgstr ""
 
 #: ERROR_NOT_CIDR
 msgid ""
 "Error! {0} is not a valid subnet value in CIDR notation! <br/>Additional "
 "information about MTA Trusted Networks configuration can be found at <a "
-"target=\"new\" href=\"http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetwork"
-"s\">http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
+"target=\"new\" href=\"http://wiki.zimbra.com/index.php?title="
+"ZimbraMtaMyNetworks\""
+">http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
 msgstr ""
 
 #: ERROR_NOT_STARTING_ADDR
 msgid ""
 "Error! non-null host address bits in {0}, perhaps you should use {1} "
 "instead! <br/>Additional information about MTA Trusted Networks "
-"configuration can be found at <a target=\"new\" href=\"http://wiki.zimbra.com/i"
-"ndex.php?title=ZimbraMtaMyNetworks\">http://wiki.zimbra.com/index.php?title=Z"
-"imbraMtaMyNetworks</a>."
+"configuration can be found at <a target=\"new\" href=\""
+"http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks\""
+">http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
 msgstr ""
 
 #: ERROR_LOCAL_ADDR_EXCLUDED
@@ -6664,8 +6948,8 @@ msgstr ""
 
 #: WARNING_TIME_ZONE_INVALID
 msgid ""
-"The current time zone \"{0}\" for {1} is invalid, please go to Preferences to "
-"set the valid time zone."
+"The current time zone \"{0}\" for {1} is invalid, please go to Preferences "
+"to set the valid time zone."
 msgstr ""
 
 #: WARNING_CHARSET_INVALID
@@ -6676,8 +6960,8 @@ msgstr ""
 
 #: WARNING_LOCALE_INVALID
 msgid ""
-"The current locale \"{0}\" for {1} is invalid, please go to Preferences to set "
-"the valid locale."
+"The current locale \"{0}\" for {1} is invalid, please go to Preferences to "
+"set the valid locale."
 msgstr ""
 
 #. # {0} is the account name, and {1} is the alias name
@@ -6739,9 +7023,9 @@ msgstr ""
 
 #: WARNING_REINDEX
 msgid ""
-"Re-Indexing a user's mailbox can take a long time and CANNOT be "
-"undone.<br>If re-indexing is not allowed to finish, then the index will be "
-"incomplete and searches may not return all results.\t"
+"Re-Indexing a user's mailbox can take a long time and CANNOT be undone.<br>"
+"If re-indexing is not allowed to finish, then the index will be incomplete "
+"and searches may not return all results.\t"
 msgstr ""
 
 #: WARNING_WAIT_Q_SCAN
@@ -6822,8 +7106,7 @@ msgstr ""
 
 #: ERROR_ACCOUNT_NAME_TOOLONG
 msgid ""
-"The specified account name is too long. The maximum length is 255 "
-"characters."
+"The specified account name is too long. The maximum length is 255 characters."
 msgstr ""
 
 #: WARNING_DL_INVALID_EMAIL
@@ -6878,8 +7161,8 @@ msgstr ""
 
 #: FAILED_RENAME_COS_1
 msgid ""
-"Failed to rename COS. Another COS with the specified name already "
-"exists.<br>Please choose another name."
+"Failed to rename COS. Another COS with the specified name already exists.<br>"
+"Please choose another name."
 msgstr ""
 
 #: FAILED_RENAME_COS
@@ -7046,7 +7329,7 @@ msgid "Do you want to save current changes?"
 msgstr ""
 
 #: Q_SAVE_REPLACE
-msgid "Do you want to replace with existing one?"
+msgid "Are you sure you want to edit this saved search?"
 msgstr ""
 
 #: Q_DELETE_SERVER
@@ -7077,9 +7360,9 @@ msgstr ""
 
 #: Q_DELETE_VOLUMES
 msgid ""
-"You are about to remove message or index volumes from the "
-"server.<br>Deleting a volume will make messages and/or indexes that are "
-"stored on this volume inaccessible.<br>Do you want to proceed?"
+"You are about to remove message or index volumes from the server.<br>"
+"Deleting a volume will make messages and/or indexes that are stored on this "
+"volume inaccessible.<br>Do you want to proceed?"
 msgstr ""
 
 #: Q_FLUSH_QUEUES
@@ -7932,7 +8215,7 @@ msgstr ""
 
 #: DLXV_LabelNotes
 msgctxt "DLXV_LabelNotes"
-msgid "Notes"
+msgid "Notes:"
 msgstr ""
 
 #: DLXV_ErrorNoListName
@@ -7976,17 +8259,15 @@ msgid "\"From\" address for share notification message:"
 msgstr ""
 
 #: LBL_DL_Type
-msgctxt "LBL_DL_Type"
-msgid "Dynamic Group"
+msgid "Dynamic Group:"
 msgstr ""
 
 #: MSG_DL_Type
-msgctxt "MSG_DL_Type"
 msgid "Dynamic Group"
 msgstr ""
 
 #: LBL_Member_URL
-msgid "Member URL"
+msgid "Member URL:"
 msgstr ""
 
 #: MSG_ACL_Group
@@ -7997,7 +8278,17 @@ msgstr ""
 msgid "Can be used in right management:"
 msgstr ""
 
+#: BTN_Add_Owner
+msgctxt "BTN_Add_Owner"
+msgid "Add Owner"
+msgstr ""
+
+#: BTN_Remove_Owner
+msgid "Remove Owner"
+msgstr ""
+
 #: Add_Owner_Title
+msgctxt "Add_Owner_Title"
 msgid "Add Owner"
 msgstr ""
 
@@ -8026,11 +8317,11 @@ msgid "Automatically reject"
 msgstr ""
 
 #: DLXV_SubscriptionRequest
-msgid "New Subscription Requests"
+msgid "New Subscription Requests:"
 msgstr ""
 
 #: DLXV_UnsubscriptionRequest
-msgid "Unsubscription Requests"
+msgid "Unsubscription Requests:"
 msgstr ""
 
 #: ChooseFailoverServer
@@ -8101,6 +8392,7 @@ msgid "<a href='http://www.zimbra.com' target=_blank>http://www.zimbra.com</a>"
 msgstr ""
 
 #: splashScreenVersion
+msgctxt "splashScreenVersion"
 msgid "Version"
 msgstr ""
 
@@ -8452,8 +8744,8 @@ msgstr ""
 
 #: tab_close_warning
 msgid ""
-"You have unsaved data in the following tabs: <br /><br /> {0} <br /><br "
-"/>Please save these data first."
+"You have unsaved data in the following tabs: <br /><br /> {0} <br /><br />"
+"Please save these data first."
 msgstr ""
 
 #. #initially saved searches
@@ -8849,6 +9141,7 @@ msgid "Not Set"
 msgstr ""
 
 #: VALUE_UNRECOGNIZED
+msgctxt "VALUE_UNRECOGNIZED"
 msgid "Unrecognized"
 msgstr ""
 
@@ -9221,6 +9514,14 @@ msgstr ""
 msgid "Zimbra Connector for Outlook (64bit)"
 msgstr ""
 
+#: CONNECTOR_UNSIGNED_32_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector for Outlook (32bit) NO SIGNING"
+msgstr ""
+
+#: CONNECTOR_UNSIGNED_64_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector for Outlook (64bit) NO SIGNING"
+msgstr ""
+
 #: CONNECTOR_ISYNC_DOWNLOAD_LINK_MSG
 msgid "Zimbra Connector for Apple iSync"
 msgstr ""
@@ -9365,8 +9666,8 @@ msgstr ""
 
 #: ALERT_DOMAIN_CERT_KEY
 msgid ""
-"(1) make sure CA certificate is appended to the bottom of certificates. "
-"<br/> (2) make sure private key is password-less."
+"(1) make sure CA certificate is appended to the bottom of certificates. <br/>"
+" (2) make sure private key is password-less."
 msgstr ""
 
 #: ERROR_DOMAIN_CERT_MISSING
@@ -9608,9 +9909,9 @@ msgid ""
 "This wizard will guide you configure the auto-provision. First, choose the "
 "provision mode: <ol><li>Automatic eager provisioning: A server maintenance "
 "thread automatically polls the configured external auto provision LDAP "
-"source, and then auto creates the accounts in Zimbra directory. "
-"</li><li>Automatic lazy provisioning: auto creates the Zimbra account when "
-"user first login via one of the external auth mechanisms enabled for auto "
+"source, and then auto creates the accounts in Zimbra directory. </li><li>"
+"Automatic lazy provisioning: auto creates the Zimbra account when user first "
+"login via one of the external auth mechanisms enabled for auto "
 "provisioning.</li><li>Manual provisioning: admin to search from the "
 "configured external auto provision LDAP source and select an entry from the "
 "search result to create the corresponding Zimbra account for the external "
@@ -9628,12 +9929,12 @@ msgstr ""
 #: MSG_NOTE_otherConfigStep
 msgid ""
 "<ol><li>Account name mapping specifies the attribute name in the external "
-"directory that contains localpart of the account name (e.g. uid).</li> "
-"<li>Attribute map for mapping attribute values from the external entry to "
-"Zimbra account attributes. Values are in the format of {external "
-"attribute}={zimbra attribute}. </li><li>For eager provisioning, batch size "
-"is displayed and required for max number of accounts to process; polling "
-"interval and scheduled servers will also be required, and will set to given "
+"directory that contains localpart of the account name (e.g. uid).</li> <li>"
+"Attribute map for mapping attribute values from the external entry to Zimbra "
+"account attributes. Values are in the format of {external attribute}={zimbra "
+"attribute}. </li><li>For eager provisioning, batch size is displayed and "
+"required for max number of accounts to process; polling interval and "
+"scheduled servers will also be required, and will set to given "
 "servers.</li></ol>"
 msgstr ""
 
@@ -9686,11 +9987,11 @@ msgid ""
 "<ol><li><b>Automatic eager provisioning</b>: A server maintenance thread "
 "automatically polls the configured external auto provision LDAP source, and "
 "then auto creates the accounts in Zimbra directory. </li><li><b>Batch "
-"size</b>: it is required for max number of accounts to "
-"process.</li><li><b>Auto provision polling interval</b> and <b>Scheduled "
-"servers</b> will use to be set configuration to given servers. Both of them "
-"are required to activate eager mode.</li><li><b>Search filter</b> of LDAP "
-"configuration is required to be set for this provision also.</li></ol>"
+"size</b>: it is required for max number of accounts to process.</li><li><b>"
+"Auto provision polling interval</b> and <b>Scheduled servers</b> will use to "
+"be set configuration to given servers. Both of them are required to activate "
+"eager mode.</li><li><b>Search filter</b> of LDAP configuration is required "
+"to be set for this provision also.</li></ol>"
 msgstr ""
 
 #: MSG_AUTOPROV_DLG_LAZY
@@ -9823,8 +10124,8 @@ msgstr ""
 msgid ""
 "For example, to honor the Login and Lougout URL for Firefox, Internet "
 "Explorer, Chrome, and Safari on computers running Windows, and Safari on "
-"Apple Mac computers, use: <br><br>'.*Windows.*Firefox/3.*'<br>'.*MSIE.*Windo"
-"ws.*'<br>'.*Windows.*Chrome.*'<br>'.*Macintosh.*Safari.*'"
+"Apple Mac computers, use: <br><br>'.*Windows.*Firefox/3.*'<br>'.*MSIE.*Window"
+"s.*'<br>'.*Windows.*Chrome.*'<br>'.*Macintosh.*Safari.*'"
 msgstr ""
 
 #: spnegoGlobalSettingEmpty
@@ -9869,8 +10170,8 @@ msgstr ""
 
 #: spnegoVirtualHostMsg
 msgid ""
-"These are the virtual host names to access the Zimbra Web Client UI. "
-"Example: example.com."
+"These are the virtual host names to access the Zimbra Web Client UI. Example:"
+" example.com."
 msgstr ""
 
 #: spnegoWebClientLoginMsg
@@ -10181,97 +10482,4 @@ msgstr ""
 
 #: multiple_servers
 msgid "multiple servers"
-msgstr ""
-
-#. # ==================================================================================
-#. # ==================================================================================
-#. # ==================================================================================
-#. # Help Center Strings
-#: title_help_center
-msgid "Zimbra Administrator Help Center"
-msgstr ""
-
-#: subtitle_help_center_1
-msgid "Zimbra Online Help"
-msgstr ""
-
-#: desc_help_center_1
-msgid ""
-"The Zimbra Online Help explains the usage of the administration console. For "
-"details about new features and issues that have been resolved in this "
-"release, read the release notes in the Zimbra Collaboration Server "
-"Documentation."
-msgstr ""
-
-#: sub_desc_help_center_1
-msgid "Zimbra Collaboration Server Documentation"
-msgstr ""
-
-#: subtitle_help_center_2
-msgid "Administrators' Guide"
-msgstr ""
-
-#: desc_help_center_2
-msgid ""
-"The Administrators' Guide describes the Zimbra system architecture, the "
-"Zimbra components, the administration functions, and the CLI commands."
-msgstr ""
-
-#: sub_desc_help_center_2
-msgid "Administrators' Guide to Zimbra Connector for Microsoft Outlook"
-msgstr ""
-
-#: subtitle_help_center_3
-msgid "End Users' Guide"
-msgstr ""
-
-#: desc_help_center_3
-msgid ""
-"The End Users' Guide describes the features and applications used in the "
-"Zimbra Web Client."
-msgstr ""
-
-#: sub_desc_help_center_3
-msgid "End Users' Guide to Zimbra Connector for Microsoft Outlook"
-msgstr ""
-
-#: title_ask_community
-msgid "Ask the Community"
-msgstr ""
-
-#: desc_ask_community_1
-msgid ""
-"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Zimbra Forums</a> is a "
-"great place to get answers to your questions. You can search for answers "
-"from the postings, and you can post a question."
-msgstr ""
-
-#: desc_ask_community_2
-msgid ""
-"<a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a> includes "
-"articles the support team and community have written in response to "
-"troubleshooting and administration issues that were not covered in the "
-"documentation"
-msgstr ""
-
-#: title_top_migration_questions
-msgid "Top Migration Questions"
-msgstr ""
-
-#: ques_top_migration_questions_1
-msgid "How do I migrate server email accounts from Exchange into Zimbra?"
-msgstr ""
-
-#: ques_top_migration_questions_2
-msgid ""
-"How can my users import the contents of a .pst file from a Microsoft Outlook "
-"2007, 2010, 2013 mailbox into Zimbra?"
-msgstr ""
-
-#: ques_top_migration_questions_3
-msgid "How do I migrate server email accounts from Domino into Zimbra?"
-msgstr ""
-
-#: ques_top_migration_questions_4
-msgid "How do I migrate calendar data over using the iCalendar Migration Tool?"
 msgstr ""

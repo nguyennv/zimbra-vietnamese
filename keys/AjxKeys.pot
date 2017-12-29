@@ -1,30 +1,33 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
 #. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
 #. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
-#. extracted from .\keys\AjxKeys.properties
+#. extracted from AjxKeys.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2017-12-29 14:00+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #. # Keyboard Shortcuts for the Zimbra Ajax Toolkit
 #. #
@@ -217,6 +220,7 @@ msgid "40020"
 msgstr ""
 
 #: dialog.Enter.display
+msgctxt "dialog.Enter.display"
 msgid "Enter; Space"
 msgstr ""
 
@@ -276,12 +280,12 @@ msgstr ""
 
 #: button.Select.display
 msgctxt "button.Select.display"
-msgid "Enter"
+msgid "Enter; Space"
 msgstr ""
 
 #: button.Select.keycode
 msgctxt "button.Select.keycode"
-msgid "13"
+msgid "13; 32"
 msgstr ""
 
 #: button.Select.description
@@ -293,13 +297,19 @@ msgid "10010"
 msgstr ""
 
 #: button.SubMenu.display
-msgctxt "button.SubMenu.display"
-msgid "ArrowDown"
+msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10; ArrowDown"
 msgstr ""
 
 #: button.SubMenu.keycode
-msgctxt "button.SubMenu.keycode"
-msgid "40"
+msgid "188; Ctrl+13; Ctrl+32; Shift+121; 40"
+msgstr ""
+
+#: button.SubMenu.display.mac
+msgid ",; Ctrl+Enter; Ctrl+Space; ArrowDown"
+msgstr ""
+
+#: button.SubMenu.keycode.mac
+msgid "188; Ctrl+13; Ctrl+32; 40"
 msgstr ""
 
 #: button.SubMenu.description
@@ -351,42 +361,12 @@ msgstr ""
 msgid "30100"
 msgstr ""
 
-#: list.ContextMenu.display
-msgctxt "list.ContextMenu.display"
-msgid ",; Ctrl+Enter"
-msgstr ""
-
-#: list.ContextMenu.keycode
-msgctxt "list.ContextMenu.keycode"
-msgid "188; Ctrl+13"
-msgstr ""
-
-#: list.ContextMenu.display.mac
-msgctxt "list.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
-msgstr ""
-
-#: list.ContextMenu.keycode.mac
-msgctxt "list.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
-msgstr ""
-
-#: list.ContextMenu.description
-msgctxt "list.ContextMenu.description"
-msgid "Show right-click menu"
-msgstr ""
-
-#: list.ContextMenu.sort
-msgid "30080"
-msgstr ""
-
 #: list.DoubleClick.display
 msgctxt "list.DoubleClick.display"
 msgid "Enter"
 msgstr ""
 
 #: list.DoubleClick.keycode
-msgctxt "list.DoubleClick.keycode"
 msgid "13"
 msgstr ""
 
@@ -463,22 +443,27 @@ msgid "30060"
 msgstr ""
 
 #: list.SelectFirst.display
+msgctxt "list.SelectFirst.display"
 msgid "Home"
 msgstr ""
 
 #: list.SelectFirst.display.mac
+msgctxt "list.SelectFirst.display.mac"
 msgid "Home; Meta+ArrowUp"
 msgstr ""
 
 #: list.SelectFirst.keycode
+msgctxt "list.SelectFirst.keycode"
 msgid "36"
 msgstr ""
 
 #: list.SelectFirst.keycode.mac
+msgctxt "list.SelectFirst.keycode.mac"
 msgid "36; Meta+38"
 msgstr ""
 
 #: list.SelectFirst.description
+msgctxt "list.SelectFirst.description"
 msgid "Select first item"
 msgstr ""
 
@@ -487,22 +472,27 @@ msgid "30040"
 msgstr ""
 
 #: list.SelectLast.display
+msgctxt "list.SelectLast.display"
 msgid "End"
 msgstr ""
 
 #: list.SelectLast.display.mac
+msgctxt "list.SelectLast.display.mac"
 msgid "End; Meta+ArrowDown"
 msgstr ""
 
 #: list.SelectLast.keycode
+msgctxt "list.SelectLast.keycode"
 msgid "35"
 msgstr ""
 
 #: list.SelectLast.keycode.mac
+msgctxt "list.SelectLast.keycode.mac"
 msgid "36; Meta+40"
 msgstr ""
 
 #: list.SelectLast.description
+msgctxt "list.SelectLast.description"
 msgid "Select last item"
 msgstr ""
 
@@ -699,33 +689,62 @@ msgstr ""
 msgid "30540"
 msgstr ""
 
-#: tree.ContextMenu.display
-msgctxt "tree.ContextMenu.display"
-msgid ",; Ctrl+Enter"
+#: tree.SelectFirst.display
+msgctxt "tree.SelectFirst.display"
+msgid "Home"
 msgstr ""
 
-#: tree.ContextMenu.keycode
-msgctxt "tree.ContextMenu.keycode"
-msgid "188; Ctrl+13"
+#: tree.SelectFirst.display.mac
+msgctxt "tree.SelectFirst.display.mac"
+msgid "Home; Meta+ArrowUp"
 msgstr ""
 
-#: tree.ContextMenu.display.mac
-msgctxt "tree.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
+#: tree.SelectFirst.keycode
+msgctxt "tree.SelectFirst.keycode"
+msgid "36"
 msgstr ""
 
-#: tree.ContextMenu.keycode.mac
-msgctxt "tree.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
+#: tree.SelectFirst.keycode.mac
+msgctxt "tree.SelectFirst.keycode.mac"
+msgid "36; Meta+38"
 msgstr ""
 
-#: tree.ContextMenu.description
-msgctxt "tree.ContextMenu.description"
-msgid "Show right-click menu"
+#: tree.SelectFirst.description
+msgctxt "tree.SelectFirst.description"
+msgid "Select first item"
 msgstr ""
 
-#: tree.ContextMenu.sort
-msgid "30550"
+#: tree.SelectFirst.sort
+msgid "30560"
+msgstr ""
+
+#: tree.SelectLast.display
+msgctxt "tree.SelectLast.display"
+msgid "End"
+msgstr ""
+
+#: tree.SelectLast.display.mac
+msgctxt "tree.SelectLast.display.mac"
+msgid "End; Meta+ArrowDown"
+msgstr ""
+
+#: tree.SelectLast.keycode
+msgctxt "tree.SelectLast.keycode"
+msgid "35"
+msgstr ""
+
+#: tree.SelectLast.keycode.mac
+msgctxt "tree.SelectLast.keycode.mac"
+msgid "36; Meta+40"
+msgstr ""
+
+#: tree.SelectLast.description
+msgctxt "tree.SelectLast.description"
+msgid "Select last item"
+msgstr ""
+
+#: tree.SelectLast.sort
+msgid "30570"
 msgstr ""
 
 #. # Map: menu
@@ -775,12 +794,12 @@ msgstr ""
 
 #: menu.Select.display
 msgctxt "menu.Select.display"
-msgid "Enter"
+msgid "Enter; Space"
 msgstr ""
 
 #: menu.Select.keycode
 msgctxt "menu.Select.keycode"
-msgid "13"
+msgid "13; 32"
 msgstr ""
 
 #: menu.Select.description
