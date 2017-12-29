@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:20+0700\n"
-"PO-Revision-Date: 2014-03-20 21:50+0700\n"
+"POT-Creation-Date: 2017-12-29 14:00+0700\n"
+"PO-Revision-Date: 2017-12-29 14:15+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -1142,7 +1142,7 @@ msgstr "69,70"
 
 #: mfolders.EmptyFolder.description
 msgid "Empty folder (Trash/Junk only)"
-msgstr "Làm trốn thư mục (Chỉ Thùng rác/Thư rác)"
+msgstr "Làm trống thư mục (Chỉ Thùng rác/Thư rác)"
 
 #: mfolders.NewFolder.display
 msgid "N,F"
@@ -1639,7 +1639,7 @@ msgstr "Hiển thị hoặc ẩn các thông điệp của một cuộc đàm th
 #: conversationList.Expand.sort
 msgctxt "conversationList.Expand.sort"
 msgid "10"
-msgstr "Ctrl+S"
+msgstr "10"
 
 #. # Map: options
 #: options.description

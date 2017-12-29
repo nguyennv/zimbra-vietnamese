@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AjxKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:20+0700\n"
-"PO-Revision-Date: 2014-03-20 21:49+0700\n"
+"POT-Creation-Date: 2017-12-29 14:00+0700\n"
+"PO-Revision-Date: 2017-12-29 14:08+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -205,6 +205,7 @@ msgid "40020"
 msgstr "40020"
 
 #: dialog.Enter.display
+msgctxt "dialog.Enter.display"
 msgid "Enter; Space"
 msgstr "Enter; Space"
 
@@ -264,13 +265,13 @@ msgstr "10000"
 
 #: button.Select.display
 msgctxt "button.Select.display"
-msgid "Enter"
-msgstr "Enter"
+msgid "Enter; Space"
+msgstr "Enter; Space"
 
 #: button.Select.keycode
 msgctxt "button.Select.keycode"
-msgid "13"
-msgstr "13"
+msgid "13; 32"
+msgstr "13; 32"
 
 #: button.Select.description
 msgid "Press the button"
@@ -281,14 +282,20 @@ msgid "10010"
 msgstr "10010"
 
 #: button.SubMenu.display
-msgctxt "button.SubMenu.display"
-msgid "ArrowDown"
-msgstr "ArrowDown"
+msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10; ArrowDown"
+msgstr ",; Ctrl+Enter; Ctrl+Space; Shift+F10; ArrowDown"
 
 #: button.SubMenu.keycode
-msgctxt "button.SubMenu.keycode"
-msgid "40"
-msgstr "40"
+msgid "188; Ctrl+13; Ctrl+32; Shift+121; 40"
+msgstr "188; Ctrl+13; Ctrl+32; Shift+121; 40"
+
+#: button.SubMenu.display.mac
+msgid ",; Ctrl+Enter; Ctrl+Space; ArrowDown"
+msgstr ",; Ctrl+Enter; Ctrl+Space; ArrowDown"
+
+#: button.SubMenu.keycode.mac
+msgid "188; Ctrl+13; Ctrl+32; 40"
+msgstr "188; Ctrl+13; Ctrl+32; 40"
 
 #: button.SubMenu.description
 msgid "Display menu"
@@ -339,42 +346,12 @@ msgstr "Thêm mục trước"
 msgid "30100"
 msgstr "30100"
 
-#: list.ContextMenu.display
-msgctxt "list.ContextMenu.display"
-msgid ",; Ctrl+Enter"
-msgstr ",; Ctrl+Enter"
-
-#: list.ContextMenu.keycode
-msgctxt "list.ContextMenu.keycode"
-msgid "188; Ctrl+13"
-msgstr "188; Ctrl+13"
-
-#: list.ContextMenu.display.mac
-msgctxt "list.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
-msgstr ",; Ctrl+M"
-
-#: list.ContextMenu.keycode.mac
-msgctxt "list.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
-msgstr "188; Ctrl+77"
-
-#: list.ContextMenu.description
-msgctxt "list.ContextMenu.description"
-msgid "Show right-click menu"
-msgstr "Hiển thị trình đơn chuột phải"
-
-#: list.ContextMenu.sort
-msgid "30080"
-msgstr "30080"
-
 #: list.DoubleClick.display
 msgctxt "list.DoubleClick.display"
 msgid "Enter"
 msgstr "Enter"
 
 #: list.DoubleClick.keycode
-msgctxt "list.DoubleClick.keycode"
 msgid "13"
 msgstr "13"
 
@@ -451,22 +428,27 @@ msgid "30060"
 msgstr "30060"
 
 #: list.SelectFirst.display
+msgctxt "list.SelectFirst.display"
 msgid "Home"
 msgstr "Home"
 
 #: list.SelectFirst.display.mac
+msgctxt "list.SelectFirst.display.mac"
 msgid "Home; Meta+ArrowUp"
 msgstr "Home; Meta+ArrowUp"
 
 #: list.SelectFirst.keycode
+msgctxt "list.SelectFirst.keycode"
 msgid "36"
 msgstr "36"
 
 #: list.SelectFirst.keycode.mac
+msgctxt "list.SelectFirst.keycode.mac"
 msgid "36; Meta+38"
 msgstr "36; Meta+38"
 
 #: list.SelectFirst.description
+msgctxt "list.SelectFirst.description"
 msgid "Select first item"
 msgstr "Chọn mục đầu tiên"
 
@@ -475,22 +457,27 @@ msgid "30040"
 msgstr "30040"
 
 #: list.SelectLast.display
+msgctxt "list.SelectLast.display"
 msgid "End"
 msgstr "End"
 
 #: list.SelectLast.display.mac
+msgctxt "list.SelectLast.display.mac"
 msgid "End; Meta+ArrowDown"
 msgstr "End; Meta+ArrowDown"
 
 #: list.SelectLast.keycode
+msgctxt "list.SelectLast.keycode"
 msgid "35"
 msgstr "35"
 
 #: list.SelectLast.keycode.mac
+msgctxt "list.SelectLast.keycode.mac"
 msgid "36; Meta+40"
 msgstr "36; Meta+40"
 
 #: list.SelectLast.description
+msgctxt "list.SelectLast.description"
 msgid "Select last item"
 msgstr "Chọn mục cuối cùng"
 
@@ -687,34 +674,63 @@ msgstr "Thu gọn"
 msgid "30540"
 msgstr "30540"
 
-#: tree.ContextMenu.display
-msgctxt "tree.ContextMenu.display"
-msgid ",; Ctrl+Enter"
-msgstr ",; Ctrl+Enter"
+#: tree.SelectFirst.display
+msgctxt "tree.SelectFirst.display"
+msgid "Home"
+msgstr "Home"
 
-#: tree.ContextMenu.keycode
-msgctxt "tree.ContextMenu.keycode"
-msgid "188; Ctrl+13"
-msgstr "188; Ctrl+13"
+#: tree.SelectFirst.display.mac
+msgctxt "tree.SelectFirst.display.mac"
+msgid "Home; Meta+ArrowUp"
+msgstr "Home; Meta+ArrowUp"
 
-#: tree.ContextMenu.display.mac
-msgctxt "tree.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
-msgstr ",; Ctrl+M"
+#: tree.SelectFirst.keycode
+msgctxt "tree.SelectFirst.keycode"
+msgid "36"
+msgstr "36"
 
-#: tree.ContextMenu.keycode.mac
-msgctxt "tree.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
-msgstr "188; Ctrl+77"
+#: tree.SelectFirst.keycode.mac
+msgctxt "tree.SelectFirst.keycode.mac"
+msgid "36; Meta+38"
+msgstr "36; Meta+38"
 
-#: tree.ContextMenu.description
-msgctxt "tree.ContextMenu.description"
-msgid "Show right-click menu"
-msgstr "Hiển thị trình đơn chuột phải"
+#: tree.SelectFirst.description
+msgctxt "tree.SelectFirst.description"
+msgid "Select first item"
+msgstr "Chọn mục đầu tiên"
 
-#: tree.ContextMenu.sort
-msgid "30550"
-msgstr "30550"
+#: tree.SelectFirst.sort
+msgid "30560"
+msgstr "30560"
+
+#: tree.SelectLast.display
+msgctxt "tree.SelectLast.display"
+msgid "End"
+msgstr "End"
+
+#: tree.SelectLast.display.mac
+msgctxt "tree.SelectLast.display.mac"
+msgid "End; Meta+ArrowDown"
+msgstr "End; Meta+ArrowDown"
+
+#: tree.SelectLast.keycode
+msgctxt "tree.SelectLast.keycode"
+msgid "35"
+msgstr "35"
+
+#: tree.SelectLast.keycode.mac
+msgctxt "tree.SelectLast.keycode.mac"
+msgid "36; Meta+40"
+msgstr "36; Meta+40"
+
+#: tree.SelectLast.description
+msgctxt "tree.SelectLast.description"
+msgid "Select last item"
+msgstr "Chọn mục cuối cùng"
+
+#: tree.SelectLast.sort
+msgid "30570"
+msgstr "30570"
 
 #. # Map: menu
 #: menu.description
@@ -763,13 +779,13 @@ msgstr "20060"
 
 #: menu.Select.display
 msgctxt "menu.Select.display"
-msgid "Enter"
-msgstr "Enter"
+msgid "Enter; Space"
+msgstr "Enter; Space"
 
 #: menu.Select.keycode
 msgctxt "menu.Select.keycode"
-msgid "13"
-msgstr "13"
+msgid "13; 32"
+msgstr "13; 32"
 
 #: menu.Select.description
 msgid "Select"
@@ -1235,7 +1251,7 @@ msgstr "60045"
 #. # Map: tabView
 #: tabView.description
 msgid "Tab Views"
-msgstr "Khung hiển thị dạng tab"
+msgstr "Hiển thị dạng tab"
 
 #: tabView.sort
 msgid "110000"
@@ -1293,6 +1309,72 @@ msgstr "Tab trước"
 msgid "110020"
 msgstr "110020"
 
+#~ msgctxt "button.Select.display"
+#~ msgid "Enter"
+#~ msgstr "Enter"
+
+#~ msgctxt "button.SubMenu.display"
+#~ msgid "ArrowDown"
+#~ msgstr "ArrowDown"
+
+#~ msgctxt "button.SubMenu.keycode"
+#~ msgid "40"
+#~ msgstr "40"
+
+#~ msgctxt "list.ContextMenu.display"
+#~ msgid ",; Ctrl+Enter"
+#~ msgstr ",; Ctrl+Enter"
+
+#~ msgctxt "list.ContextMenu.display.mac"
+#~ msgid ",; Ctrl+M"
+#~ msgstr ",; Ctrl+M"
+
+#~ msgctxt "list.ContextMenu.keycode.mac"
+#~ msgid "188; Ctrl+77"
+#~ msgstr "188; Ctrl+77"
+
+#~ msgctxt "list.ContextMenu.description"
+#~ msgid "Show right-click menu"
+#~ msgstr "Hiển thị trình đơn chuột phải"
+
+#~ msgid "30080"
+#~ msgstr "30080"
+
+#~ msgctxt "list.DoubleClick.keycode"
+#~ msgid "13"
+#~ msgstr "13"
+
+#~ msgctxt "tree.ContextMenu.display"
+#~ msgid ",; Ctrl+Enter"
+#~ msgstr ",; Ctrl+Enter"
+
+#~ msgctxt "tree.ContextMenu.keycode"
+#~ msgid "188; Ctrl+13"
+#~ msgstr "188; Ctrl+13"
+
+#~ msgctxt "tree.ContextMenu.display.mac"
+#~ msgid ",; Ctrl+M"
+#~ msgstr ",; Ctrl+M"
+
+#~ msgctxt "tree.ContextMenu.keycode.mac"
+#~ msgid "188; Ctrl+77"
+#~ msgstr "188; Ctrl+77"
+
+#~ msgctxt "tree.ContextMenu.description"
+#~ msgid "Show right-click menu"
+#~ msgstr "Hiển thị trình đơn chuột phải"
+
+#~ msgid "30550"
+#~ msgstr "30550"
+
+#~ msgctxt "menu.Select.display"
+#~ msgid "Enter"
+#~ msgstr "Enter"
+
+#~ msgctxt "menu.Select.keycode"
+#~ msgid "13"
+#~ msgstr "13"
+
 #~ msgctxt "menu.PageUp.display.mac"
 #~ msgid "Alt + ArrowUp"
 #~ msgstr "Alt + ArrowUp"
@@ -1334,9 +1416,7 @@ msgstr "110020"
 #~ msgstr "Thêm mục trước đó để lựa chọn"
 
 #~ msgid "Show a menu to act on the selected items (same as right-click)"
-#~ msgstr ""
-#~ "Hiển thị một trình đơn để hoạt động trên các mục đã chọn (giống như nhấp "
-#~ "chuột phải)"
+#~ msgstr "Hiển thị một trình đơn để hoạt động trên các mục đã chọn (giống như nhấp chuột phải)"
 
 #~ msgid "Double-click the selected item"
 #~ msgstr "Nhấn đúp vào mục được chọn"
