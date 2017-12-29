@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:08+0700\n"
+"POT-Creation-Date: 2017-12-29 14:00+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -11,21 +11,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
 #. #
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
 #. #
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
 #: aboveQuotedText
@@ -38,7 +40,7 @@ msgstr "Chấp nhận chia sẻ"
 
 #: actionAddCallerToForward
 msgid "Add to Call Forwarding List"
-msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi :"
+msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi"
 
 #: actionAddCallerToReject
 msgid "Add to Call Screening List"
@@ -87,16 +89,16 @@ msgid "The phone number could not be added to the Call Screening List."
 msgstr "Số điện thoại không thể thêm vào Danh sách sàng lọc cuộc gọi."
 
 #: actionAddressBookCreated
-msgid "Created address book \"{0}\"."
-msgstr "Đã tạo sổ địa chỉ \"{0}\"."
+msgid "Created contacts folder \"{0}\"."
+msgstr "Đã tạo thư mục liên hệ \"{0}\"."
 
 #: actionAddressBookCheckConfirm
-msgid "Please check the checkbox to confirm address book deletion."
-msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá sổ địa chỉ."
+msgid "Please check the checkbox to confirm contacts folder deletion."
+msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá bỏ thư mục liên hệ."
 
 #: actionAddressBookColorChanged
-msgid "Address book \"{0}\" color changed to \"{1}\"."
-msgstr "Màu của sổ địa chỉ \"{0}\" thay đổi tới \"{1}\"."
+msgid "Contact folder \"{0}\" color changed to \"{1}\"."
+msgstr "Màu của thư mục liên hệ \"{0}\" thay đổi tới \"{1}\"."
 
 #: actionAddressBookContactsImported
 msgid ""
@@ -105,24 +107,24 @@ msgstr ""
 "Đã nhập khẩu {0,number,integer} {0,choice,0#liên hệ.|1#liên hệ|1<liên hệ.}"
 
 #: actionAddressBookDeleted
-msgid "Deleted address book \"{0}\"."
-msgstr "Đã xoá sổ địa chỉ \"{0}\"."
+msgid "Deleted contacts folder \"{0}\"."
+msgstr "Đã xoá thư mục liên hệ \"{0}\"."
 
 #: actionAddressBookModified
-msgid "Address book \"{0}\" modified."
-msgstr "Sổ địa chỉ \"{0}\" đã sửa."
+msgid "Contacts folder \"{0}\" modified."
+msgstr "Thư mục liên hệ \"{0}\" đã sửa."
 
 #: actionAddressBookRenamed
-msgid "Address book \"{0}\" renamed to \"{1}\"."
-msgstr "Sổ địa chỉ \"{0}\" đã đổi tên thành \"{1}\"."
+msgid "Contacts folder \"{0}\" renamed to \"{1}\"."
+msgstr "Thư mục liên hệ \"{0}\" đã đổi tên thành \"{1}\"."
 
 #: actionAddressBookTrashed
-msgid "Address book trashed \"{0}\"."
-msgstr "Sổ địa chỉ đã vào thùng rác \"{0}\"."
+msgid "Contacts folder trashed \"{0}\"."
+msgstr "Thư mục liên hệ đã vào thùng rác \"{0}\"."
 
 #: actionAddressBookMovedToTrash
-msgid "Address book \"{0}\" moved to \"Trash\"."
-msgstr "Sổ địa chỉ \"{0}\" đã chuyển tới \"Thùng rác\"."
+msgid "Contacts folder \"{0}\" moved to \"Trash\"."
+msgstr "Thư mục liên hệ \"{0}\" đã chuyển tới \"Thùng rác\"."
 
 #: actionBriefcaseCreated
 msgid "Created briefcase \"{0}\"."
@@ -398,7 +400,7 @@ msgid ""
 "2#messages} have been deleted. "
 msgstr ""
 "{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được xóa."
+"điệp|2#thông điệp} đã được xóa. "
 
 #: actionConvFlag
 msgid ""
@@ -826,7 +828,7 @@ msgstr ""
 
 #: actionMessageDeleted
 msgid "Message has been moved to Trash folder."
-msgstr "thông điệp vừa được chuyển tới thư mục Thùng rác."
+msgstr "Thông điệp vừa được chuyển tới thư mục Thùng rác."
 
 #: actionMove
 msgid "Move"
@@ -837,8 +839,8 @@ msgid "Move selected item(s)"
 msgstr "Chuyển các mục đã chọn"
 
 #: actionNoAddressBookNameSpecified
-msgid "No address book name specified."
-msgstr "Không có tên sổ địa chỉ nào được chỉ định."
+msgid "No contacts folder name specified."
+msgstr "Không có tên thư mục liên hệ nào được chỉ định."
 
 #: actionNoAddressBookFileImportSpecified
 msgctxt "actionNoAddressBookFileImportSpecified"
@@ -846,8 +848,8 @@ msgid "No file specified."
 msgstr "Không có tập tin nào được chỉ định."
 
 #: actionNoAddressBookSelected
-msgid "No address book selected."
-msgstr "Không có sổ địa chỉ nào được chọn."
+msgid "No contacts folder selected."
+msgstr "Không có thư mục liên hệ nào được chọn."
 
 #: actionNoBriefcaseNameSpecified
 msgid "No briefcase name specified."
@@ -926,8 +928,8 @@ msgid "No owner Email specified."
 msgstr "Không có chủ sở hữu Email được chỉ định."
 
 #: actionNoOwnerAddressBookSpecified
-msgid "No owner's address book specified."
-msgstr "Không có chủ sở hữu sổ địa chỉ được chỉ định."
+msgid "No owner's contacts folder specified."
+msgstr "Không có chủ sở hữu thư mục liên hệ nào được chỉ định."
 
 #: actionNoOwnerCalendarSpecified
 msgid "No owner's calendar specified."
@@ -1267,6 +1269,7 @@ msgid "Active"
 msgstr "Hoạt động"
 
 #: add
+msgctxt "add"
 msgid "Add"
 msgstr "Thêm"
 
@@ -1296,62 +1299,63 @@ msgstr "Thêm:"
 
 #: addressBook
 msgctxt "addressBook"
-msgid "Address Book"
-msgstr "Sổ địa chỉ"
+msgid "Contacts"
+msgstr "Liên hệ"
 
 #: addressBookLabel
-msgid "Address Book:"
-msgstr "Sổ địa chỉ:"
+msgid "Contact Folder:"
+msgstr "Thư mục liên hệ:"
 
 #: addressBookNew
-msgid "New Address Book"
-msgstr "Sổ địa chỉ mới"
+msgid "New Contact Folder"
+msgstr "Tạo mới thư mục liên hệ"
 
 #: addressBookNewShared
-msgid "Link to Address Book"
-msgstr "Liên kết tới sổ địa chỉ"
+msgid "Link to Contact Folder"
+msgstr "Liên kết  tới Thư mục liên hệ"
 
 #: addressBookName
-msgid "Address Book Name"
-msgstr "Tên sổ địa chỉ"
+msgid "Contact Folder Name"
+msgstr "Tên thư mục liên hệ"
 
 #: addressBookUser
 msgctxt "addressBookUser"
-msgid "Address Book"
-msgstr "Sổ địa chỉ"
+msgid "Contact Folder"
+msgstr "Thư mục liên hệ"
 
 #: addressBookSystem
-msgid "System Address Book"
-msgstr "Sổ địa chỉ hệ thống"
+msgid "System Contact Folder"
+msgstr "Thư mục liên hệ hệ thống"
 
 #: addressBookShared
-msgid "Shared Address Book"
-msgstr "Sổ địa chỉ chia sẻ"
+msgid "Shared Contact Folder"
+msgstr "Thư mục liên hệ chia sẻ"
 
 #: addressBookDelete
 msgctxt "addressBookDelete"
-msgid "Delete Address Book"
-msgstr "Xoá bỏ sổ địa chỉ"
+msgid "Delete Contact Folder"
+msgstr "Xóa thư mục liên hệ"
 
 #: addressBookUpdated
-msgid "Address Book Updated"
-msgstr "Đã cập nhật sổ địa chỉ"
+msgid "Contacts Updated"
+msgstr "Liên hệ đã cập nhật"
 
 #: addressBookDeleteConfirmation
-msgid "Delete this address book (move to trash)"
-msgstr "Xoá bỏ sổ địa chỉ này (chuyển tới thùng rác)"
+msgid "Delete this contacts folder (move to trash)"
+msgstr "Xoá bỏ thư mục liên hệ này (chuyển vào thùng rác)"
 
 #: addressBookPermDeleteConfirmation
-msgid "Permanently delete this address book"
-msgstr "Vĩnh viễn xoá bỏ sổ địa chỉ này"
+msgid "Permanently delete this contacts folder"
+msgstr "Xoá vĩnh viễn thư mục liên hệ này"
 
 #: addressBooks
-msgid "Address Books"
-msgstr "Sổ địa chỉ"
+msgctxt "addressBooks"
+msgid "Contacts"
+msgstr "Liên hệ"
 
 #: addressBooksLabel
-msgid "Address Books:"
-msgstr "Sổ địa chỉ:"
+msgid "Contacts:"
+msgstr "Liên hệ:"
 
 #: addSelected
 msgid "Add Selected"
@@ -1414,6 +1418,7 @@ msgid "From {0} {1} - {2}  {3}"
 msgstr "Từ {0} {1} - {2}  {3}"
 
 #: apptDateBlurbAllDay
+msgctxt "apptDateBlurbAllDay"
 msgid "{0}"
 msgstr "{0}"
 
@@ -1659,7 +1664,7 @@ msgstr "Đã cập nhật cặp tài liệu"
 
 #: briefcaseEmptied
 msgid "Briefcase folder \"{0}\" emptied"
-msgstr "Thư mục cặp tài liệu \"{0}\" đã rỗng."
+msgstr "Thư mục cặp tài liệu \"{0}\" đã rỗng"
 
 #: briefcaseDeleteConfirmation
 msgid "Delete this briefcase (move to trash)"
@@ -1676,6 +1681,23 @@ msgstr "Hiển thị theo explorer"
 #: briefcaseDtlView
 msgid "Detail View"
 msgstr "Hiển thị chi tiết"
+
+#: briefcaseDocName
+msgctxt "briefcaseDocName"
+msgid "Name"
+msgstr "Tên"
+
+#: briefcaseModifiedBy
+msgid "Author"
+msgstr "Tác giả"
+
+#: briefcaseModifiedOn
+msgid "Modified"
+msgstr "Đã sửa"
+
+#: briefcaseVersion
+msgid "Version"
+msgstr "Phiên bản"
 
 #: blue
 msgid "Blue"
@@ -1722,8 +1744,15 @@ msgstr "Theo cuộc đàm thoại"
 msgid "By Message"
 msgstr "Theo thông điệp"
 
-#. #callingPartyFormat = {0} ({1})
-#. #callingPartyCallerIdFormat = {0}
+#: callingPartyFormat
+msgid "{0} ({1})"
+msgstr "{0} ({1}){0} - {1}"
+
+#: callingPartyCallerIdFormat
+msgctxt "callingPartyCallerIdFormat"
+msgid "{0}"
+msgstr "{0}"
+
 #: calViewListShort
 msgctxt "calViewListShort"
 msgid "List"
@@ -1925,16 +1954,16 @@ msgid "Load Feed"
 msgstr "Nạp nguồn tin (Feed)"
 
 #: chooseAddressBookToChange
-msgid "Choose address book to change"
-msgstr "Chọn sổ địa chỉ để thay đổi"
+msgid "Choose contacts folder to change"
+msgstr "Chọn thư mục liên hệ để thay đổi"
 
 #: chooseAddressBookToRename
-msgid "Choose address book to rename"
-msgstr "Chọn sổ địa chỉ để đổi tên"
+msgid "Choose contacts folder to rename"
+msgstr "Chọn thư mục liên hệ để đổi tên"
 
 #: chooseAddressBookToDelete
-msgid "Choose address book to delete"
-msgstr "Chọn sổ địa chỉ để xoá bỏ"
+msgid "Choose contacts folder to delete"
+msgstr "Chọn thư mục liên hệ để xoá bỏ"
 
 #: chooseFolderToMarkRead
 msgid "Choose folder to mark read"
@@ -1961,8 +1990,8 @@ msgid "Change Tag Color"
 msgstr "Thay đổi màu thẻ"
 
 #: changeAddressBookColor
-msgid "Change Address Book Color"
-msgstr "Thay đổi màu sổ địa chỉ"
+msgid "Change Contact Folder Color"
+msgstr "Thay đổi màu thư mục liên hệ"
 
 #: changeCalendarColor
 msgid "Change Calendar Color"
@@ -2073,13 +2102,13 @@ msgstr "Xác nhận"
 
 #: confirmEmptyTrashFolder
 msgid ""
-"{0}This action will delete all items in both the Email and Address Book "
-"trash folders.  Are you sure that you want to permanently delete everything "
-"in the trash folder? {1}{2}"
+"{0}This action will delete all items in both the Email and Contacts trash "
+"folders.  Are you sure that you want to permanently delete everything in the "
+"trash folder? {1}{2}"
 msgstr ""
 "{0}Hành động này sẽ xóa tất cả các mục trong cả thư mục thùng rác Email và "
-"Sổ Địa Chỉ. Bản chắc chắn muốn xóa vĩnh viễn mọi thứ trong thư mục thùng "
-"rác? {1}{2}"
+"Liên hệ. Bản chắc chắn muốn xóa vĩnh viễn mọi thứ trong thư mục thùng rác? "
+"{1}{2}"
 
 #: confirmUnsavedChanges
 msgid "Do you really want to cancel? {0}"
@@ -2137,8 +2166,8 @@ msgid "Conversation"
 msgstr "Cuộc đàm thoại"
 
 #: createAddressBook
-msgid "Create Address Book"
-msgstr "Tạo sổ địa chỉ"
+msgid "Create Contact Folder"
+msgstr "Tạo thư mục liên hệ"
 
 #: createBriefcase
 msgid "Create Briefcase"
@@ -2162,8 +2191,8 @@ msgid "Create folder in"
 msgstr "Tạo thư mục trong"
 
 #: createNewAddressBook
-msgid "Create New Address Book"
-msgstr "Tạo mới sổ địa chỉ"
+msgid "Create New Contact Folder"
+msgstr "Tạo mới thư mục liên hệ"
 
 #: createNewCalendar
 msgid "Create New Calendar"
@@ -2286,8 +2315,8 @@ msgstr "Xoá bỏ mẫu"
 
 #: deleteAddressBook
 msgctxt "deleteAddressBook"
-msgid "Delete Address Book"
-msgstr "Xoá bỏ sổ địa chỉ"
+msgid "Delete Contact Folder"
+msgstr "Xóa thư mục liên hệ"
 
 #: deleteCalendar
 msgctxt "deleteCalendar"
@@ -2356,7 +2385,7 @@ msgstr "Bản nháp"
 
 #: draftSavedAuto
 msgid "Draft Autosaved."
-msgstr "Thư nháp tự động lưu"
+msgstr "Tự động lưu nháp."
 
 #: duration
 msgid "Duration"
@@ -2418,7 +2447,7 @@ msgstr "Làm trống Thư rác"
 
 #: emptyMessage
 msgid "Click to view."
-msgstr "Bấm để xem"
+msgstr "Bấm để xem."
 
 #: emptyPassword
 msgid "Empty passwords are not allowed."
@@ -2750,11 +2779,11 @@ msgstr ""
 
 #: addressBookEmptyConfirmation
 msgid ""
-"Permanently delete all contacts in this address book. This operation can not "
-"be undone."
+"Permanently delete all contacts in this folder. This operation can not be "
+"undone."
 msgstr ""
-"Xoá vĩnh viễn tất cả các liên hệ trong sổ địa chỉ này. Thao tác này không "
-"thể được hoàn tác."
+"Xoá vĩnh viễn tất cả các liên hệ trong thư mục này. Thao tác này không thể "
+"được hoàn tác."
 
 #: folderPermDeleteConfirmation
 msgid "Permanently delete this folder"
@@ -2773,8 +2802,8 @@ msgid "All appointments deleted in \"{0}\"."
 msgstr "Tất cả cuộc hẹn đã xoá trong \"{0}\"."
 
 #: addressBookEmptied
-msgid "Address book \"{0}\" emptied."
-msgstr "Sổ địa chỉ \"{0}\" đã trống."
+msgid "Contact folder \"{0}\" emptied."
+msgstr "Thư mục liên hệ \"{0}\" đã rỗng."
 
 #: folderItemCount
 msgid "{0,choice,0#0 items|1#1 item|1<{0,number,integer} items}"
@@ -2835,7 +2864,7 @@ msgstr "Thư mục"
 
 #: foldersLabel
 msgid "Folders:"
-msgstr "Thư mục"
+msgstr "Thư mục:"
 
 #: fontSize
 msgid "Font Size"
@@ -2843,12 +2872,13 @@ msgstr "Kích cỡ phông"
 
 #. # Copyright string must not be translated
 #: footerCopyright
+msgctxt "footerCopyright"
 msgid ""
-"Copyright © 2005-2013 Telligent Systems, Inc. \"Telligent\" and \"Zimbra\"  "
-"are registered trademarks or trademarks of Telligent Systems, Inc."
+"Copyright © 2005-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
 msgstr ""
-"Bản quyền © 2005 - 2013 Telligent Systems, Inc. \"Telligent\" và \"Zimbra\" "
-"là các thương hiệu được đăng ký hoặc thương hiệu của Telligent Systems, Inc."
+"Bản quyền © 2005-2014 Zimbra. Giữ tất cả quyền. \"Zimbra\" là các thương "
+"hiệu được đăng ký hoặc thương hiệu của Zimbra, Inc."
 
 #: formatDateSent
 msgid "EEE, MMM dd, yyyy hh:mm a"
@@ -3015,7 +3045,7 @@ msgstr "Tìm kiếm trong cả Thư rác"
 
 #: includeShared
 msgid "Include shared "
-msgstr "Bao gồm chia sẻ"
+msgstr "Bao gồm chia sẻ "
 
 #: invalidForwardNumber
 msgid "The call forwarding number is invalid"
@@ -3044,8 +3074,8 @@ msgid "Invitees"
 msgstr "Lời mời"
 
 #: linkToSharedAddressBook
-msgid "Link to Shared Address Book"
-msgstr "Liên kết tới Sổ địa chỉ chia sẻ"
+msgid "Link to Shared Contact Folder"
+msgstr "Liên kết tới Thư mục liên hệ chia sẻ"
 
 #: linkToSharedCalendar
 msgctxt "linkToSharedCalendar"
@@ -3147,8 +3177,8 @@ msgstr "Quản lý"
 
 #: manageAddressBooks
 msgctxt "manageAddressBooks"
-msgid "Manage Address Books"
-msgstr "Quản lý sổ địa chỉ"
+msgid "Manage Contacts"
+msgstr "Quản lý liên hệ"
 
 #: manageBriefcase
 msgid "Manage Briefcases"
@@ -3357,6 +3387,7 @@ msgid "My Card"
 msgstr "Thiệp của tôi"
 
 #: name
+msgctxt "name"
 msgid "Name"
 msgstr "Tên"
 
@@ -3443,7 +3474,7 @@ msgstr "Sổ ghi chép"
 
 #: noAddresses
 msgid "There must be at least one address in the To:, Cc:, or Bcc: fields"
-msgstr "Phải có ít nhất một đị chỉ trong các trường Tới:, Cc:, hoặc Bcc:"
+msgstr "Phải có ít nhất một đị chỉ trong các trường Tới, Cc, hoặc Bcc"
 
 #: noContactGroupMembers
 msgid "The contact group must have at least one member."
@@ -3657,8 +3688,8 @@ msgid "Additional options can be found on the"
 msgstr "Các tuỳ chọn bổ xung có thể được tìm thấy trên"
 
 #: optionsManageAddressBooksLink
-msgid "manage address books"
-msgstr "quản lý sổ địa chỉ"
+msgid "manage contacts"
+msgstr "quản lý liên hệ"
 
 #: optionsManageAddressBooksPost
 msgctxt "optionsManageAddressBooksPost"
@@ -3878,7 +3909,7 @@ msgstr "Bảo mật"
 
 #: optionsVoiceSecurityChPwd
 msgid "Change Voice Mail PIN:"
-msgstr "Thay đổi PIN thư thoại"
+msgstr "Thay đổi PIN thư thoại:"
 
 #: optionsVoiceSecurityChPwdLink
 msgid "Change your Voice Mail PIN on Comcast.net"
@@ -3886,7 +3917,7 @@ msgstr "Thay đổi PIN thư thoại của bạn trên Comcast.net"
 
 #: optionsVoiceSecurityLogin
 msgid "Voice Mail Login:"
-msgstr "Đăng nhập thư thoại"
+msgstr "Đăng nhập thư thoại:"
 
 #: optionsVoiceSecurityLoginRequire
 msgid ""
@@ -4299,8 +4330,8 @@ msgid "Owner's Email"
 msgstr "Email của chủ sở hữu"
 
 #: ownersAddressBookName
-msgid "Owner's Address Book Name"
-msgstr "Tên sổ địa chỉ của chủ sở hữu"
+msgid "Owner's Contact Folder Name"
+msgstr "Tên chủ sở hữu của thư mục liên hệ"
 
 #: ownersBriefcaseName
 msgid "Owner's Briefcase Name"
@@ -4666,8 +4697,8 @@ msgid "Rename"
 msgstr "Đổi tên"
 
 #: renameAddressBook
-msgid "Rename Address Book"
-msgstr "Đổi tên sổ địa chỉ"
+msgid "Rename Contact Folder"
+msgstr "Đổi tên thư mục liên hệ"
 
 #: renameCalendar
 msgid "Rename Calendar"
@@ -5033,7 +5064,7 @@ msgstr "Dịch vụ kiểm tra chính tả không có."
 
 #: spellcheckSpellingSuggestions
 msgid "Spelling Suggestions "
-msgstr "Gợi ý chính tả"
+msgstr "Gợi ý chính tả "
 
 #: spellcheckSuggestionsLabel
 msgid "Suggestions:"
@@ -5041,14 +5072,13 @@ msgstr "Gợi ý:"
 
 #. # Copyright string must not be translated
 #: splashScreenCopyright
+msgctxt "splashScreenCopyright"
 msgid ""
-"Copyright © 2005-2013 Telligent Systems, Inc.  All rights reserved. "
-"Telligent and Zimbra are registered trademarks or trademarks of Telligent "
-"Systems, Inc."
+"Copyright © 2005-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
 msgstr ""
-"Bản quyền © 2005 - 2013 Telligent Systems, Inc. Giữ tất cả quyền. Telligent "
-"và Zimbra là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
-"Systems, Inc."
+"Bản quyền © 2005-2014 Zimbra, Inc. Giữ tất cả quyền. \"Zimbra\" là các "
+"thương hiệu được đăng ký hoặc thương hiệu của Zimbra, Inc."
 
 #: splashScreenAppName
 msgid "Web Client"
@@ -5310,7 +5340,7 @@ msgstr "chưa nghe"
 
 #: unknown
 msgid "Unknown "
-msgstr "Không biết"
+msgstr "Không biết "
 
 #: unknownContentType
 msgid "Unknown <{0}>"
@@ -5378,12 +5408,11 @@ msgstr "Tiếng nói"
 
 #: voiceErrorUnableToAuth
 msgid ""
-"Authorization Failed. Please verify that your password is set correctly in "
-"the Voice preferences or contact your administrator for further assistance."
+"Authentication error: please update your voice account password at "
+"Preferences|Voice and verify voice username is correct."
 msgstr ""
-"Không được phép. Vui lòng xác minh rằng mật khẩu của bạn được thiết lập một "
-"cách chính xác trong tùy chọn Thư thoại hoặc liên hệ với quản trị viên của "
-"bạn để được hỗ trợ thêm."
+"Lỗi xác thực: vui lòng cập nhật mật khẩu tài khoản giọng nói của bạn tại Tùy "
+"chọn|Thư thoại và xác minh tên người dùng bằng giọng nói là chính xác."
 
 #: voiceErrorUnsupported
 msgid ""
@@ -5399,6 +5428,11 @@ msgid ""
 msgstr ""
 "Hộp thư thoại đã cấu hình không đúng. Kiểm tra thiết lập tùy chọn hoặc liên "
 "hệ với quản trị viên của bạn."
+
+#: voiceErrorPIN
+msgid "Invalid PIN: please reset your PIN at Preferences|Voice"
+msgstr ""
+"Mã PIN không hợp lệ: vui lòng đặt lại mã PIN của bạn tại Tùy chọn|Thư thoại"
 
 #: voiceMailsPerPage
 msgid "Voice mail messages per page"
@@ -5428,7 +5462,7 @@ msgstr ""
 "có thể nghe thư thoại bằng cách đơn giản là mở tập tin đính kèm.\n"
 "Từ: {0}  |  Thời lượng: {1}  |  \tĐã nhận: {2}\n"
 "\n"
-"http://www.zimbra.com"
+"http://www.zimbra.com "
 
 #: voiceMailForwardSubject
 msgid "Listen to this voice mail I received"
@@ -5448,26 +5482,6 @@ msgid ""
 "number."
 msgstr ""
 "Chọn số điện thoại bạn muốn quản lý sau đó chọn các tuỳ chọn cho số đó."
-
-#: wikiTOC
-msgid "Table of Contents"
-msgstr "Mục lục"
-
-#: wikiDocName
-msgid "Document name"
-msgstr "Tên tài liệu"
-
-#: wikiModifiedBy
-msgid "Modified by"
-msgstr "Đã sửa bởi"
-
-#: wikiModifiedOn
-msgid "Modified on"
-msgstr "Đã sửa lúc"
-
-#: wikiVersion
-msgid "Version"
-msgstr "Phiên bản"
 
 #: week
 msgid "Week"
@@ -5610,7 +5624,7 @@ msgstr ""
 
 #: 407Title
 msgid "Proxy Authentication Required"
-msgstr "Xác thực Proxy là bắt buộc."
+msgstr "Xác thực Proxy là bắt buộc"
 
 #: 407Msg
 msgid ""
@@ -5665,7 +5679,7 @@ msgstr "Chiều dài bắt buộc"
 msgid "A request of the requested method GET requires a valid Content-length."
 msgstr ""
 "Một yêu cầu của phương thức yêu cầu GET đòi hỏi một trường Content-length "
-"hợp lệ"
+"hợp lệ."
 
 #: 412Title
 msgid "Precondition Failed"
@@ -5813,12 +5827,12 @@ msgid ""
 "The server was acting as a gateway or proxy and received an invalid response "
 "from the upstream server."
 msgstr ""
-"\tCác máy chủ được hành động như một gateway hoặc proxy và nhận một yêu cầu "
-"từ máy chủ đầu nguồn"
+"Các máy chủ được hành động như một gateway hoặc proxy và nhận một yêu cầu từ "
+"máy chủ đầu nguồn."
 
 #: 503Title
 msgid "Service Unavailable"
-msgstr "Dịch vụ không có sẵn."
+msgstr "Dịch vụ không có sẵn"
 
 #: 503Msg
 msgid ""
@@ -5916,6 +5930,10 @@ msgstr "Carbon"
 #: SKIN_froggy
 msgid "Froggy"
 msgstr "Froggy"
+
+#: SKIN_harmony
+msgid "Harmony"
+msgstr "Harmony"
 
 #: SKIN_harvest
 msgid "Harvest"
@@ -6645,8 +6663,8 @@ msgstr "Lịch"
 
 #: ALT_APP_CONTACTS
 msgctxt "ALT_APP_CONTACTS"
-msgid "Address Book"
-msgstr "Sổ địa chỉ"
+msgid "Contacts"
+msgstr "Liên hệ"
 
 #: ALT_APP_OPTIONS
 msgid "Options"
@@ -6678,8 +6696,8 @@ msgstr "Quản lý thư mục"
 
 #: ALT_APP_MANAGE_ADDRESS_BOOKS
 msgctxt "ALT_APP_MANAGE_ADDRESS_BOOKS"
-msgid "Manage Address Books"
-msgstr "Quản lý sổ địa chỉ"
+msgid "Manage Contacts"
+msgstr "Quản lý liên hệ"
 
 #: ALT_APP_MANAGE_CALENDARS
 msgctxt "ALT_APP_MANAGE_CALENDARS"
@@ -6763,6 +6781,7 @@ msgid "Email Address"
 msgstr "Địa chỉ Email"
 
 #: ALT_CONTACT_FOLDER
+msgctxt "ALT_CONTACT_FOLDER"
 msgid "Contact Folder"
 msgstr "Thư mục liên hệ"
 
@@ -7657,7 +7676,7 @@ msgstr "Chọn Cặp tài liệu"
 
 #: MO_SessionPrefs
 msgid "Session options"
-msgstr "tuỳ chọn phiên"
+msgstr "Tuỳ chọn phiên"
 
 #: MO_MaxFolders
 msgid "Max Folders"
@@ -7665,7 +7684,7 @@ msgstr "Tối đa thư mục"
 
 #: MO_MaxFoldersInvalidValueMsg
 msgid "Invalid value for max folders. "
-msgstr "Giá trị không hợp lệ cho tối đa thư mục."
+msgstr "Giá trị không hợp lệ cho tối đa thư mục. "
 
 #: MO_MaxFoldersAllowedNote
 msgid ""
@@ -7745,14 +7764,6 @@ msgctxt "ZM_replyPrefix"
 msgid "----- {0} wrote:"
 msgstr "----- {0} đã viết:"
 
-#: ZM_replySubjectPrefix
-msgid "Re:"
-msgstr "Re:"
-
-#: ZM_forwardSubjectPrefix
-msgid "Fwd:"
-msgstr "Fwd:"
-
 #: ZM_originalMessage
 msgid "----- Original Message -----"
 msgstr "----- Thông điệp gốc -----"
@@ -7792,7 +7803,7 @@ msgstr "Quyền bị từ chối."
 
 #: service.AUTH_REQUIRED
 msgid "Authentication Required"
-msgstr "Yêu cầu xác thực."
+msgstr "Yêu cầu xác thực"
 
 #: service.AUTH_EXPIRED
 msgid "Your session has expired. Please login again."
@@ -8175,7 +8186,7 @@ msgstr "Tên không hợp lệ. Nó chứa ít nhất một ký tự không hợ
 
 #: mail.INVALID_TYPE
 msgid "Invalid type."
-msgstr "Kiểu không hợp lệ"
+msgstr "Kiểu không hợp lệ."
 
 #: mail.INVALID_CONTENT_TYPE
 msgid "Invalid contact type."
@@ -8231,15 +8242,15 @@ msgstr "Không thể phân tích truy vấn tìm kiếm."
 
 #: mail.MESSAGE_PARSE_ERROR
 msgid "Unable to parse message."
-msgstr "hông thể phân tích thông điệp."
+msgstr "Không thể phân tích thông điệp."
 
 #: mail.ADDRESS_PARSE_ERROR
 msgid "Unable to parse address."
-msgstr "hông thể phân tích địa chỉ."
+msgstr "Không thể phân tích địa chỉ."
 
 #: mail.ICALENDAR_PARSE_ERROR
 msgid "Unable to parse iCalendar."
-msgstr "hông thể phân tích iCalendar."
+msgstr "Không thể phân tích iCalendar."
 
 #: mail.MUST_BE_ORGANIZER
 msgid "Must be the appointment organizer."
@@ -8441,7 +8452,16 @@ msgctxt "voice.SECONDARY_NOT_ALLOWED_PREFS"
 msgid "You are not allowed to access voice mail."
 msgstr "Bạn không được phép truy cập thư thoại."
 
-#. #voice.UNABLE_TO_RETRIEVE_CALL_FEATURES = An error occurred while attempting to retrieve your voice mail preferences. Your telephone number may be out of service. We apologize for this inconvenience.
+#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
+msgid ""
+"An error occurred while attempting to retrieve your voice mail preferences. "
+"Your telephone number may be out of service. We apologize for this "
+"inconvenience."
+msgstr ""
+"Một lỗi xảy ra trong khi cố gắng để lấy tùy chọn thư thoại của bạn. Số điện "
+"thoại của bạn có thể được ra khỏi dịch vụ. Chúng tôi xin lỗi vì sự bất tiện "
+"này."
+
 #: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
 msgid ""
 "Sorry, you cannot use your telephone number with this feature. Please enter "
@@ -8538,18 +8558,164 @@ msgctxt "voice.SELECTIVE_CALL_REJECT_ALREADY_IN_LIST"
 msgid "The phone number is already in the Call Screening List."
 msgstr "Số điện thoại đã có trong Danh sách sàng lọc cuộc gọi."
 
-#~ msgid "{0} ({1})"
-#~ msgstr "{0} ({1}){0} - {1}"
+#~ msgid "Created address book \"{0}\"."
+#~ msgstr "Đã tạo sổ địa chỉ \"{0}\"."
 
-#~ msgctxt "callingPartyCallerIdFormat"
-#~ msgid "{0}"
-#~ msgstr "{0}"
+#~ msgid "Please check the checkbox to confirm address book deletion."
+#~ msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá sổ địa chỉ."
+
+#~ msgid "Address book \"{0}\" color changed to \"{1}\"."
+#~ msgstr "Màu của sổ địa chỉ \"{0}\" thay đổi tới \"{1}\"."
+
+#~ msgid "Deleted address book \"{0}\"."
+#~ msgstr "Đã xoá sổ địa chỉ \"{0}\"."
+
+#~ msgid "Address book \"{0}\" modified."
+#~ msgstr "Sổ địa chỉ \"{0}\" đã sửa."
+
+#~ msgid "Address book \"{0}\" renamed to \"{1}\"."
+#~ msgstr "Sổ địa chỉ \"{0}\" đã đổi tên thành \"{1}\"."
+
+#~ msgid "Address book trashed \"{0}\"."
+#~ msgstr "Sổ địa chỉ đã vào thùng rác \"{0}\"."
+
+#~ msgid "Address book \"{0}\" moved to \"Trash\"."
+#~ msgstr "Sổ địa chỉ \"{0}\" đã chuyển tới \"Thùng rác\"."
+
+#~ msgid "No address book name specified."
+#~ msgstr "Không có tên sổ địa chỉ nào được chỉ định."
+
+#~ msgid "No address book selected."
+#~ msgstr "Không có sổ địa chỉ nào được chọn."
+
+#~ msgid "No owner's address book specified."
+#~ msgstr "Không có chủ sở hữu sổ địa chỉ được chỉ định."
+
+#~ msgctxt "addressBook"
+#~ msgid "Address Book"
+#~ msgstr "Sổ địa chỉ"
+
+#~ msgid "Address Book:"
+#~ msgstr "Sổ địa chỉ:"
+
+#~ msgid "New Address Book"
+#~ msgstr "Sổ địa chỉ mới"
+
+#~ msgid "Link to Address Book"
+#~ msgstr "Liên kết tới sổ địa chỉ"
+
+#~ msgid "Address Book Name"
+#~ msgstr "Tên sổ địa chỉ"
+
+#~ msgctxt "addressBookUser"
+#~ msgid "Address Book"
+#~ msgstr "Sổ địa chỉ"
+
+#~ msgid "System Address Book"
+#~ msgstr "Sổ địa chỉ hệ thống"
+
+#~ msgid "Shared Address Book"
+#~ msgstr "Sổ địa chỉ chia sẻ"
+
+#~ msgctxt "addressBookDelete"
+#~ msgid "Delete Address Book"
+#~ msgstr "Xoá bỏ sổ địa chỉ"
+
+#~ msgid "Address Book Updated"
+#~ msgstr "Đã cập nhật sổ địa chỉ"
+
+#~ msgid "Delete this address book (move to trash)"
+#~ msgstr "Xoá bỏ sổ địa chỉ này (chuyển tới thùng rác)"
+
+#~ msgid "Permanently delete this address book"
+#~ msgstr "Vĩnh viễn xoá bỏ sổ địa chỉ này"
+
+#~ msgid "Address Books"
+#~ msgstr "Sổ địa chỉ"
+
+#~ msgid "Address Books:"
+#~ msgstr "Sổ địa chỉ:"
+
+#~ msgid "Choose address book to change"
+#~ msgstr "Chọn sổ địa chỉ để thay đổi"
+
+#~ msgid "Choose address book to rename"
+#~ msgstr "Chọn sổ địa chỉ để đổi tên"
+
+#~ msgid "Choose address book to delete"
+#~ msgstr "Chọn sổ địa chỉ để xoá bỏ"
+
+#~ msgid "Change Address Book Color"
+#~ msgstr "Thay đổi màu sổ địa chỉ"
+
+#~ msgid "Create Address Book"
+#~ msgstr "Tạo sổ địa chỉ"
+
+#~ msgid "Create New Address Book"
+#~ msgstr "Tạo mới sổ địa chỉ"
+
+#~ msgctxt "deleteAddressBook"
+#~ msgid "Delete Address Book"
+#~ msgstr "Xoá bỏ sổ địa chỉ"
+
+#~ msgid "Address book \"{0}\" emptied."
+#~ msgstr "Sổ địa chỉ \"{0}\" đã trống."
 
 #~ msgid ""
-#~ "An error occurred while attempting to retrieve your voice mail "
-#~ "preferences. Your telephone number may be out of service. We apologize "
-#~ "for this inconvenience."
+#~ "Copyright © 2005-2013 Telligent Systems, Inc. \"Telligent\" and \"Zimbra"
+#~ "\"  are registered trademarks or trademarks of Telligent Systems, Inc."
 #~ msgstr ""
-#~ "Một lỗi xảy ra trong khi cố gắng để lấy tùy chọn thư thoại của bạn. Số "
-#~ "điện thoại của bạn có thể được ra khỏi dịch vụ. Chúng tôi xin lỗi vì sự "
-#~ "bất tiện này."
+#~ "Bản quyền © 2005 - 2013 Telligent Systems, Inc. \"Telligent\" và \"Zimbra"
+#~ "\" là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
+#~ "Systems, Inc."
+
+#~ msgid "Link to Shared Address Book"
+#~ msgstr "Liên kết tới Sổ địa chỉ chia sẻ"
+
+#~ msgctxt "manageAddressBooks"
+#~ msgid "Manage Address Books"
+#~ msgstr "Quản lý sổ địa chỉ"
+
+#~ msgid "manage address books"
+#~ msgstr "quản lý sổ địa chỉ"
+
+#~ msgid "Owner's Address Book Name"
+#~ msgstr "Tên sổ địa chỉ của chủ sở hữu"
+
+#~ msgid "Rename Address Book"
+#~ msgstr "Đổi tên sổ địa chỉ"
+
+#~ msgid ""
+#~ "Authorization Failed. Please verify that your password is set correctly "
+#~ "in the Voice preferences or contact your administrator for further "
+#~ "assistance."
+#~ msgstr ""
+#~ "Không được phép. Vui lòng xác minh rằng mật khẩu của bạn được thiết lập "
+#~ "một cách chính xác trong tùy chọn Thư thoại hoặc liên hệ với quản trị "
+#~ "viên của bạn để được hỗ trợ thêm."
+
+#~ msgid "Table of Contents"
+#~ msgstr "Mục lục"
+
+#~ msgid "Document name"
+#~ msgstr "Tên tài liệu"
+
+#~ msgid "Modified by"
+#~ msgstr "Đã sửa bởi"
+
+#~ msgid "Modified on"
+#~ msgstr "Đã sửa lúc"
+
+#~ msgctxt "ALT_APP_CONTACTS"
+#~ msgid "Address Book"
+#~ msgstr "Sổ địa chỉ"
+
+#~ msgctxt "ALT_APP_MANAGE_ADDRESS_BOOKS"
+#~ msgid "Manage Address Books"
+#~ msgstr "Quản lý sổ địa chỉ"
+
+#~ msgid "Re:"
+#~ msgstr "Re:"
+
+#~ msgid "Fwd:"
+#~ msgstr "Fwd:"
