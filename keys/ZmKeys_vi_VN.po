@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZmKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
-"PO-Revision-Date: 2017-12-30 10:18+0700\n"
+"POT-Creation-Date: 2017-12-30 10:18+0700\n"
+"PO-Revision-Date: 2017-12-30 10:21+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
@@ -529,6 +529,22 @@ msgstr "Bạn mới"
 msgid "10125"
 msgstr "10125"
 
+#: global.NewSearch.display
+msgid "N,S"
+msgstr "N,S"
+
+#: global.NewSearch.keycode
+msgid "78,83"
+msgstr "78,83"
+
+#: global.NewSearch.description
+msgid "Open a search tab"
+msgstr "Mở một tab tìm kiếm"
+
+#: global.NewSearch.sort
+msgid "10195"
+msgstr "10195"
+
 #: global.NewTag.display
 msgid "N,T"
 msgstr "N,T"
@@ -560,6 +576,22 @@ msgstr "Công việc mới"
 #: global.NewTask.sort
 msgid "10115"
 msgstr "10115"
+
+#: global.NewDocument.display
+msgid "N,D"
+msgstr "N,D"
+
+#: global.NewDocument.keycode
+msgid "78,68"
+msgstr "78,68"
+
+#: global.NewDocument.description
+msgid "New document"
+msgstr "Tài liệu mới"
+
+#: global.NewDocument.sort
+msgid "10135"
+msgstr "10135"
 
 #: global.NextPage.display
 msgid "Ctrl+ArrowRight"
@@ -957,24 +989,10 @@ msgstr "Chưa đọc cuối"
 msgid "20192"
 msgstr "20192"
 
-#: mail.MuteUnmuteConv.display
-msgctxt "mail.MuteUnmuteConv.display"
-msgid "E"
-msgstr "E"
-
-#: mail.MuteUnmuteConv.keycode
-msgctxt "mail.MuteUnmuteConv.keycode"
-msgid "69"
-msgstr "69"
-
-#: mail.MuteUnmuteConv.description
-msgid "Mark mute"
-msgstr "Đánh dấu tắt tiếng"
-
-#: mail.MuteUnmuteConv.sort
-msgid "20063"
-msgstr "20063"
-
+#. #mail.MuteUnmuteConv.display = E
+#. #mail.MuteUnmuteConv.keycode = 69
+#. #mail.MuteUnmuteConv.description = Mark mute
+#. #mail.MuteUnmuteConv.sort = 20063
 #: mail.MarkRead.display
 msgid "M,R; Z"
 msgstr "M,R; Z"
@@ -1257,30 +1275,12 @@ msgstr "Báo cáo (đánh dấu là) thư rác"
 msgid "20100"
 msgstr "20100"
 
-#: mail.Undo.display
-msgid "Ctrl+Z"
-msgstr "Ctrl+Z"
-
-#: mail.Undo.display.mac
-msgid "Cmd+Z"
-msgstr "Cmd+Z"
-
-#: mail.Undo.keycode
-msgid "Ctrl+90"
-msgstr "Ctrl+90"
-
-#: mail.Undo.keycode.mac
-msgid "Meta+90"
-msgstr "Meta+90"
-
-#: mail.Undo.description
-msgid "Undo"
-msgstr "Hoàn tác"
-
-#: mail.Undo.sort
-msgid "20300"
-msgstr "20300"
-
+#. #mail.Undo.display = Ctrl+Z
+#. #mail.Undo.display.mac = Cmd+Z
+#. #mail.Undo.keycode = Ctrl+90
+#. #mail.Undo.keycode.mac = Meta+90
+#. #mail.Undo.description = Undo
+#. #mail.Undo.sort = 20300
 #: mail.ViewByConversation.display
 msgid "V,C"
 msgstr "V,C"
@@ -1923,22 +1923,6 @@ msgstr "Sửa cuộc hẹn"
 msgid "70010"
 msgstr "70010"
 
-#: calendar.Copy.display
-msgid "Ctrl+C"
-msgstr "Ctrl+C"
-
-#: calendar.Copy.keycode
-msgid "Ctrl+67"
-msgstr "Ctrl+67"
-
-#: calendar.Copy.description
-msgid "Copy appointment"
-msgstr "Sao chép cuộc hẹn"
-
-#: calendar.Copy.sort
-msgid "70110"
-msgstr "70110"
-
 #: calendar.FBView.display
 msgid "F; 2"
 msgstr "F; 2"
@@ -1954,22 +1938,6 @@ msgstr "Khung hiển thị Bận/Rỗi"
 #: calendar.FBView.sort
 msgid "70096"
 msgstr "70096"
-
-#: calendar.Paste.display
-msgid "Ctrl+V"
-msgstr "Ctrl+V"
-
-#: calendar.Paste.keycode
-msgid "Ctrl+86"
-msgstr "Ctrl+86"
-
-#: calendar.Paste.description
-msgid "Paste appointment"
-msgstr "Dán cuộc hẹn"
-
-#: calendar.Paste.sort
-msgid "70120"
-msgstr "70120"
 
 #: calendar.CalListView.display
 msgid "L; 9"
@@ -2739,6 +2707,62 @@ msgstr "Chọn địa chỉ ở trước"
 msgid "30130"
 msgstr "30130"
 
+#~ msgctxt "mail.MuteUnmuteConv.display"
+#~ msgid "E"
+#~ msgstr "E"
+
+#~ msgctxt "mail.MuteUnmuteConv.keycode"
+#~ msgid "69"
+#~ msgstr "69"
+
+#~ msgid "Mark mute"
+#~ msgstr "Đánh dấu tắt tiếng"
+
+#~ msgid "20063"
+#~ msgstr "20063"
+
+#~ msgid "Ctrl+Z"
+#~ msgstr "Ctrl+Z"
+
+#~ msgid "Cmd+Z"
+#~ msgstr "Cmd+Z"
+
+#~ msgid "Ctrl+90"
+#~ msgstr "Ctrl+90"
+
+#~ msgid "Meta+90"
+#~ msgstr "Meta+90"
+
+#~ msgid "Undo"
+#~ msgstr "Hoàn tác"
+
+#~ msgid "20300"
+#~ msgstr "20300"
+
+#~ msgid "Ctrl+C"
+#~ msgstr "Ctrl+C"
+
+#~ msgid "Ctrl+67"
+#~ msgstr "Ctrl+67"
+
+#~ msgid "Copy appointment"
+#~ msgstr "Sao chép cuộc hẹn"
+
+#~ msgid "70110"
+#~ msgstr "70110"
+
+#~ msgid "Ctrl+V"
+#~ msgstr "Ctrl+V"
+
+#~ msgid "Ctrl+86"
+#~ msgstr "Ctrl+86"
+
+#~ msgid "Paste appointment"
+#~ msgstr "Dán cuộc hẹn"
+
+#~ msgid "70120"
+#~ msgstr "70120"
+
 #~ msgid "`"
 #~ msgstr "`"
 
@@ -2783,18 +2807,6 @@ msgstr "30130"
 
 #~ msgid "New notebook page"
 #~ msgstr "Trang sổ tay mới"
-
-#~ msgid "N,D"
-#~ msgstr "N,D"
-
-#~ msgid "78,68"
-#~ msgstr "78,68"
-
-#~ msgid "New document"
-#~ msgstr "Tài liệu mới"
-
-#~ msgid "10135"
-#~ msgstr "10135"
 
 #~ msgctxt "global.QuickReminder.sort"
 #~ msgid "10230"
