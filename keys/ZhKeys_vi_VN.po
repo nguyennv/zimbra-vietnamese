@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:20+0700\n"
-"PO-Revision-Date: 2014-03-20 21:50+0700\n"
+"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"PO-Revision-Date: 2017-12-30 10:17+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 2.0.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -1408,7 +1408,7 @@ msgstr "83"
 
 #: voicemail.Download.description
 msgid "Download (\"save\") the voice mail message "
-msgstr "Tải về (\"lưu\") thông điệp thư thoại"
+msgstr "Tải về (\"lưu\") thông điệp thư thoại "
 
 #: voicemail.Forward.display
 msgctxt "voicemail.Forward.display"

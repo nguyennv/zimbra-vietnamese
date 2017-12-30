@@ -1,30 +1,33 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
 #. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
 #. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
-#. extracted from .\keys\ZmKeys.properties
+#. extracted from ZmKeys.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2017-12-30 10:18+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #. # Keyboard Shortcuts for the ZCS Web Client
 #. #
@@ -541,6 +544,22 @@ msgstr ""
 msgid "10125"
 msgstr ""
 
+#: global.NewSearch.display
+msgid "N,S"
+msgstr ""
+
+#: global.NewSearch.keycode
+msgid "78,83"
+msgstr ""
+
+#: global.NewSearch.description
+msgid "Open a search tab"
+msgstr ""
+
+#: global.NewSearch.sort
+msgid "10195"
+msgstr ""
+
 #: global.NewTag.display
 msgid "N,T"
 msgstr ""
@@ -571,6 +590,22 @@ msgstr ""
 
 #: global.NewTask.sort
 msgid "10115"
+msgstr ""
+
+#: global.NewDocument.display
+msgid "N,D"
+msgstr ""
+
+#: global.NewDocument.keycode
+msgid "78,68"
+msgstr ""
+
+#: global.NewDocument.description
+msgid "New document"
+msgstr ""
+
+#: global.NewDocument.sort
+msgid "10135"
 msgstr ""
 
 #: global.NextPage.display
@@ -969,24 +1004,10 @@ msgstr ""
 msgid "20192"
 msgstr ""
 
-#: mail.MuteUnmuteConv.display
-msgctxt "mail.MuteUnmuteConv.display"
-msgid "E"
-msgstr ""
-
-#: mail.MuteUnmuteConv.keycode
-msgctxt "mail.MuteUnmuteConv.keycode"
-msgid "69"
-msgstr ""
-
-#: mail.MuteUnmuteConv.description
-msgid "Mark mute"
-msgstr ""
-
-#: mail.MuteUnmuteConv.sort
-msgid "20063"
-msgstr ""
-
+#. #mail.MuteUnmuteConv.display = E
+#. #mail.MuteUnmuteConv.keycode = 69
+#. #mail.MuteUnmuteConv.description = Mark mute
+#. #mail.MuteUnmuteConv.sort = 20063
 #: mail.MarkRead.display
 msgid "M,R; Z"
 msgstr ""
@@ -1269,30 +1290,12 @@ msgstr ""
 msgid "20100"
 msgstr ""
 
-#: mail.Undo.display
-msgid "Ctrl+Z"
-msgstr ""
-
-#: mail.Undo.display.mac
-msgid "Cmd+Z"
-msgstr ""
-
-#: mail.Undo.keycode
-msgid "Ctrl+90"
-msgstr ""
-
-#: mail.Undo.keycode.mac
-msgid "Meta+90"
-msgstr ""
-
-#: mail.Undo.description
-msgid "Undo"
-msgstr ""
-
-#: mail.Undo.sort
-msgid "20300"
-msgstr ""
-
+#. #mail.Undo.display = Ctrl+Z
+#. #mail.Undo.display.mac = Cmd+Z
+#. #mail.Undo.keycode = Ctrl+90
+#. #mail.Undo.keycode.mac = Meta+90
+#. #mail.Undo.description = Undo
+#. #mail.Undo.sort = 20300
 #: mail.ViewByConversation.display
 msgid "V,C"
 msgstr ""
@@ -1935,22 +1938,6 @@ msgstr ""
 msgid "70010"
 msgstr ""
 
-#: calendar.Copy.display
-msgid "Ctrl+C"
-msgstr ""
-
-#: calendar.Copy.keycode
-msgid "Ctrl+67"
-msgstr ""
-
-#: calendar.Copy.description
-msgid "Copy appointment"
-msgstr ""
-
-#: calendar.Copy.sort
-msgid "70110"
-msgstr ""
-
 #: calendar.FBView.display
 msgid "F; 2"
 msgstr ""
@@ -1965,22 +1952,6 @@ msgstr ""
 
 #: calendar.FBView.sort
 msgid "70096"
-msgstr ""
-
-#: calendar.Paste.display
-msgid "Ctrl+V"
-msgstr ""
-
-#: calendar.Paste.keycode
-msgid "Ctrl+86"
-msgstr ""
-
-#: calendar.Paste.description
-msgid "Paste appointment"
-msgstr ""
-
-#: calendar.Paste.sort
-msgid "70120"
 msgstr ""
 
 #: calendar.CalListView.display

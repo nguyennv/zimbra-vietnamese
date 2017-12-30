@@ -1,52 +1,35 @@
-#. extracted from .\messages\ZmMsg.properties
+#. extracted from ZmMsg.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2017-12-30 10:18+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #. #
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
 #. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
 #. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
-#: CRLF
-msgid "\r\n"
-msgstr ""
-
-#: CRLF2
-msgid ""
-"\r\n"
-"\r\n"
-msgstr ""
-
-#: CRLF_HTML
-msgid "<br>\n"
-msgstr ""
-
-#: CRLF2_HTML
-msgid ""
-"<br>\n"
-"<br>\n"
-msgstr ""
-
 #: DASHES
 msgid "-----"
 msgstr ""
@@ -57,24 +40,27 @@ msgstr ""
 
 #: aboutMessage
 msgid ""
-"Zimbra {0} (build {1})<br><br> Copyright © 2005-2013 Telligent Systems, Inc. "
-"All rights reserved. This product is protected by U.S. and international "
-"copyright and intellectual property laws. \"Telligent\" and \"Zimbra\" are "
-"registered trademarks or trademarks of Telligent Systems, Inc. in the United "
-"States and other jurisdictions. All other marks and names mentioned herein "
-"may be trademarks of their respective companies.<br><br> Telligent Systems, "
-"Inc. d/b/a Zimbra Software, LLC <br>www.zimbra.com"
+"Zimbra {0} (build {1})<br><br> Copyright © 2005-2014 Zimbra, Inc. All rights "
+"reserved. This product is protected by U.S. and international copyright and "
+"intellectual property laws. \"Zimbra\" is a registered trademark of Zimbra, "
+"Inc. in the United States and other jurisdictions. All other marks and names "
+"mentioned herein may be trademarks of their respective companies.<br><br> "
+"Zimbra, Inc. <br>www.zimbra.com"
 msgstr ""
 
 #: aboutMessageZD
 msgid ""
-"Zimbra Desktop {0} (build {1})<br><br> Copyright © 2008-2013 Telligent "
-"Systems, Inc. All rights reserved. This product is protected by U.S. and "
-"international copyright and intellectual property laws. \"Telligent\" and "
-"\"Zimbra\" are registered trademarks or trademarks of Telligent Systems, Inc. "
-"in the United States and other jurisdictions. All other marks and names "
-"mentioned herein may be trademarks of their respective companies.<br><br> "
-"Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br>www.zimbra.com"
+"Zimbra Desktop {0} (build {1})<br><br> Copyright © 2008-2014 Zimbra, Inc. "
+"All rights reserved. This product is protected by U.S. and international "
+"copyright and intellectual property laws. \"Zimbra\" is a registered "
+"trademark Zimbra, Inc. in the United States and other jurisdictions. All "
+"other marks and names mentioned herein may be trademarks of their respective "
+"companies.<br><br> Zimbra, Inc."
+msgstr ""
+
+#: <br>www.zimbra.com
+msgctxt "<br>www.zimbra.com"
+msgid ""
 msgstr ""
 
 #: above
@@ -115,8 +101,8 @@ msgid ""
 "<li>You can <b>View</b> and <b>Edit</b> items in the folder.<li>You can "
 "<b>Add</b> and <b>Remove</b> items to/from the folder.<li>You can "
 "<b>Accept</b> and <b>Decline</b> workflow actions for the folder.<li>You can "
-"<b>Administer</b> the folder as if it were your own (i.e. share with "
-"another user)."
+"<b>Administer</b> the folder as if it were your own (i.e. share with another "
+"user)."
 msgstr ""
 
 #: acceptShareDetailsManager
@@ -174,8 +160,8 @@ msgstr ""
 
 #: accountDeleteFolder
 msgid ""
-"<b>Do you want to delete the folder \"{0}\"?</b><p>The folder and all messages "
-"contained in the folder will be moved to the Trash."
+"<b>Do you want to delete the folder \"{0}\"?</b><p>The folder and all "
+"messages contained in the folder will be moved to the Trash."
 msgstr ""
 
 #: accountDownloadToInbox
@@ -377,14 +363,12 @@ msgstr ""
 
 #: actionNotifyReadOnlyMsg
 msgid ""
-"Notify actions are currently read only. Your filter has the following "
-"values:"
+"Notify actions are currently read only. Your filter has the following values:"
 msgstr ""
 
 #: actionReplyReadOnlyMsg
 msgid ""
-"Reply actions are currently read only.  Your filter has hte following "
-"values:"
+"Reply actions are currently read only.  Your filter has hte following values:"
 msgstr ""
 
 #: actions
@@ -509,25 +493,26 @@ msgid "Admin Console"
 msgstr ""
 
 #: addrbookSharesOnly
-msgid "Address Book shares only"
+msgid "Contacts shares only"
 msgstr ""
 
 #: addrbook
 msgctxt "addrbook"
-msgid "Address Book"
+msgid "Contacts"
 msgstr ""
 
 #: addressBook
 msgctxt "addressBook"
-msgid "Address Book"
+msgid "Contacts"
 msgstr ""
 
 #: addressBookLabel
-msgid "Address Book:"
+msgid "Contacts:"
 msgstr ""
 
 #: addressBooks
-msgid "Address Books"
+msgctxt "addressBooks"
+msgid "Contacts"
 msgstr ""
 
 #: addressHint
@@ -568,7 +553,7 @@ msgid "Add Signature"
 msgstr ""
 
 #: addToAddrBook
-msgid "add to address book"
+msgid "add to contacts"
 msgstr ""
 
 #: addToBriefcase
@@ -697,8 +682,8 @@ msgstr ""
 
 #: allPageSelected
 msgid ""
-"{0} {1} selected. To <a href=\"javascript:;\" onclick=\"{3}\">select all search "
-"results</a>, use the shortcut {2}."
+"{0} {1} selected. To <a href=\"javascript:;\" onclick=\"{3}\">select all "
+"search results</a>, use the shortcut {2}."
 msgstr ""
 
 #: allSearchSelected
@@ -769,6 +754,10 @@ msgstr ""
 #: aol
 msgctxt "aol"
 msgid "AOL"
+msgstr ""
+
+#: appearance
+msgid "Appearance"
 msgstr ""
 
 #: appExitPrompt
@@ -848,10 +837,6 @@ msgstr ""
 msgid "The following meeting has been cancelled:"
 msgstr ""
 
-#: apptCopied
-msgid "Appointment Copied"
-msgstr ""
-
 #: apptCreated
 msgid "Appointment Created"
 msgstr ""
@@ -862,10 +847,6 @@ msgstr ""
 
 #: apptCreating
 msgid "Creating Appointments"
-msgstr ""
-
-#: apptCreatingFromCopy
-msgid "Creating New Appointment from Copy"
 msgstr ""
 
 #. # {0} start date/time, {1} end date/time, {2} timezone
@@ -1222,7 +1203,21 @@ msgid "<b>Note:&nbsp;</b>Attachment size limit is {0}"
 msgstr ""
 
 #: attachmentSizeError
-msgid "At least one file exceeds the file size limit of {0}."
+msgid "Attachment failed since the item would exceed the size limit of {0}."
+msgstr ""
+
+#: attachmentSizeError_MSG
+msgid "Attachment failed since the message would exceed the size limit of {0}."
+msgstr ""
+
+#: attachmentSizeError_BRIEFCASE_ITEM
+msgid ""
+"Attachment failed since the document would exceed the size limit of {0}."
+msgstr ""
+
+#: attachmentSizeError_APPT
+msgid ""
+"Attachment failed since the appointment would exceed the size limit of {0}."
 msgstr ""
 
 #: attachments
@@ -1288,8 +1283,8 @@ msgstr ""
 
 #: authFailure
 msgid ""
-"Authentication failed with account \"{0}\".<br>Please go to Account Setup for "
-"more information."
+"Authentication failed with account \"{0}\".<br>Please go to Account Setup "
+"for more information."
 msgstr ""
 
 #: author
@@ -1302,8 +1297,8 @@ msgstr ""
 
 #: authTokenExpirationWarning
 msgid ""
-"You will be signed out in {0} {1}.  Save your changes now and <span "
-"class=\"FakeAnchor\" onclick=\"ZmZimbraMail.logOff(null, true)\">sign in</span> "
+"You will be signed out in {0} {1}.  Save your changes now and <span class=\""
+"FakeAnchor\" onclick=\"ZmZimbraMail.logOff(null, true)\">sign in</span> "
 "again. "
 msgstr ""
 
@@ -1332,7 +1327,7 @@ msgid "Contacts Not Loaded, Yet"
 msgstr ""
 
 #: autocompleteOnComma
-msgid "Perform autocomplete when a comma is typed"
+msgid "Select autocomplete match when a comma is typed"
 msgstr ""
 
 #: autocompleteShare
@@ -1340,7 +1335,7 @@ msgid "Always use this account during autocomplete"
 msgstr ""
 
 #: autocompleteSharedAddrBooks
-msgid "Include addresses in shared address books"
+msgid "Include addresses in shared contacts"
 msgstr ""
 
 #: autocompleteWaiting
@@ -1638,21 +1633,6 @@ msgstr ""
 msgid "Browse..."
 msgstr ""
 
-#: browserPlusDisabled
-msgid "BrowserPlus is disabled"
-msgstr ""
-
-#: browserPlusMissing
-msgid ""
-"This feature requires Yahoo! BrowserPlus. <a target='_blank' "
-"href='http://browserplus.yahoo.com/install'>Click here</a> to download and "
-"install it."
-msgstr ""
-
-#: bubbles
-msgid "Bubbles:"
-msgstr ""
-
 #: buddies
 msgid "Buddies"
 msgstr ""
@@ -1819,7 +1799,7 @@ msgstr ""
 
 #: calendarWorkHoursDisclaimer
 msgid ""
-"The timings follow your timezone preferences. Your preferred timezone is :"
+"The timings follow your time zone preferences. Your preferred time zone is :"
 msgstr ""
 
 #: calendarWorkHoursHeader
@@ -2167,6 +2147,14 @@ msgstr ""
 msgid "Reload All Feeds"
 msgstr ""
 
+#: checkboxChangeRestartHide
+msgid "Would you like to reload the application now to hide checkboxes?"
+msgstr ""
+
+#: checkboxChangeRestartShow
+msgid "Would you like to reload the application now to show checkboxes?"
+msgstr ""
+
 #: checkIn
 msgid "Check In"
 msgstr ""
@@ -2227,14 +2215,6 @@ msgstr ""
 msgid "Run my default search"
 msgstr ""
 
-#: checkMailPrefLabel
-msgid "When I click Get Mail:"
-msgstr ""
-
-#: checkMailPrefLabelOffline
-msgid "When I click Send/Receive"
-msgstr ""
-
 #: checkMailPrefUpdate
 msgid "Update my current view"
 msgstr ""
@@ -2262,15 +2242,15 @@ msgid "Choose one or more accounts"
 msgstr ""
 
 #: chooseAddrBook
-msgid "Choose Address Book"
+msgid "Choose Contacts Folder"
 msgstr ""
 
 #: chooseAddrBookToExport
-msgid "Choose an address book to export:"
+msgid "Choose a contacts folder to export:"
 msgstr ""
 
 #: chooseAddrBookToImport
-msgid "Choose an address book to import to:"
+msgid "Choose a contacts folder to import to:"
 msgstr ""
 
 #: chooseClient
@@ -2338,11 +2318,11 @@ msgstr ""
 
 #: clientLoginNotice
 msgid ""
-"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader in "
-"open source messaging and collaboration :: <a target=\"_new\" "
-"href=\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" "
-"href=\"http://wiki.zimbra.com\">Wiki</a> - <a target=\"_new\" "
-"href=\"http://www.zimbra.com/forums\">Forums</a>"
+"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader "
+"in open source messaging and collaboration :: <a target=\"_new\" href=\""
+"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" href=\""
+"http://wiki.zimbra.com\">Wiki</a> - <a target=\"_new\" href=\""
+"http://www.zimbra.com/forums\">Forums</a>"
 msgstr ""
 
 #: clientMobile
@@ -2360,7 +2340,7 @@ msgid "Standard (HTML)"
 msgstr ""
 
 #: clientTouch
-msgid "Tablet (BETA)"
+msgid "Touch"
 msgstr ""
 
 #: clientType
@@ -2379,10 +2359,11 @@ msgid ""
 "<b>Advanced</b> offers the full set of Web collaboration features. This Web "
 "Client works best with newer browsers and faster Internet connections. "
 "<br><br><b>Standard</b> is recommended when Internet connections are slow, "
-"when using older browsers, or for easier accessibility. "
-"<br><br><b>Mobile</b> is recommended for mobile devices. <br><br>To set "
-"<b>Default</b> to be your preferred client type, change the sign in options "
-"in your Preferences, General tab after you sign in."
+"when using older browsers, or for easier accessibility. <br><br><b>Mobile</b>"
+" is recommended for mobile devices. <br><br><b>Tablet</b> is recommended for "
+"tablets. <br><br>To set <b>Default</b> to be your preferred client type, "
+"change the sign in options in your Preferences, General tab after you sign "
+"in."
 msgstr ""
 
 #: close
@@ -2473,6 +2454,24 @@ msgstr ""
 
 #: columnBrowserView
 msgid "Column Browser View"
+msgstr ""
+
+#: communityConnections
+msgid ""
+"Connections (follows, mentions, memberships, friendships, private messages)"
+msgstr ""
+
+#: communityContent
+msgid "Content (new posts, comments, likes, ratings, updates, etc)"
+msgstr ""
+
+#. # default community name (used for tab title and in filter select), overwritten by value of zimbraFeatureSocialName
+#: communityName
+msgid "Community"
+msgstr ""
+
+#: communityRequests
+msgid "Requests (friendship, group membership, moderation)"
 msgstr ""
 
 #: company
@@ -2730,9 +2729,9 @@ msgstr ""
 
 #: confirmEmptyTrashFolder
 msgid ""
-"This action will delete all items in Email, Address Book, Calendar, Tasks "
-"and Briefcase trash folders.  Are you sure that you want to permanently "
-"delete everything in these trash folders?"
+"This action will delete all items in Email, Contacts, Calendar, Tasks and "
+"Briefcase trash folders.  Are you sure that you want to permanently delete "
+"everything in these trash folders?"
 msgstr ""
 
 #: confirmExistingContacts
@@ -2766,7 +2765,7 @@ msgid ""
 msgstr ""
 
 #: confirmNewAddresses
-msgid "<b>Recipients not in your address book:</b>"
+msgid "<b>Recipients not in your contacts:</b>"
 msgstr ""
 
 #: confirmNewAddressesCheck
@@ -2806,6 +2805,10 @@ msgctxt "contactList"
 msgid "List"
 msgstr ""
 
+#: contactLists
+msgid "Contact Lists"
+msgstr ""
+
 #: contactPickerHint
 msgid "Type recipient's name here."
 msgstr ""
@@ -2829,6 +2832,10 @@ msgstr ""
 
 #: contactSaved
 msgid "Contact Saved"
+msgstr ""
+
+#: contactsFolder
+msgid "Contacts Folder"
 msgstr ""
 
 #: contactsImportedResult
@@ -2947,7 +2954,7 @@ msgid "Create New Message"
 msgstr ""
 
 #: createNewAddrBook
-msgid "Create New Address Book"
+msgid "Create New Contacts Folder"
 msgstr ""
 
 #: createNewAppt
@@ -2960,6 +2967,10 @@ msgstr ""
 
 #: createNewCalendar
 msgid "Create New Calendar"
+msgstr ""
+
+#: createFilter
+msgid "Create Filter"
 msgstr ""
 
 #: freeBusyLink
@@ -3073,8 +3084,8 @@ msgstr ""
 #. # {0} number of failures
 #: dataSourceFailureDescription
 msgid ""
-"Retrieving messages for the following external {0,choice,1#account "
-"has|2#accounts have} failed:"
+"Retrieving messages for the following external {0,choice,1#account has|2#"
+"accounts have} failed:"
 msgstr ""
 
 #. # {0} external account name; {1} date of most recent failure; {2} failure message
@@ -3334,11 +3345,12 @@ msgid "(Default is {0})"
 msgstr ""
 
 #: defaultCalendarTimezone
-msgid "Default timezone for new appointments"
+msgid "Default time zone for new appointments"
 msgstr ""
 
 #: defaultTimezone
-msgid "Default Timezone:"
+msgctxt "defaultTimezone"
+msgid "Time Zone:"
 msgstr ""
 
 #: defaultViewLabel
@@ -3512,7 +3524,7 @@ msgid "Open in a separate window"
 msgstr ""
 
 #: detachTT
-msgid "Launch in a separate window"
+msgid "Launch in Separate Window"
 msgstr ""
 
 #: detachTooltip
@@ -3685,6 +3697,10 @@ msgstr ""
 msgid "Distribution List Members"
 msgstr ""
 
+#: dlModifyFailed
+msgid "Modify distribution list failed"
+msgstr ""
+
 #: dlProperties
 msgid "Distribution List Properties"
 msgstr ""
@@ -3707,9 +3723,8 @@ msgstr ""
 
 #: dlSubscriptionRequiresApproval
 msgid ""
-"This list requires new subscribers to be approved, which may cause a delay "
-"when subscribing. Once approved, the list will show up in your Distribution "
-"Lists address book."
+"This list requires new subscribers to be approved, which may cause a delay. "
+"Once approved, the list will show up in Distribution Lists."
 msgstr ""
 
 #: dlSubscriptionNotAllowed
@@ -3717,7 +3732,7 @@ msgid "This list is not open to self-subscription."
 msgstr ""
 
 #: dlSubscriptionRequested
-msgid "Your subscription request was sent"
+msgid "Your subscription request was sent."
 msgstr ""
 
 #: dlSubscribeRequestApproved
@@ -3738,8 +3753,7 @@ msgstr ""
 
 #: dlUnsubscriptionRequiresApproval
 msgid ""
-"This list requires unsubscribe to be approved, which may cause a delay when "
-"unsubscribing."
+"Unsubscribing from this list requires approval, which may cause a delay."
 msgstr ""
 
 #: dlUnsubscriptionNotAllowed
@@ -3747,7 +3761,7 @@ msgid "You cannot unsubscribe yourself from the list."
 msgstr ""
 
 #: dlUnsubscriptionRequested
-msgid "Your unsubscribe request was sent"
+msgid "Your unsubscribe request was sent."
 msgstr ""
 
 #: dlUnsubscribeRequestApproved
@@ -3893,6 +3907,17 @@ msgstr ""
 #: durationMultiDays
 msgctxt "durationMultiDays"
 msgid "{0} {1} - {2} {3}"
+msgstr ""
+
+#: durationRecurrenceError
+msgid ""
+"Cannot save. You have errors that must be corrected: The time specified for "
+"the appointment to repeat (Daily, Weekly,...) must be greater than the "
+"duration of each appointment instance."
+msgstr ""
+
+#: durationRecurrenceErrorTitle
+msgid "Appointment Repeat-Duration Conflict"
 msgstr ""
 
 #: dndTooltip
@@ -4356,9 +4381,9 @@ msgstr ""
 #: errorBrowserUnsupported
 msgid ""
 "We have detected that you are running <b>{0} {1}</b>,which is an unsupported "
-"browser for the Zimbra Web Client. The Zimbra Web Client is supported "
-"on:<br /><ul><li>IE 6.0+</li><li>Mozilla 1.4+</li><li>Netscape "
-"7.1+</li><li>Firefox 1.0+</li><li>Safari 1.3+ (BETA)</li></ul><br />"
+"browser for the Zimbra Web Client. The Zimbra Web Client is supported on:<br "
+"/><ul><li>IE 6.0+</li><li>Mozilla 1.4+</li><li>Netscape 7.1+</li><li>Firefox "
+"1.0+</li><li>Safari 1.3+ (BETA)</li></ul><br />"
 msgstr ""
 
 #: errorCalendarParse
@@ -4496,9 +4521,9 @@ msgid "Folder does not exist: {0}"
 msgstr ""
 
 #: errorInvalidName
+msgctxt "errorInvalidName"
 msgid ""
-"Sorry, \"{0}\" is not a valid name. It contains at least one invalid "
-"character."
+"\"{0}\" is not a valid filename. It contains at least one invalid character."
 msgstr ""
 
 #: errorInvalidPass
@@ -4669,29 +4694,24 @@ msgstr ""
 #. # {0} folder name, {1} pop account name
 #: errorMovePopFolder
 msgid ""
-"Unable to move folder because it is associated with the POP account named "
-"\"{1}\".<p>In order to move this folder, change the destination folder for the "
+"Unable to move folder because it is associated with the POP account named \""
+"{1}\".<p>In order to move this folder, change the destination folder for the "
 "POP account or delete the POP account."
 msgstr ""
 
 #: errorMoveImapFolder
 msgid ""
-"Unable to move folder because it is associated with the IMAP account named "
-"\"{1}\".<p>In order to move this folder, change the destination folder for the "
+"Unable to move folder because it is associated with the IMAP account named \""
+"{1}\".<p>In order to move this folder, change the destination folder for the "
 "IMAP account or delete the IMAP account."
 msgstr ""
 
 #: errorJavaScriptRequired
 msgid ""
-"<font face=arial>JavaScript must be enabled in order for you to use the "
-"Zimbra advanced client. However, it seems JavaScript is either disabled or "
-"not supported by your browser. To use Zimbra, enable JavaScript by changing "
-"your browser options, then <a href=\"{0}\">try again</a> or click <a "
-"href=\"{1}\">here</a> to switch to the basic client which does not require "
-"JavaScript.<br><br><a target=\"_new\" \"href=\"http://www.zimbra.com\">Zimbra</a> "
-":: the leader in open source messaging and collaboration<br><a "
-"target=\"_new\" href=\"http://www.zimbra.com/blog\">Zimbra Blog</a> | <a "
-"target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a></font>"
+"<h2>JavaScript must be enabled.</h2> <p>To use the Zimbra advanced client, "
+"enable JavaScript by changing your browser options, then <a href=\"{0}\">try "
+"again</a> or <a href=\"{1}\">switch to the basic client</a>, which does not "
+"require JavaScript.</p>"
 msgstr ""
 
 #: errorJavaScriptDisabled
@@ -4733,7 +4753,7 @@ msgid "Please attach an image file (JPG, PNG, GIF)"
 msgstr ""
 
 #: errorNotAllowedFile
-msgid "Please attach allowed files ({0})"
+msgid "Invalid file extension.  Valid extensions are {0}"
 msgstr ""
 
 #: errorPrivateVoicemail
@@ -4921,7 +4941,7 @@ msgstr ""
 msgid "Export"
 msgstr ""
 
-#. #exportAddrBook = Export Address Book
+#. #exportAddrBook = Export Contacts
 #. #exportBriefcase = Export Briefcase
 #. #exportCalendar = Export Calendar
 #: exportEmptyName
@@ -4967,8 +4987,8 @@ msgstr ""
 
 #: exportToCSVHint
 msgid ""
-"You can export your contacts in the standard \"Comma-Separated Values\" (.csv) "
-"format, then import them into another contact manager program. See "
+"You can export your contacts in the standard \"Comma-Separated Values\" "
+"(.csv) format, then import them into another contact manager program. See "
 "documentation in the other program for help in importing."
 msgstr ""
 
@@ -4985,8 +5005,8 @@ msgstr ""
 
 #: exportToTGZHint
 msgid ""
-"All account data can be exported to a \"Tar-GZipped\" (.tgz) format which can "
-"be imported back into the system."
+"All account data can be exported to a \"Tar-GZipped\" (.tgz) format which "
+"can be imported back into the system."
 msgstr ""
 
 #: expression
@@ -5036,6 +5056,10 @@ msgstr ""
 msgid "Facebook"
 msgstr ""
 
+#: facebookNotifications
+msgid "Facebook notifications"
+msgstr ""
+
 #: favIconUrl
 msgid "/img/logo/favicon.ico"
 msgstr ""
@@ -5048,6 +5072,10 @@ msgstr ""
 msgid ""
 "Content could not be retrieved. Make sure the following URL is an RSS/ATOM "
 "feed: {0}"
+msgstr ""
+
+#: feedLabel
+msgid "Feed:"
 msgstr ""
 
 #: feedUnreachable
@@ -5361,6 +5389,10 @@ msgstr ""
 msgid "Flag"
 msgstr ""
 
+#: unflag
+msgid "Unflag"
+msgstr ""
+
 #: flagged
 msgctxt "flagged"
 msgid "Flagged"
@@ -5391,6 +5423,10 @@ msgctxt "folder"
 msgid "Folder"
 msgstr ""
 
+#: folderEmptied
+msgid "Folder \"{0}\" emptied"
+msgstr ""
+
 #: folderLabel
 msgid "Folder:"
 msgstr ""
@@ -5419,6 +5455,12 @@ msgstr ""
 msgid ""
 "A folder or saved search with that name already exists. Please use another "
 "name."
+msgstr ""
+
+#: folderAlreadyExistsInDestination
+msgid ""
+"Cannot move folder to the selected destination folder. A folder with that "
+"name already exists under the destination folder."
 msgstr ""
 
 #: folderPreviewMessage
@@ -5484,13 +5526,17 @@ msgstr ""
 
 #: fontChangeRestart
 msgid ""
-"Would you like to reload the application now to show the new font? "
-"<br>(Otherwise, the new font will appear the next time you sign in.)"
+"Would you like to reload the application now to show the new font? <br>("
+"Otherwise, the new font will appear the next time you sign in.)"
 msgstr ""
 
 #: fontLabel
 msgctxt "fontLabel"
 msgid "Font:"
+msgstr ""
+
+#: fontSizeLabel
+msgid "Display Font Size:"
 msgstr ""
 
 #: fontModern
@@ -5503,6 +5549,23 @@ msgstr ""
 
 #: fontWide
 msgid "Wide"
+msgstr ""
+
+#: fontSizeSmall
+msgid "Small"
+msgstr ""
+
+#: fontSizeNormal
+msgctxt "fontSizeNormal"
+msgid "Normal"
+msgstr ""
+
+#: fontSizeLarge
+msgid "Large"
+msgstr ""
+
+#: fontSizeExtraLarge
+msgid "Extra Large"
 msgstr ""
 
 #: fontSystem
@@ -5576,6 +5639,10 @@ msgstr ""
 
 #: forwardByEmailTooltip
 msgid "Forward the selected voice mail message as an email attachment"
+msgstr ""
+
+#: forwardConv
+msgid "Forward conversation"
 msgstr ""
 
 #: forwardCopyTo
@@ -5804,7 +5871,7 @@ msgid "Go to Calendar"
 msgstr ""
 
 #: goToContacts
-msgid "Go to Address Book"
+msgid "Go to Contacts"
 msgstr ""
 
 #: goToDate
@@ -5834,6 +5901,10 @@ msgstr ""
 
 #: goToPortal
 msgid "Go to Welcome page"
+msgstr ""
+
+#: goToSocial
+msgid "Go to Social page"
 msgstr ""
 
 #: goToTasks
@@ -6016,10 +6087,6 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-#: hideBCC
-msgid "Hide BCC"
-msgstr ""
-
 #: hideCalendar
 msgid "Hide calendar"
 msgstr ""
@@ -6072,6 +6139,10 @@ msgstr ""
 #: home
 msgctxt "home"
 msgid "Home"
+msgstr ""
+
+#: htmlClient
+msgid "HTML Client"
 msgstr ""
 
 #: icon
@@ -6209,6 +6280,10 @@ msgstr ""
 
 #: imagesLabel
 msgid "Images:"
+msgstr ""
+
+#: imageUploadedToBriefcase
+msgid "Image uploaded to briefcase"
 msgstr ""
 
 #: imAnonymousLabel
@@ -6483,14 +6558,14 @@ msgstr ""
 
 #: imNotLoggedIn
 msgid ""
-"You are not signed in to IM. <span class=\"FakeAnchor\" onclick=\"{0}\">Click "
-"here</span> to sign in."
+"You are not signed in to IM. <span class=\"FakeAnchor\" onclick=\"{0}\">"
+"Click here</span> to sign in."
 msgstr ""
 
 #: imNotLoggedInPrefs
 msgid ""
-"You must be signed in to IM before you can update IM accounts. <span "
-"class=\"FakeAnchor\" onclick=\"{0}\">Click here</span> to sign in."
+"You must be signed in to IM before you can update IM accounts. <span class=\""
+"FakeAnchor\" onclick=\"{0}\">Click here</span> to sign in."
 msgstr ""
 
 #: imPoweredBy
@@ -6752,10 +6827,10 @@ msgstr ""
 
 #: imYahooMissingFlash
 msgid ""
-"The Adobe Flash Player is required to connect to Yahoo! Messenger. <a "
-"target='_blank' href='http://www.adobe.com/go/getflashplayer/'>Click "
-"here</a> to download and install it. You will need to restart your browser "
-"after the installation is complete."
+"The Adobe Flash Player is required to connect to Yahoo! Messenger. <a target="
+"'_blank' href='http://www.adobe.com/go/getflashplayer/'>Click here</a> to "
+"download and install it. You will need to restart your browser after the "
+"installation is complete."
 msgstr ""
 
 #: imAppTitle
@@ -6787,7 +6862,7 @@ msgstr ""
 msgid "Auto-Detect"
 msgstr ""
 
-#. #importAddrBook = Import Address Book
+#. #importAddrBook = Import Contacts
 #. #importBriefcase = Import Briefcase
 #. #importCalendar = Import Calendar
 #. #importFolder = Import Folder
@@ -6846,8 +6921,8 @@ msgstr ""
 #: importFromCSVHint
 msgid ""
 "If you are using another contact manager program, you can import your "
-"existing contacts by saving them in \"Comma-Separated Values\" (.csv) format. "
-"See documentation in that program for help saving in this format."
+"existing contacts by saving them in \"Comma-Separated Values\" (.csv) "
+"format. See documentation in that program for help saving in this format."
 msgstr ""
 
 #: importFromCSVLabel
@@ -6870,14 +6945,15 @@ msgid "ICS File:"
 msgstr ""
 
 #: importFromTGZHint
-msgid "You can import an account export file in a \"Tar-GZipped\" (.tgz) format."
+msgid ""
+"You can import an account export file in a \"Tar-GZipped\" (.tgz) format."
 msgstr ""
 
 #: importResetWarning
 msgid ""
 "If you reset the destination folder, all data and folders in the destination "
-"folder will be deleted.<p><b>If no destination folder is selected, this "
-"will delete <i>all</i> of the data and folders in your account.</b>"
+"folder will be deleted.<p><b>If no destination folder is selected, this will "
+"delete <i>all</i> of the data and folders in your account.</b>"
 msgstr ""
 
 #: importStarted
@@ -7013,7 +7089,7 @@ msgid "Incoming Junk Messages:"
 msgstr ""
 
 #: inContacts
-msgid "In Personal Address Book"
+msgid "In Personal Contacts"
 msgstr ""
 
 #: indent
@@ -7124,10 +7200,6 @@ msgstr ""
 msgid "Away message must be at most {0} characters"
 msgstr ""
 
-#: invalidBubblePrefs
-msgid "To use bubbles you must enable the \"{0}\" zimlet"
-msgstr ""
-
 #: invalidDateFormat
 msgid "Please enter a valid date."
 msgstr ""
@@ -7164,6 +7236,11 @@ msgstr ""
 msgid "Signature must be at most {0} characters"
 msgstr ""
 
+#: invalidTaskSubject
+msgid ""
+"The subject cannot contain / (forward slash), \" (double quote), or : (colon)"
+msgstr ""
+
 #: invalidName
 msgid "Invalid name: {0}"
 msgstr ""
@@ -7194,6 +7271,10 @@ msgstr ""
 
 #: inviteMsgAccepted
 msgid "{0} has accepted the invitation."
+msgstr ""
+
+#: inviteMsgCancelled
+msgid "{0} has cancelled the invitation."
 msgstr ""
 
 #: inviteMsgDeclined
@@ -7250,8 +7331,8 @@ msgstr ""
 
 #: invitePermissionDenied
 msgid ""
-"<p>You do not have permission to invite the following attendees to a "
-"meeting: <br> {0}</p>"
+"<p>You do not have permission to invite the following attendees to a meeting:"
+" <br> {0}</p>"
 msgstr ""
 
 #: invitesLabel
@@ -7324,6 +7405,11 @@ msgstr ""
 #. # {0} = number {1} = total {2} = type, eg "50 of 278 contacts"
 #: itemCount1
 msgid "{0} of {1} {2}"
+msgstr ""
+
+#. # {0} = number {1} = type, eg "3 messages selected"
+#: itemSelectionCount
+msgid "{0} {1} selected"
 msgstr ""
 
 #: items
@@ -7504,6 +7590,10 @@ msgstr ""
 msgid "LinkedIn"
 msgstr ""
 
+#: linkedinMessagesConnections
+msgid "LinkedIn messages and connections"
+msgstr ""
+
 #: linkProperties
 msgid "Link Properties"
 msgstr ""
@@ -7563,8 +7653,8 @@ msgstr ""
 
 #: localeChangeRestart
 msgid ""
-"Would you like to reload the application now to show the new language? "
-"<br>(Otherwise, the new language will appear the next time you sign in.)"
+"Would you like to reload the application now to show the new language? <br>("
+"Otherwise, the new language will appear the next time you sign in.)"
 msgstr ""
 
 #: localeName_ar
@@ -7581,6 +7671,10 @@ msgstr ""
 
 #: localeName_zh_HK
 msgid "Chinese (Hong Kong)"
+msgstr ""
+
+#: localeName_zh_TW
+msgid "Chinese (Taiwan)"
 msgstr ""
 
 #: localeName_da
@@ -7609,6 +7703,14 @@ msgstr ""
 
 #: localeName_fr
 msgid "French"
+msgstr ""
+
+#: localeName_fr_CA
+msgid "French (Canada)"
+msgstr ""
+
+#: localeName_fr_FR
+msgid "French (France)"
 msgstr ""
 
 #: localeName_de
@@ -7649,6 +7751,10 @@ msgstr ""
 
 #: localeName_pt_BR
 msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: localeName_pt_PT
+msgid "Portuguese (Portugal)"
 msgstr ""
 
 #: localeName_ro
@@ -7774,11 +7880,11 @@ msgid "Sign in as a different user"
 msgstr ""
 
 #: loginOptions
-msgid "Sign in Options"
+msgid "Sign in"
 msgstr ""
 
 #: loginLabel
-msgid "Sign in using:"
+msgid "Default Client:"
 msgstr ""
 
 #: logOff
@@ -7922,7 +8028,7 @@ msgid "Only internal users can send to this list"
 msgstr ""
 
 #: mailOnlySpecific
-msgid "Only these users can send to this list"
+msgid "Only these users can send to this list:"
 msgstr ""
 
 #: makeLabel
@@ -8201,10 +8307,6 @@ msgstr ""
 msgid "Method"
 msgstr ""
 
-#: midnight
-msgid "Midnight"
-msgstr ""
-
 #: minute
 msgid "minute"
 msgstr ""
@@ -8237,8 +8339,8 @@ msgstr ""
 #: missingPluginHelpIE
 msgid ""
 "A plugin is required to play voice mail messages. <a target='_blank' "
-"href='http://www.microsoft.com/windows/windowsmedia/download/'>Click "
-"here</a> to download and install Windows Media Player, or <a target='_blank' "
+"href='http://www.microsoft.com/windows/windowsmedia/download/'>Click here</a>"
+" to download and install Windows Media Player, or <a target='_blank' "
 "href='http://www.apple.com/quicktime/download/'>click here</a> to download "
 "and install the QuickTime plugin. You will need to restart your browser "
 "after the installation is complete."
@@ -8254,10 +8356,10 @@ msgstr ""
 
 #: missingPluginHelp
 msgid ""
-"The QuickTime plugin is required to play voice mail messages. <a "
-"target='_blank' href='http://www.apple.com/quicktime/download/'>Click "
-"here</a> to download and install it. You will need to restart your browser "
-"after the installation is complete."
+"The QuickTime plugin is required to play voice mail messages. <a target="
+"'_blank' href='http://www.apple.com/quicktime/download/'>Click here</a> to "
+"download and install it. You will need to restart your browser after the "
+"installation is complete."
 msgstr ""
 
 #: missingOrOldFlashPlugin
@@ -8307,8 +8409,8 @@ msgstr ""
 
 #: mobileDeviceWipeConfirm
 msgid ""
-"Are you sure you want to wipe the contents of your lost or stolen device? "
-"(This device will be restored to the factory default settings.)"
+"Are you sure you want to wipe the contents of your lost or stolen device? ("
+"This device will be restored to the factory default settings.)"
 msgstr ""
 
 #: mobileFirstReqReceived
@@ -8450,7 +8552,7 @@ msgid "{0} more {0,choice,1#attendee|2#attendees}"
 msgstr ""
 
 #: moreComposeOptions
-msgid "More compose options"
+msgid "Switch to full compose"
 msgstr ""
 
 #: moreDetails
@@ -8478,7 +8580,7 @@ msgid "Visit the Digital Voice Center"
 msgstr ""
 
 #: mountAddrBook
-msgid "Link to Shared Address Book"
+msgid "Link to Shared Contacts"
 msgstr ""
 
 #: mountBriefcase
@@ -8500,8 +8602,7 @@ msgstr ""
 #: mountInstructions1
 msgid ""
 "To link to an item that has been shared with you, enter the owner's email "
-"address and the location of the folder in their mailbox (e.g. "
-"Work/Projects):"
+"address and the location of the folder in their mailbox (e.g. Work/Projects):"
 msgstr ""
 
 #: mountInstructions2
@@ -8521,7 +8622,7 @@ msgid "You are moving items across accounts. Are you sure?"
 msgstr ""
 
 #: moveAddrBook
-msgid "Move Address Book \"{0}\""
+msgid "Move Contacts Folder \"{0}\""
 msgstr ""
 
 #: moveAppts
@@ -8545,7 +8646,7 @@ msgid "Move {0,choice,1#Message|2#Messages}"
 msgstr ""
 
 #: moveNotInAddrBook
-msgid "Messages from people not in my Address Book"
+msgid "Messages from people not in my Contacts"
 msgstr ""
 
 #: moveNotSubscribedTo
@@ -8665,6 +8766,13 @@ msgstr ""
 msgid "{0} attachments"
 msgstr ""
 
+#: mustBeOrganizer
+msgid ""
+"You are not allowed to create an appointment on this calendar, using your "
+"selected persona. The persona must be the owner of the calendar or have "
+"admin privileges over it."
+msgstr ""
+
 #: mute
 msgid "Mute"
 msgstr ""
@@ -8697,6 +8805,10 @@ msgstr ""
 msgid "My Computer"
 msgstr ""
 
+#: myStatusLabel
+msgid "My Status:"
+msgstr ""
+
 #: _name
 msgctxt "_name"
 msgid "Name"
@@ -8727,13 +8839,21 @@ msgstr ""
 msgid "The name must be at most {0} characters long"
 msgstr ""
 
-#: navText1
-msgctxt "navText1"
-msgid "{0} - {1}"
+#: navTextNoItems
+msgid "0 {0}"
 msgstr ""
 
-#: navText2
+#: navTextOneItem
+msgid "1 {0}"
+msgstr ""
+
+#: navTextWithTotal
 msgid "{0} - {1} of {2}"
+msgstr ""
+
+#: navTextRange
+msgctxt "navTextRange"
+msgid "{0} - {1}"
 msgstr ""
 
 #: needsAction
@@ -8770,11 +8890,11 @@ msgid "This account has not been synced. Would you like to sync it now?"
 msgstr ""
 
 #: newAddrBook
-msgid "New Address Book"
+msgid "New Contacts Folder"
 msgstr ""
 
 #: newAddrBookTooltip
-msgid "Create a new address book"
+msgid "Create a new contacts folder"
 msgstr ""
 
 #: newAppt
@@ -9128,10 +9248,6 @@ msgid ""
 "No suggestions available on <b>{0,date,MMM dd}</b> for <b>{1}</b> duration"
 msgstr ""
 
-#: noon
-msgid "Noon"
-msgstr ""
-
 #: none
 msgctxt "none"
 msgid "None"
@@ -9176,8 +9292,8 @@ msgstr ""
 
 #: notSyncing
 msgid ""
-"This folder is currently not syncing.<br><a href=\"javascript:;\" "
-"onclick=\"{0}\">Click here to sync this folder</a>."
+"This folder is currently not syncing.<br><a href=\"javascript:;\" onclick=\""
+"{0}\">Click here to sync this folder</a>."
 msgstr ""
 
 #: noTargetFolder
@@ -9227,6 +9343,10 @@ msgstr ""
 
 #: notExist
 msgid "does not exist"
+msgstr ""
+
+#: notificationPermission
+msgid "Do you want to update your notification permission?"
 msgstr ""
 
 #: notifications
@@ -9440,14 +9560,44 @@ msgstr ""
 msgid "Backup of account \"{0}\" has begun"
 msgstr ""
 
+#: offlineCachingDone
+msgid "Zimbra is ready for offline use"
+msgstr ""
+
+#: offlineCachingSync
+msgid "Synchronizing data for offline use"
+msgstr ""
+
+#: offlineFolderSyncInterval
+msgid ""
+"Store up to <input id=\"folderOfflineLblId\" class=\"ZmOfflineSyncInterval\" "
+"type=\"number\" min=\"0\" max=\"30\"> days of messages. (set to 0 for no "
+"sync)"
+msgstr ""
+
+#: invalidFolderSyncInterval
+msgid ""
+"Invalid folder sync interval value. It should be a number between 0 and 30."
+msgstr ""
+
+#: offlineChangeRestart
+msgid ""
+"Would you like to reload the application now to enable offline access? <br>("
+"Otherwise, the offline access will be available the next time you sign in.)"
+msgstr ""
+
+#: offlineLabel
+msgid "Offline:"
+msgstr ""
+
 #: offlineQuota
 msgid "Mailbox size:"
 msgstr ""
 
 #: offlinePasswordUpdate
 msgid ""
-"Zimbra Desktop is unable to synchronize data from \"{0}\". <br/>  Re-enter the "
-"password and click Save to re-authenticate the account."
+"Zimbra Desktop is unable to synchronize data from \"{0}\". <br/>  Re-enter "
+"the password and click Save to re-authenticate the account."
 msgstr ""
 
 #: offlinePasswordUpdateSuccess
@@ -9482,6 +9632,11 @@ msgstr ""
 msgid "Account \"{0}\" hasn't synced for too long. Do you want to sync now ?"
 msgstr ""
 
+#: offlineMustGalReSync
+msgid ""
+"Account \"{0}\" hasn't synced GAL for too long. Do you want to sync now?"
+msgstr ""
+
 #: offlineHeapDump
 msgid ""
 "Do we have your consent to upload heap dump of Zimbra Desktop's previous "
@@ -9490,6 +9645,30 @@ msgstr ""
 
 #: offlineMoveFolderError
 msgid "Folder move failed, please try again later"
+msgstr ""
+
+#: OfflineServerReachable
+msgid "Connected to server. You are back online."
+msgstr ""
+
+#: OfflineServerNotReachable
+msgid "Cannot connect to server. You are now offline."
+msgstr ""
+
+#: offlineSettings
+msgid "Offline Mode"
+msgstr ""
+
+#: offlineSignOutWarning
+msgid ""
+"Signing out will also turn off the offline mode and clear the locally stored "
+"data.<br><br>Are you sure you want to continue?"
+msgstr ""
+
+#: offlineSupportedBrowser
+msgid ""
+"This feature is currently supported only in Google Chrome and Mozilla "
+"Firefox browser."
 msgstr ""
 
 #: ok
@@ -9507,10 +9686,6 @@ msgstr ""
 
 #: oldPasswordIsIncorrect
 msgid "The old password you submitted is incorrect."
-msgstr ""
-
-#: on
-msgid "On"
 msgstr ""
 
 #: onLabel
@@ -9681,8 +9856,7 @@ msgid "Or pick a style below:"
 msgstr ""
 
 #: other
-msgctxt "other"
-msgid "Other"
+msgid "Other Settings"
 msgstr ""
 
 #: otherLabel
@@ -10007,6 +10181,10 @@ msgstr ""
 msgid "Please wait, depending on the message size this might take a while."
 msgstr ""
 
+#: pluralList
+msgid "{0} and {1}"
+msgstr ""
+
 #: pngImage
 msgid "PNG Image"
 msgstr ""
@@ -10316,7 +10494,7 @@ msgid "Print"
 msgstr ""
 
 #: printAddrBook
-msgid "Print Address Book"
+msgid "Print Contacts"
 msgstr ""
 
 #: printCalendar
@@ -10378,6 +10556,18 @@ msgstr ""
 
 #: priorityFlagRule
 msgid "Stop on priority rule"
+msgstr ""
+
+#: priorityHigh
+msgid "High priority"
+msgstr ""
+
+#: priorityLow
+msgid "Low priority"
+msgstr ""
+
+#: priorityNormal
+msgid "Normal priority"
 msgstr ""
 
 #: priorityInbox
@@ -10493,6 +10683,11 @@ msgctxt "purple"
 msgid "Purple"
 msgstr ""
 
+#: queryLabel
+msgctxt "queryLabel"
+msgid "Search:"
+msgstr ""
+
 #: quick
 msgid "Quick"
 msgstr ""
@@ -10505,22 +10700,17 @@ msgstr ""
 msgid "QuickAdd Contact"
 msgstr ""
 
+#: quickAddPrefLabel
+msgid "QuickAdd Dialog "
+msgstr ""
+
 #: quota
 msgid "Quota"
 msgstr ""
 
-#: quotaDescLimited
-msgid "{0} of {1}"
-msgstr ""
-
-#: quotaDescUnlimited
-msgid "{0} of unlimited"
-msgstr ""
-
-#: quotaLabel
-msgid "Quota:"
-msgstr ""
-
+#. #quotaDescLimited = {0} of {1}
+#. #quotaDescUnlimited = {0} of unlimited
+#. #quotaLabel = Quota:
 #: received
 msgid "Received"
 msgstr ""
@@ -10743,8 +10933,8 @@ msgstr ""
 
 #: reminderOverdueByMonthsDays
 msgid ""
-"Overdue by {2,number,integer} {2,choice,1#month|2#months}, "
-"{3,number,integer} {3,choice,1#day,2#days}."
+"Overdue by {2,number,integer} {2,choice,1#month|2#months}, {3,number,integer}"
+" {3,choice,1#day,2#days}."
 msgstr ""
 
 #: reminderOverdueByDays
@@ -10769,6 +10959,10 @@ msgstr ""
 
 #: reminderOverdueByMinutes
 msgid "Overdue by {5,number,integer} {5,choice,1#minute|2#minutes}."
+msgstr ""
+
+#: reminderOverdueByToday
+msgid "Due Today"
 msgstr ""
 
 #. # {0} minutes
@@ -10966,7 +11160,7 @@ msgid "Set reply mode, change format, change how original is forwarded"
 msgstr ""
 
 #: replyPrefix
-msgid "----- {0} wrote:\r\n"
+msgid "----- On {0}, at {1}, {2} wrote:"
 msgstr ""
 
 #: replySender
@@ -11461,6 +11655,7 @@ msgid "Search"
 msgstr ""
 
 #: searchLabel
+msgctxt "searchLabel"
 msgid "Search:"
 msgstr ""
 
@@ -11493,12 +11688,17 @@ msgstr ""
 msgid "e.g. has:attachment"
 msgstr ""
 
+#: searchOptions
+msgctxt "searchOptions"
+msgid "Search"
+msgstr ""
+
 #: searchScope
 msgid "Search Scope"
 msgstr ""
 
 #: searchSettingsLabel
-msgid "Search Settings:"
+msgid "Search Folders:"
 msgstr ""
 
 #: searchLanguageLabel
@@ -11577,6 +11777,10 @@ msgstr ""
 msgid "Search results"
 msgstr ""
 
+#: searchResultsEnterSearch
+msgid "Search for:"
+msgstr ""
+
 #. # {0} = number of results, {1} = possible plus sign indicating more results
 #: searchResultsLabel
 msgid "Found {0}{1} {0,choice,1#result|2#results} for:"
@@ -11624,6 +11828,10 @@ msgstr ""
 #: selectionColumn
 msgid ""
 "Click to select all items on page. Shift-click to select all search results."
+msgstr ""
+
+#: selectionLabel
+msgid "Selection:"
 msgstr ""
 
 #: selectAdapt
@@ -11715,25 +11923,26 @@ msgid "UI theme"
 msgstr ""
 
 #: selectTimezone
-msgid "Timezone"
+msgid "Time Zone"
 msgstr ""
 
 #: selectTimezoneInfo
 msgid ""
-"We are unable to identify the timezone in your area, please choose the "
-"timezone from list"
+"We are unable to identify the time zone in your area, please choose the time "
+"zone from list"
 msgstr ""
 
 #: selectTimezoneLabel
-msgid "Timezone:"
+msgctxt "selectTimezoneLabel"
+msgid "Time Zone:"
 msgstr ""
 
 #: selectTimezoneIShowAll
-msgid "Show all known timezones"
+msgid "Show all known time zones"
 msgstr ""
 
 #: selectTimezoneTitle
-msgid "Select Timezone"
+msgid "Select Time Zone"
 msgstr ""
 
 #: sellEmail
@@ -12034,7 +12243,7 @@ msgid "Accept Denied, Decline Denied"
 msgstr ""
 
 #: shareAddrBook
-msgid "Share Address Book"
+msgid "Share Contacts Folder"
 msgstr ""
 
 #: shareAFolder
@@ -12153,16 +12362,16 @@ msgstr ""
 
 #: sharedCalSyncMsgGoogle
 msgid ""
-"Google calendars don't permit CalDav access by default. You must <a "
-"href=\"https://www.google.com/calendar\" target=\"_blank\">configure the "
+"Google calendars don't permit CalDav access by default. You must <a href=\""
+"https://www.google.com/calendar\" target=\"_blank\">configure the "
 "calendar</a> to allow access."
 msgstr ""
 
 #: sharedCalSyncMsgYahoo
 msgid ""
-"Yahoo! calendars don't permit CalDav access by default. You must <a "
-"href=\"http://calendar.yahoo.com/\" target=\"_blank\">configure the calendar</a> "
-"to allow access."
+"Yahoo! calendars don't permit CalDav access by default. You must <a href=\""
+"http://calendar.yahoo.com/\" target=\"_blank\">configure the calendar</a> to "
+"allow access."
 msgstr ""
 
 #: sharedFolderNotSupported
@@ -12223,12 +12432,11 @@ msgstr ""
 msgid ""
 "Folders that have been shared with you are shown below. Once a folder has "
 "been shared with you, you must accept the share and provide a local name for "
-"the folder before it shows up in the overview. Folders that have been "
-"shared with you but which you have not accepted (if any) are shown in a "
-"separate list from shared folders that you have accepted. Folders may be "
-"shared with you in two different ways: they may be shared with a "
-"distribution list which includes you, or they may be shared with you "
-"directly by another user."
+"the folder before it shows up in the overview. Folders that have been shared "
+"with you but which you have not accepted (if any) are shown in a separate "
+"list from shared folders that you have accepted. Folders may be shared with "
+"you in two different ways: they may be shared with a distribution list which "
+"includes you, or they may be shared with you directly by another user."
 msgstr ""
 
 #. # {0} = grantor name; {1} = shared item name
@@ -12293,6 +12501,10 @@ msgstr ""
 
 #: shareWithAll
 msgid "All authenticated users"
+msgstr ""
+
+#: shareWithExternalGuest
+msgid "External guests"
 msgstr ""
 
 #: shareWithGuest
@@ -12363,6 +12575,10 @@ msgstr ""
 
 #: sharingErrorOwnerSelf
 msgid "You cannot search for shares from yourself"
+msgstr ""
+
+#: sharingErrorWithSelf
+msgid "You cannot share a folder with yourself."
 msgstr ""
 
 #: shareExists
@@ -12450,7 +12666,7 @@ msgid ""
 msgstr ""
 
 #: shouldShowTimezone
-msgid "Show timezone for the start and end time when creating an appointment"
+msgid "Show time zone for the start and end time when creating an appointment"
 msgstr ""
 
 #: show
@@ -12459,6 +12675,10 @@ msgstr ""
 
 #: showAdvancedOptions
 msgid "Show advanced options"
+msgstr ""
+
+#: showAllEventsFromSelectedCalendars
+msgid "Show all events from selected calendars"
 msgstr ""
 
 #: showAllItemTypes
@@ -12481,7 +12701,7 @@ msgstr ""
 msgid "Show as:"
 msgstr ""
 
-#: showBCC
+#: showBcc
 msgid "Show BCC"
 msgstr ""
 
@@ -12514,7 +12734,7 @@ msgid "Show Extended Toolbar"
 msgstr ""
 
 #: showExternalImages
-msgid "Display pictures automatically in HTML Email"
+msgid "Display external images automatically in HTML Email"
 msgstr ""
 
 #: showFragments
@@ -12559,19 +12779,7 @@ msgid "Show password"
 msgstr ""
 
 #: showPopup
-msgctxt "showPopup"
 msgid "Show a popup notification"
-msgstr ""
-
-#: showPopupBrowserPlus
-msgctxt "showPopupBrowserPlus"
-msgid "Show a popup notification"
-msgstr ""
-
-#: showPopupBrowserPlusLink
-msgid ""
-"(requires <a target='_blank' href='http://browserplus.yahoo.com/'>Yahoo! "
-"BrowserPlus</a>)"
 msgstr ""
 
 #: showPopupMac
@@ -12599,7 +12807,7 @@ msgid "Show advanced search language in search toolbar"
 msgstr ""
 
 #: showSelectionString
-msgid "Display checkboxes to quickly select items in lists (requires refresh)"
+msgid "Display checkboxes to select items in lists"
 msgstr ""
 
 #: showSuggestions
@@ -12644,20 +12852,20 @@ msgstr ""
 
 #: signatureEnabledHelp
 msgid ""
-"To only use this signature sometimes, uncheck the box above and use the "
-"<b>Add Signature</b> button in the email compose screen."
+"To only use this signature sometimes, uncheck the box above and use the <b>"
+"Add Signature</b> button in the email compose screen."
 msgstr ""
 
 #: signatureNameDuplicate
 msgid "There is already a signature with the name \"{0}\". "
 msgstr ""
 
-#: signatureNameLabel
-msgid "Signature Name:"
+#: signatureNameHint
+msgid "<span style=\"font-style:italic\">enter name</span>"
 msgstr ""
 
-#: signatureNewName
-msgid "Signature #{0}"
+#: signatureNameLabel
+msgid "Signature Name:"
 msgstr ""
 
 #: signatureNameMissingRequired
@@ -12709,8 +12917,8 @@ msgstr ""
 
 #: skinChangeRestart
 msgid ""
-"Would you like to reload the application now to show the new theme? "
-"<br>(Otherwise, the new theme will appear the next time you sign in.)"
+"Would you like to reload the application now to show the new theme? ("
+"Otherwise, the new theme will appear the next time you sign in.)"
 msgstr ""
 
 #: skinDeletedError
@@ -12731,12 +12939,29 @@ msgstr ""
 msgid "Include last message only"
 msgstr ""
 
+#. #L10N_IGNORE_BLOCK_BEGIN
+#. # NOTE: We do not translate this URL because it gets redirected by a
+#. #       servlet to the appropriate locale based on the user pref or
+#. #       browser locale.
+#: smimeHelpURI
+msgid "/help/advanced/zwc_help_files/15_s_mime/setting_up_smime.htm"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
 #: snooze
 msgid "Snooze"
 msgstr ""
 
 #: snoozeAll
 msgid "Snooze all for:"
+msgstr ""
+
+#: snoozeAllLabel
+msgid "Snooze All"
+msgstr ""
+
+#: snoozeFor
+msgid "Snooze for:"
 msgstr ""
 
 #: socialcast
@@ -12769,9 +12994,8 @@ msgid ""
 "allows services like your mailbox to keep you alerted, even when you're not "
 "browsing that service's web site.</p> <p>Enabling this application in the "
 "Sidebar will allow you to:<p><ul><li>See alerts for new email in your "
-"browser toolbar, including how many new messages are in your "
-"Inbox</li><li>View your most recent email while browsing other "
-"sites</li></ul>"
+"browser toolbar, including how many new messages are in your Inbox</li><li>"
+"View your most recent email while browsing other sites</li></ul>"
 msgstr ""
 
 #: socialfoxErrorLoading
@@ -13035,6 +13259,10 @@ msgctxt "subjectNewTime"
 msgid "New Time Proposed"
 msgstr ""
 
+#: subscribeToFeed
+msgid "Subscribe to RSS/ATOM feed"
+msgstr ""
+
 #: subscript
 msgid "Subscript"
 msgstr ""
@@ -13053,27 +13281,6 @@ msgstr ""
 
 #: superscript
 msgid "Superscript"
-msgstr ""
-
-#: switchIncludeWarning
-msgid ""
-"Text that you've added before the included content will be preserved, but "
-"text added after it will be lost. Continue?"
-msgstr ""
-
-#: switchToText
-msgid "Switching to text will discard all HTML formatting. Continue?"
-msgstr ""
-
-#: switchToOfflineClientEx
-msgid ""
-"Go offline with Zimbra Desktop. <a "
-"href='http://www.zimbra.com/products/desktop.html' target='_blank'>Learn "
-"more</a>"
-msgstr ""
-
-#: subscribeToFeed
-msgid "Subscribe to RSS/ATOM feed"
 msgstr ""
 
 #: suggestABetterDay
@@ -13147,6 +13354,29 @@ msgstr ""
 
 #: summary
 msgid "Summary:"
+msgstr ""
+
+#: switchIncludeAndFormat
+msgid ""
+"Switching to text will discard all HTML formatting. Also, text that you've "
+"added at the top will be preserved, but other changes you've made may be "
+"lost. Continue?"
+msgstr ""
+
+#: switchIncludeWarning
+msgid ""
+"Text that you've added at the top will be preserved, but other changes "
+"you've made may be lost. Continue?"
+msgstr ""
+
+#: switchToText
+msgid "Switching to text will discard all HTML formatting. Continue?"
+msgstr ""
+
+#: switchToOfflineClientEx
+msgid ""
+"Go offline with Zimbra Desktop. <a href='http://www.zimbra.com/products/"
+"desktop.html' target='_blank'>Learn more</a>"
 msgstr ""
 
 #: sync
@@ -13264,7 +13494,7 @@ msgid "Tag with"
 msgstr ""
 
 #: targetAddressBook
-msgid "Select the destination address book."
+msgid "Select the destination contacts folder."
 msgstr ""
 
 #: targetCalendar
@@ -13289,6 +13519,10 @@ msgstr ""
 
 #: taskFolder
 msgid "Task List:"
+msgstr ""
+
+#: taskLists
+msgid "Task Lists"
 msgstr ""
 
 #: tasksFolder
@@ -13406,6 +13640,10 @@ msgstr ""
 msgid "Lake"
 msgstr ""
 
+#: theme-harmony
+msgid "Harmony"
+msgstr ""
+
 #: theme-hotrod
 msgid "Hot Rod"
 msgstr ""
@@ -13486,10 +13724,14 @@ msgstr ""
 msgid "Time Preferences"
 msgstr ""
 
+#: timezoneLanguage
+msgid "Time Zone and Language"
+msgstr ""
+
 #: timezoneConflictMsg
 msgid ""
 "Appointment End time falls ahead of Start Time. Please correct the end time "
-"or the timezone and try again."
+"or the time zone and try again."
 msgstr ""
 
 #: timezoneConflictTitle
@@ -13497,7 +13739,11 @@ msgid "Appointment Duration Conflict"
 msgstr ""
 
 #: timezonePrefSaved
-msgid "Timezone Preference Saved"
+msgid "Time Zone Preference Saved"
+msgstr ""
+
+#: timezonePrefLabel
+msgid "Time Zones"
 msgstr ""
 
 #: titleLabel
@@ -13575,6 +13821,10 @@ msgstr ""
 
 #: twitter
 msgid "Twitter"
+msgstr ""
+
+#: twitterNotifications
+msgid "Twitter notifications"
 msgstr ""
 
 #: twoWeeksAgo
@@ -13761,12 +14011,48 @@ msgstr ""
 msgid "Upload error: Access is denied<br>Unable to upload the file."
 msgstr ""
 
+#: uploadFailed
+msgid "Upload Failed:"
+msgstr ""
+
 #: uploadFileToBriefcase
 msgid "Upload New Files to Briefcase"
 msgstr ""
 
+#: uploadInvalidName
+msgctxt "uploadInvalidName"
+msgid ""
+"\"{0}\" is not a valid filename. It contains at least one invalid character."
+msgstr ""
+
+#: uploadInvalidNames
+msgid ""
+"The files {0} are not valid filenames. Each contains at least one invalid "
+"character."
+msgstr ""
+
 #: uploadNewFile
 msgid "Upload File"
+msgstr ""
+
+#: uploading
+msgid "Uploading..."
+msgstr ""
+
+#: uploadPercentComplete
+msgid "{0}% of the upload completed."
+msgstr ""
+
+#: uploadDisabledInProgress
+msgid "No more uploads are allowed until the current one completes."
+msgstr ""
+
+#: uploadSizeError
+msgid "The files {0} each exceed the size limit of {1}."
+msgstr ""
+
+#: singleUploadSizeError
+msgid "The file {0} exceeds the size limit of {1}."
 msgstr ""
 
 #: url
@@ -13779,12 +14065,6 @@ msgstr ""
 
 #: urlsLabel
 msgid "URLs:"
-msgstr ""
-
-#: useAddressBubbles
-msgid ""
-"Show email addresses in bubbles (takes effect the next time you view or "
-"compose a message)"
 msgstr ""
 
 #: usePrefix
@@ -13815,6 +14095,14 @@ msgstr ""
 msgid "Use signature:"
 msgstr ""
 
+#: usingDescLimited
+msgid "Using {0} {1} of {2} quota"
+msgstr ""
+
+#: usingDescUnlimited
+msgid "Using {0} of unlimited"
+msgstr ""
+
 #: validateLocation
 msgid "Validating Location"
 msgstr ""
@@ -13838,7 +14126,7 @@ msgid "anyone outside my domain"
 msgstr ""
 
 #: vacationExternalAllExceptAB
-msgid "anyone outside my domain except those in address book"
+msgid "anyone outside my domain except those in my contacts"
 msgstr ""
 
 #: vacationCalLabel
@@ -13847,8 +14135,8 @@ msgstr ""
 
 #: vcardContactSearch
 msgid ""
-"<br>Search your address book and select the contact to attach (as vCard) to "
-"this signature.<br><br>"
+"<br>Search your contacts and select the contact to attach (as vCard) to this "
+"signature.<br><br>"
 msgstr ""
 
 #: version
@@ -13859,9 +14147,9 @@ msgstr ""
 #: versionChangeRestart
 msgid ""
 "The server software has been updated. It is recommended that you reload your "
-"browser so that you are up to date.<br><br> Old version: {0}<br> New "
-"version: {1}<br><br> Would you like to reload the browser now? Warning: if "
-"you choose not to reload, there is a chance you will encounter errors."
+"browser so that you are up to date.<br><br> Old version: {0}<br> New version:"
+" {1}<br><br> Would you like to reload the browser now? Warning: if you "
+"choose not to reload, there is a chance you will encounter errors."
 msgstr ""
 
 #: versionLabel
@@ -14231,8 +14519,8 @@ msgstr ""
 #: workingDaysRestart
 msgid ""
 "Would you like to reload the application now to show the new work week/days? "
-"<br>(Otherwise, the new working week/days will appear the next time you "
-"sign in.)"
+"<br>(Otherwise, the new working week/days will appear the next time you sign "
+"in.)"
 msgstr ""
 
 #: workWeek
@@ -14347,6 +14635,10 @@ msgstr ""
 msgid "File successfully uploaded. Installing zimlet..."
 msgstr ""
 
+#: zimletFetchingTooltipData
+msgid "fetching data..."
+msgstr ""
+
 #: zimletInitError
 msgid ""
 "An error occurred while initializing the zimlet \"{0}\". Please notify "
@@ -14366,8 +14658,8 @@ msgstr ""
 #: zimletsPrefsUpload
 msgid ""
 "You may install new zimlets by uploading a valid .zip file containing the "
-"zimlet resources. To find out more, visit the <a "
-"href='http://gallery.zimbra.com' target=_blank>Zimbra Gallery</a>."
+"zimlet resources. To find out more, visit the <a href='http://"
+"gallery.zimbra.com' target=_blank>Zimbra Gallery</a>."
 msgstr ""
 
 #: zimletUndeployError
@@ -14432,61 +14724,65 @@ msgstr ""
 
 #: delegateCreatedHtml
 msgid ""
-"<h3>The following delegation rights has granted:</h3>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Delegation Rights:</th><td>{0}</td></tr>\n"
-"<tr><th align=\"left\">Grantee:</th><td>{1}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
-"<tr><th align=\"left\">Granter:</th><td>{2}</td></tr>\n"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">{2} has granted \"{0}\" rights to {1}</h1>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Granted Rights:</th><td>{0}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Grantee:</th><td>{1}</td></tr>\n"
 "</tr>\n"
-"</table>"
+"</table>\n"
+"</div>"
 msgstr ""
 
 #: delegateCreatedText
 msgid ""
-"The following delegation rights has granted:\n"
+"{2} has granted \"{0}\" rights to {1}\n"
 "\n"
-"Delegation Rights: {0}\n"
+"----------------------------------------------\n"
 "\n"
-"Grantee: {1}\n"
+"Granted Rights: {0}\n"
 "\n"
 "Owner: {2}\n"
 "\n"
-"Granter: {2}\n"
+"Grantee: {1}"
 msgstr ""
 
 #: delegateRevokedHtml
 msgid ""
-"<h3>The following delegation rights have been revoked:</h3>\n"
-"\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Delegation Rights:</th><td>{0}</td></tr>\n"
-"<tr><th align=\"left\">Grantee:</th><td>{1}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
-"<tr><th align=\"left\">Revokee:</th><td>{2}</td></tr>\n"
-"</table>"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">{2} has revoked \"{0}\" rights from {1}</h1>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Revoked Rights:</th><td>{0}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Revokee:</th><td>{1}</td></tr>\n"
+"</table>\n"
+"</div>"
 msgstr ""
 
 #: delegateRevokedText
 msgid ""
-"The following delegation rights have been revoked:\n"
+"{2} has revoked \"{0}\" rights from {1}\n"
 "\n"
-"Delegation Rights: {0}\n"
+"----------------------------------------------\n"
 "\n"
-"Grantee: {1}\n"
+"Revoked Rights: {0}\n"
 "\n"
 "Owner: {2}\n"
 "\n"
-"Revokee: {2}"
+"Revokee: {1}"
 msgstr ""
 
 #: revokeRightSubject
-msgid "{0} have been revoked delegate permission"
+msgid "{0} has revoked delegate permission"
 msgstr ""
 
 #: revokeRightsSubject
-msgid "{0} have been revoked delegate permissions"
+msgid "{0} has revoked delegate permissions"
 msgstr ""
 
 #: revokeRightStatus
@@ -14497,6 +14793,8 @@ msgstr ""
 msgid "Revoked delegate permissions from {0}"
 msgstr ""
 
+#. # Some share messages are duplicated in /ZimbraServer/conf/msgs/ZsMsg.properties
+#. # It's unclear if these creation and modification messages are used.
 #: shareCreatedSubject
 msgid "Share Created"
 msgstr ""
@@ -14507,31 +14805,32 @@ msgstr ""
 #. # NOTE: The \n newlines are significant -- DO NOT REMOVE
 #: shareCreatedText
 msgid ""
-"The following share has been created:\n"
+"{2} has shared \"{0}\" with {3}\n"
+"\n"
+"----------------------------------------------\n"
 "\n"
 "Shared item: {0} {1}\n"
 "Owner: {2}\n"
-"\n"
 "Grantee: {3}\n"
 "Role: {4}\n"
-"Allowed actions: {5}\n"
+"Allowed actions: {5}"
 msgstr ""
 
 #: shareCreatedHtml
 msgid ""
-"<h3>The following share has been created:</h3>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Shared item:</th><td>{0} {1}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
-"</table>\n"
-"</p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Grantee:</th><td>{3}</td></tr>\n"
-"<tr><th align=\"left\">Role:</th><td>{4}</td></tr>\n"
-"<tr><th align=\"left\">Allowed actions:</th><td>{5}</td>\n"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">{2} has shared \"{0}\" {1} with {3}</h1>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Shared item:</th><td>{0} {1}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Grantee:</th><td>{3}</td></tr>\n"
+"<tr><th align=\"right\">Role:</th><td>{4}</td></tr>\n"
+"<tr><th align=\"right\">Allowed actions:</th><td>{5}</td>\n"
 "</tr>\n"
-"</table>"
+"</table>\n"
+"</div>"
 msgstr ""
 
 #: shareModifiedSubject
@@ -14541,11 +14840,12 @@ msgstr ""
 #. # replacement args same as shareCreatedText
 #: shareModifiedText
 msgid ""
-"The following share has been modified:\n"
+"The following share has been modified: {0}\n"
+"\n"
+"----------------------------------------------\n"
 "\n"
 "Shared item: {0} {1}\n"
 "Owner: {2}\n"
-"\n"
 "Grantee: {3}\n"
 "Role: {4} [MODIFIED]\n"
 "Allowed actions: {5} [MODIFIED]"
@@ -14553,19 +14853,22 @@ msgstr ""
 
 #: shareModifiedHtml
 msgid ""
-"<h3>The following share has been modified:</h3>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Shared item:</th><td>{0} {1}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
-"</table>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Grantee:</th><td>{3}</td></tr>\n"
-"<tr><th align=\"left\">Role:</th><td>{4} [MODIFIED]</td></tr>\n"
-"<tr><th align=\"left\">Allowed actions:</th><td>{5} [MODIFIED]</td>\n"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">The following share has been modified: "
+"{0}</h1>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Shared item:</th><td>{0} {1}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Grantee:</th><td>{3}</td></tr>\n"
+"<tr style=\"color:#EB7400;\"><th align=\"right\">Role:</th><td>{4} "
+"[MODIFIED]</td></tr>\n"
+"<tr style=\"color:#EB7400;\"><th align=\"right\">Allowed actions:</th><td>{5}"
+" [MODIFIED]</td>\n"
 "</tr>\n"
-"</table>"
+"</table>\n"
+"</div>"
 msgstr ""
 
 #: shareNotCreated
@@ -14580,26 +14883,28 @@ msgstr ""
 #. # {2} = grantor name; {3} = grantee name
 #: shareRevokedText
 msgid ""
-"The following share has been revoked:\n"
+"The following share has been revoked: {0}\n"
+"\n"
+"----------------------------------------------\n"
 "\n"
 "Shared item: {0} {1}\n"
 "Owner: {2}\n"
-"\n"
 "Revokee: {3}"
 msgstr ""
 
 #: shareRevokedHtml
 msgid ""
-"<h3>The following share has been revoked:</h3>\n"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">The following share has been revoked: {0}</h1>"
 "\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Shared item:</th><td>{0} {1}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Shared item:</th><td>{0} {1}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Revokee:</th><td>{3}</td></tr>\n"
 "</table>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Revokee:</th><td>{3}</td></tr>\n"
-"</table>"
+"</div>"
 msgstr ""
 
 #: shareAcceptedSubject
@@ -14608,11 +14913,12 @@ msgstr ""
 
 #: shareAcceptedText
 msgid ""
-"The following share has been accepted:\n"
+"Accepted: {3} has accepted the sharing of \"{0}\"\n"
+"\n"
+"----------------------------------------------\n"
 "\n"
 "Shared item: {0}\n"
 "Owner: {2}\n"
-"\n"
 "Grantee: {3}\n"
 "Role: {4}\n"
 "Allowed actions: {5}"
@@ -14620,19 +14926,20 @@ msgstr ""
 
 #: shareAcceptedHtml
 msgid ""
-"<h3>The following share has been accepted:</h3>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Shared item:</th><td>{0}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
-"</table>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Grantee:</th><td>{3}</td></tr>\n"
-"<tr><th align=\"left\">Role:</th><td>{4}</td></tr>\n"
-"<tr><th align=\"left\">Allowed actions:</th><td>{5}</td>\n"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">Accepted: {3} has accepted the sharing of \""
+"{0}\"</h1>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Shared item:</th><td>{0}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Grantee:</th><td>{3}</td></tr>\n"
+"<tr><th align=\"right\">Role:</th><td>{4}</td></tr>\n"
+"<tr><th align=\"right\">Allowed actions:</th><td>{5}</td>\n"
 "</tr>\n"
-"</table>"
+"</table>\n"
+"</div>"
 msgstr ""
 
 #: shareDeclinedSubject
@@ -14642,11 +14949,12 @@ msgstr ""
 #. # replacement params same as shareCreatedText
 #: shareDeclinedText
 msgid ""
-"The following share has been declined:\n"
+"Declined: {3} has declined the sharing of \"{0}\"\n"
+"\n"
+"----------------------------------------------\n"
 "\n"
 "Shared item: {0}\n"
 "Owner: {2}\n"
-"\n"
 "Grantee: {3}\n"
 "Role: {4}\n"
 "Allowed actions: {5}"
@@ -14654,19 +14962,20 @@ msgstr ""
 
 #: shareDeclinedHtml
 msgid ""
-"<h3>The following share has been declined:</h3>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Shared item:</th><td>{0}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
-"</table>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Grantee:</th><td>{3}</td></tr>\n"
-"<tr><th align=\"left\">Role:</th><td>{4}</td></tr>\n"
-"<tr><th align=\"left\">Allowed actions:</th><td>{5}</td>\n"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">Declined: {3} has declined the sharing of \""
+"{0}\"</h1>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Shared item:</th><td>{0}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Grantee:</th><td>{3}</td></tr>\n"
+"<tr><th align=\"right\">Role:</th><td>{4}</td></tr>\n"
+"<tr><th align=\"right\">Allowed actions:</th><td>{5}</td>\n"
 "</tr>\n"
-"</table>"
+"</table>\n"
+"</div>"
 msgstr ""
 
 #: shareNotifySubject
@@ -14676,6 +14985,8 @@ msgstr ""
 #: shareNotifyText
 msgid ""
 "The following shared item has been updated:\n"
+"\n"
+"----------------------------------------------\n"
 "\n"
 "Shared item: {0}\n"
 "Owner: {2}\n"
@@ -14687,28 +14998,61 @@ msgstr ""
 
 #: shareNotifyHtml
 msgid ""
-"<h3>The following share item has been updated:</h3>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Shared item:</th><td>{0}</td></tr>\n"
-"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
-"</table>\n"
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr><th align=\"left\">Grantee:</th><td>{3}</td></tr>\n"
-"<tr><th align=\"left\">Role:</th><td>{4}</td></tr>\n"
-"<tr><th align=\"left\">Allowed actions:</th><td>{5}</td>\n"
+"<div style=\"font-family:sans-serif;\">\n"
+"<h1 style=\"font-size:1.3em;\">The following shared item has been "
+"updated:</h1>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\"color:#333"
+";font-size:1em;\">\n"
+"<tr><th align=\"right\">Shared item:</th><td>{0}</td></tr>\n"
+"<tr><th align=\"right\">Owner:</th><td>{2}</td></tr>\n"
+"<tr><th align=\"right\">Grantee:</th><td>{3}</td></tr>\n"
+"<tr><th align=\"right\">Role:</th><td>{4}</td></tr>\n"
+"<tr><th align=\"right\">Allowed actions:</th><td>{5}</td>\n"
 "</tr>\n"
-"</table>"
+"</table>\n"
+"</div>"
 msgstr ""
 
 #. # {0} = user-entered notes
 #: shareNotesHtml
 msgid ""
-"<p>\n"
-"<table border=\"0\">\n"
-"<tr valign=\"top\"><th align=\"left\">Notes:</th><td>{0}</td></tr>\n"
+"<hr>\n"
+"<table border=\"0\" cellpadding=\"3\" cellspacing=\"0\" style=\""
+"color:#333;font:1em sans-serif;\">\n"
+"<tr valign=\"top\"><th align=\"right\">Notes:</th><td>{0}</td></tr>\n"
 "</table>"
+msgstr ""
+
+#. # offline mode for client
+#: offlineDescription
+msgid ""
+"Would you like to enable offline mode to manage and compose mail, contacts \n"
+"and appointments when you're not connected to the Internet?"
+msgstr ""
+
+#: enableOffline
+msgid "Allow offline mode"
+msgstr ""
+
+#: enableOfflineDetails
+msgid ""
+"Copies of recent items will be synchronized and saved to this computer. \n"
+"If you're using a shared or public computer, this is not recommended. See "
+"Folder Properties to \n"
+"manage individual folder offline settings."
+msgstr ""
+
+#: disableOffline
+msgid "Don't allow offline mode"
+msgstr ""
+
+#: disableOfflineDetails
+msgid ""
+"You can read and compose new mail, edit and create contacts, and edit and \n"
+"create appointments only when you're connected to the Internet. Recent items "
+"will not be saved \n"
+"on this computer."
 msgstr ""
 
 #. # generic address
@@ -14756,6 +15100,10 @@ msgstr ""
 #: AB_EDIT_CONTACT
 msgctxt "AB_EDIT_CONTACT"
 msgid "Edit Contact"
+msgstr ""
+
+#: AB_EDIT_DL
+msgid "Edit Distribution List"
 msgstr ""
 
 #: AB_EDIT_GROUP
@@ -15149,16 +15497,14 @@ msgstr ""
 
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-2013 Telligent Systems, Inc. All rights reserved. "
-"\"Telligent\" and \"Zimbra\" are registered trademarks or trademarks of "
-"Telligent Systems, Inc."
+"Copyright © 2005-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
 msgstr ""
 
 #: splashScreenCopyrightZD
 msgid ""
-"Copyright © 2008-2013 Telligent Systems, Inc. All rights reserved. "
-"\"Telligent\" and \"Zimbra\" are registered trademarks or trademarks of "
-"Telligent Systems, Inc."
+"Copyright © 2008-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
 msgstr ""
 
 #: splashScreenSwitch
@@ -15209,9 +15555,8 @@ msgstr ""
 
 #: recurMonthlyEveryNumMonthsWeekDays
 msgid ""
-"The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} "
-"{1,choice,-1#day|0#weekend day|1#weekday} of every {2,number,integer} "
-"month(s)"
+"The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} {1,choice,-1#day|0#"
+"weekend day|1#weekday} of every {2,number,integer} month(s)"
 msgstr ""
 
 #: recurYearlyEveryDate
@@ -15226,8 +15571,8 @@ msgstr ""
 
 #: recurYearlyEveryMonthWeekDays
 msgid ""
-"The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} "
-"{1,choice,-1#day|0#weekend day|1#weekday} of every {2,date,MMMM}"
+"The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} {1,choice,-1#day|0#"
+"weekend day|1#weekday} of every {2,date,MMMM}"
 msgstr ""
 
 #: recurStart
@@ -15840,7 +16185,7 @@ msgstr ""
 msgid "{0,choice,1#contact|2#contacts}"
 msgstr ""
 
-#: typeContactGroup
+#: typeGroup
 msgid "{0,choice,1#contact group|2#contact groups}"
 msgstr ""
 
@@ -15868,7 +16213,23 @@ msgstr ""
 msgid "{0,choice,1#call|2#calls}"
 msgstr ""
 
-#. # strings for specific user actions
+#. # Strings for the toast message that appears after specific user actions. If you need to customize these
+#. # strings for each type of item or organizer, append the item type to the key. Here is a list of
+#. # item and organizer types that can be appended:
+#. #
+#. #   Conversation Message Contact Group Appointment Task File Document Voicemail Call
+#. #   Folder SavedSearch Tag AddressBook Calendar Briefcase TaskFolder VoicemailFolder
+#. #
+#. # For example, to provide a message specific to conversations being moved:
+#. #
+#. #   actionMoveConversation = {0} {1} were moved to "{2}"
+#. #
+#. # A string that is specific to the type will be used if it is found. Otherwise, the default version
+#. # that does not have a type (eg "actionMove") will be used. This mechanism is mostly intended for
+#. # languages where the verb form is dependent on the noun, so in the default English strings below,
+#. # there aren't any type-specific strings.
+#. # items
+#. #
 #. # {0} - number of items
 #. # {1} - item type, eg "message" or "messages"
 #. # {2} - optional folder or tag name
@@ -15944,22 +16305,13 @@ msgstr ""
 msgid "{0} {1} unmarked priority"
 msgstr ""
 
-#: actionUndoMove
-msgctxt "actionUndoMove"
-msgid "{0} {3} {0,choice,1#move|2#moves} undone"
-msgstr ""
-
-#: actionUndoTrash
-msgctxt "actionUndoTrash"
-msgid "{0} {3} {0,choice,1#move|2#moves} undone"
-msgstr ""
-
-#: actionUndoMarkAsJunk
-msgid "{0} spam {0,choice,1#marking|2#markings} undone"
-msgstr ""
-
-#: actionUndoMarkAsNotJunk
-msgid "{0} spam {0,choice,1#marking|2#markings} redone"
+#. # organizers
+#. #
+#. # {0} - organizer type, eg "Mail Folder"
+#. # {1} - name of organizer that was affected
+#. # {2} - additional argument, eg name of destination organizer for a move
+#: actionMoveOrganizer
+msgid "{0} \"{1}\" moved to \"{2}\""
 msgstr ""
 
 #: quickCommands
@@ -16065,7 +16417,7 @@ msgid "Calendar ..."
 msgstr ""
 
 #: filterAddressBook
-msgid "Address Book ..."
+msgid "Contacts Folder ..."
 msgstr ""
 
 #: filterTasksFolder
