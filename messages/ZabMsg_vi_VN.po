@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
-"PO-Revision-Date: 2017-12-30 12:06+0700\n"
+"POT-Creation-Date: 2017-12-31 16:33+0700\n"
+"PO-Revision-Date: 2017-12-31 16:49+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi_VN\n"
@@ -15,15 +15,17 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2011, 2012, 2013, 2014, 2015, 2016 Synacor, Inc.
 #. #
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
 #. #
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <https://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
 #: favIconUrl
@@ -60,6 +62,8 @@ msgstr ""
 "Dưới đây là các liên kết đến tài liệu và diễn đàn Zimbra, để giúp bạn tìm "
 "câu trả lời cho câu hỏi của bạn về việc sử dụng Máy chủ cộng tác Zimbra."
 
+#. # DEPRECATED
+#. # see ZaMsg.subtitle_help_center_1
 #: HELP_PAGE_2
 msgid "Zimbra Online Help"
 msgstr "Trợ giúp trực tuyến Zimbra"
@@ -119,7 +123,7 @@ msgid "Zimbra&trade; Administration Console"
 msgstr "Bảng quản trị Zimbra&trade"
 
 #: HELP_WIKI_LINK
-msgid "http://wiki.zimbra.com"
+msgid "https://wiki.zimbra.com"
 msgstr "http://wiki.zimbra.com"
 
 #: LBL_HomeZimbraVersion
@@ -154,45 +158,43 @@ msgstr "Trang chủ Zimbra"
 msgid "About Zimbra..."
 msgstr "Giới thiệu Zimbra ..."
 
+#. # Copyrights must be in English, so these two keys are omitted from localized versions in order to fall back to the ones here.
 #. # Used for About Screen copyright section
 #. # Takes in the current year as a parameter for copyright end year value
 #: aboutScreenCopyright
 msgid ""
-"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. This "
-"product is protected by U.S. and international copyright and intellectual "
-"property laws.<br /><br />\"Telligent\" and \"Zimbra\" are registered "
-"trademarks or trademarks of Telligent Systems, Inc. in the United States and "
-"other jurisdictions. All other marks and names mentioned herein may be "
-"trademarks of their respective companies.<br /><br />Telligent Systems, Inc. "
-"d/b/a Zimbra Software, LLC<br /><a href=\"http://www.zimbra.com\" target="
-"\"_blank\">www.zimbra.com</a>"
+"Zimbra {0} (build {1})<br><br> Copyright © 2005-{2} Synacor, Inc. All rights "
+"reserved. This product is protected by U.S. and international copyright and "
+"intellectual property laws. \"Zimbra\" is a registered trademark of Synacor, "
+"Inc. in the United States and other jurisdictions. All other marks and names "
+"mentioned herein may be trademarks of their respective companies.<br><br> "
+"Synacor, Inc. <a href=\"http://www.synacor.com\" target=\"_blank\">www."
+"synacor.com</a>"
 msgstr ""
-"Bản quyền 2005-{0} Telligent Systems, Inc. Giữ tất cả quyền. Sản phẩm này "
-"được bảo vệ bởi luật bản quyền và sở hữu trí tuệ của Mỹ và quốc tế. "
-"\"Telligent\" và \"Zimbra\" là các thương hiệu được đăng ký hoặc thương hiệu "
-"của Telligent Systems, Inc tại Hoa Kỳ và các nước khác. Tất cả các nhãn hiệu "
-"khác và tên đề cập ở đây có thể là thương hiệu của công ty tương ứng."
-"<br><br> Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br><a href="
-"\"http://www.zimbra.com\" target=\"_blank\">www.zimbra.com</a>"
+"Zimbra {0} (build {1})<br><br> Bản quyền 2005-{0} Synacor, Inc. Giữ tất cả "
+"quyền. Sản phẩm này được bảo vệ bởi luật bản quyền và sở hữu trí tuệ của Mỹ "
+"và quốc tế. \"Zimbra\" là các thương hiệu được đăng ký hoặc thương hiệu của "
+"Synacor, Inc tại Hoa Kỳ và các nước khác. Tất cả các nhãn hiệu khác và tên "
+"đề cập ở đây có thể là thương hiệu của công ty tương ứng.<br><br> TSynacor, "
+"Inc. <a href=\"http://www.synacor.com\" target=\"_blank\">www.synacor.com</a>"
 
 #. # Used for Login/Splash Screen copyright section
 #. # Takes in the current year as a parameter for copyright end year value
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. Telligent "
-"and Zimbra are registered trademarks or trademarks of Telligent Systems, Inc."
+"Copyright © 2005-{0} Synacor, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Synacor, Inc."
 msgstr ""
-"Bản quyền © 2005 - {0} Telligent Systems, Inc. Giữ tất cả quyền. Telligent "
-"và Zimbra là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
-"Systems, Inc."
+"Bản quyền © 2005 - {0} Synacor, Inc. Giữ tất cả quyền. \"Zimbra\" là các "
+"thương hiệu được đăng ký hoặc thương hiệu của Synacor, Inc."
 
 #: clientLevelNotice
 msgid ""
-"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader "
+"<a target=\"_new\" href=\"https://www.zimbra.com\">Zimbra</a> :: the leader "
 "in open source messaging and collaboration :: <a target=\"_new\" href="
-"\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" href=\"http://wiki."
-"zimbra.com\">Wiki</a> - <a target=\"_new\" href=\"http://www.zimbra.com/"
-"forums\">Forums</a>"
+"\"https://blog.zimbra.com\">Blog</a> - <a target=\"_new\" href=\"https://"
+"wiki.zimbra.com\">Wiki</a> - <a target=\"_new\" href=\"https://www.zimbra."
+"com/forums\">Forums</a>"
 msgstr ""
 "<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: là công ty "
 "hàng đầu về lĩnh vực thư tín và cộng tác nguồn mở :: <a target=\"_new\" href="
@@ -220,10 +222,18 @@ msgstr "thông điệp"
 msgid "Distribution Lists"
 msgstr "Danh sách phân phối"
 
+#. # ==================================================================================
+#. # ==================================================================================
+#. # ==================================================================================
+#. #
+#. # DEPRECATED
+#. # see ZaMsg.title_help_center
 #: HELP_CENTER_TITLE
 msgid "Zimbra Administrator Help Center"
 msgstr "Trung tâm trợ giúp quản trị viên Zimbra"
 
+#. # DEPRECATED
+#. # see ZaMsg.desc_help_center_1
 #: onlineHelpDetail
 msgid ""
 "To learn how to use the administration console, click the Zimbra Online Help "
@@ -272,7 +282,7 @@ msgstr "Hỏi cộng đồng"
 
 #: HELP_askCommunityItem1
 msgid ""
-"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Zimbra Forums</a> "
+"<a target=\"_new\" href=\"https://www.zimbra.com/forums\">Zimbra Forums</a> "
 "is a great place to get answers to your questions. You can search for "
 "answers from the postings, and you can post a question."
 msgstr ""
@@ -282,7 +292,7 @@ msgstr ""
 
 #: HELP_askCommunityItem2
 msgid ""
-"<a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a> includes "
+"<a target=\"_new\" href=\"https://wiki.zimbra.com\">Zimbra Wiki</a> includes "
 "articles the support team and community have written in response to "
 "troubleshooting and administration issues that were not covered in the "
 "documentation"

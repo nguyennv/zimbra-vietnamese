@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
-"PO-Revision-Date: 2017-12-31 16:15+0700\n"
+"POT-Creation-Date: 2017-12-31 16:33+0700\n"
+"PO-Revision-Date: 2017-12-31 21:15+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi_VN\n"
@@ -12,6 +12,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.0.3\n"
 
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2010, 2011, 2013, 2014, 2016 Synacor, Inc.
+#. #
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. #
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <https://www.gnu.org/licenses/>.
+#. # ***** END LICENSE BLOCK *****
+#. #
 #. # SMS/email gateway information from:
 #. #
 #. # http://en.wikipedia.org/wiki/List_of_SMS_gateways
@@ -638,126 +653,6 @@ msgstr "Lặp"
 msgid "{0}@bplmobile.com"
 msgstr "{0}@bplmobile.com"
 
-#: carrier_Japan_AUKDDI.label
-msgid "AU by KDDI"
-msgstr "AU by KDDI"
-
-#: carrier_Japan_AUKDDI.pattern
-msgid "{0}@ezweb.ne.jp"
-msgstr "{0}@ezweb.ne.jp"
-
-#: carrier_Japan_NTTDoCoMo.label
-msgid "NTT DoCoMo"
-msgstr "NTT DoCoMo"
-
-#: carrier_Japan_NTTDoCoMo.pattern
-msgid "{0}@docomo.ne.jp"
-msgstr "{0}@docomo.ne.jp"
-
-#: carrier_Japan_VodafoneChuugoku.label
-msgid "Vodafone (Chuugoku)"
-msgstr "Vodafone (Chuugoku)"
-
-#: carrier_Japan_VodafoneChuugoku.pattern
-msgid "{0}@n.vodafone.ne.jp"
-msgstr "{0}@n.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneHokkaido.label
-msgid "Vodafone (Hokkaido)"
-msgstr "Vodafone (Hokkaido)"
-
-#: carrier_Japan_VodafoneHokkaido.pattern
-msgid "{0}@d.vodafone.ne.jp"
-msgstr "{0}@d.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneHokuriko.label
-msgid "Vodafone (Hokuriko)"
-msgstr "Vodafone (Hokuriko)"
-
-#: carrier_Japan_VodafoneHokuriko.pattern
-msgid "{0}@r.vodafone.ne.jp"
-msgstr "{0}@r.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneKansai.label
-msgid "Vodafone (Kansai)"
-msgstr "Vodafone (Kansai)"
-
-#: carrier_Japan_VodafoneKansai.pattern
-msgid "{0}@k.vodafone.ne.jp"
-msgstr "{0}@k.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneKantoKoushin.label
-msgid "Vodafone (Kanto/Koushin)"
-msgstr "Vodafone (Kanto/Koushin)"
-
-#: carrier_Japan_VodafoneKantoKoushin.pattern
-msgid "{0}@t.vodafone.ne.jp"
-msgstr "{0}@t.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneKyuushuOkinawa.label
-msgid "Vodafone (Kyuushu/Okinawa)"
-msgstr "Vodafone (Kyuushu/Okinawa)"
-
-#: carrier_Japan_VodafoneKyuushuOkinawa.pattern
-msgid "{0}@q.vodafone.ne.jp"
-msgstr "{0}@q.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneShikoku.label
-msgid "Vodafone (Shikoku)"
-msgstr "Vodafone (Shikoku)"
-
-#: carrier_Japan_VodafoneShikoku.pattern
-msgid "{0}@s.vodafone.ne.jp"
-msgstr "{0}@s.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneTouhoku.label
-msgid "Vodafone (Touhoku)"
-msgstr "Vodafone (Touhoku)"
-
-#: carrier_Japan_VodafoneTouhoku.pattern
-msgid "{0}@h.vodafone.ne.jp"
-msgstr "{0}@h.vodafone.ne.jp"
-
-#: carrier_Japan_VodafoneToukai.label
-msgid "Vodafone (Toukai)"
-msgstr "Vodafone (Toukai)"
-
-#: carrier_Japan_VodafoneToukai.pattern
-msgid "{0}@c.vodafone.ne.jp"
-msgstr "{0}@c.vodafone.ne.jp"
-
-#: carrier_Japan_Willcom.label
-msgid "Willcom"
-msgstr "Willcom"
-
-#: carrier_Japan_Willcom.pattern
-msgid "{0}@pdx.ne.jp"
-msgstr "{0}@pdx.ne.jp"
-
-#: carrier_Japan_Willcomdi.label
-msgid "Willcom (di)"
-msgstr "Willcom (di)"
-
-#: carrier_Japan_Willcomdi.pattern
-msgid "{0}@di.pdx.ne.jp"
-msgstr "{0}@di.pdx.ne.jp"
-
-#: carrier_Japan_Willcomdj.label
-msgid "Willcom (dj)"
-msgstr "Willcom (dj)"
-
-#: carrier_Japan_Willcomdj.pattern
-msgid "{0}@dj.pdx.ne.jp"
-msgstr "{0}@dj.pdx.ne.jp"
-
-#: carrier_Japan_Willcomdk.label
-msgid "Willcom (dk)"
-msgstr "Willcom (dk)"
-
-#: carrier_Japan_Willcomdk.pattern
-msgid "{0}@dk.pdx.ne.jp"
-msgstr "{0}@dk.pdx.ne.jp"
-
 #: carrier_Mauritius_Emtel.label
 msgid "Emtel"
 msgstr "Emtel"
@@ -1278,3 +1173,93 @@ msgstr "TracFone"
 msgctxt "carrier_USVirginIslands_TracFone.pattern"
 msgid "{0}@mmst5.tracfone.com"
 msgstr "{0}@mmst5.tracfone.com"
+
+#~ msgid "AU by KDDI"
+#~ msgstr "AU by KDDI"
+
+#~ msgid "{0}@ezweb.ne.jp"
+#~ msgstr "{0}@ezweb.ne.jp"
+
+#~ msgid "NTT DoCoMo"
+#~ msgstr "NTT DoCoMo"
+
+#~ msgid "{0}@docomo.ne.jp"
+#~ msgstr "{0}@docomo.ne.jp"
+
+#~ msgid "Vodafone (Chuugoku)"
+#~ msgstr "Vodafone (Chuugoku)"
+
+#~ msgid "{0}@n.vodafone.ne.jp"
+#~ msgstr "{0}@n.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Hokkaido)"
+#~ msgstr "Vodafone (Hokkaido)"
+
+#~ msgid "{0}@d.vodafone.ne.jp"
+#~ msgstr "{0}@d.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Hokuriko)"
+#~ msgstr "Vodafone (Hokuriko)"
+
+#~ msgid "{0}@r.vodafone.ne.jp"
+#~ msgstr "{0}@r.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Kansai)"
+#~ msgstr "Vodafone (Kansai)"
+
+#~ msgid "{0}@k.vodafone.ne.jp"
+#~ msgstr "{0}@k.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Kanto/Koushin)"
+#~ msgstr "Vodafone (Kanto/Koushin)"
+
+#~ msgid "{0}@t.vodafone.ne.jp"
+#~ msgstr "{0}@t.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Kyuushu/Okinawa)"
+#~ msgstr "Vodafone (Kyuushu/Okinawa)"
+
+#~ msgid "{0}@q.vodafone.ne.jp"
+#~ msgstr "{0}@q.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Shikoku)"
+#~ msgstr "Vodafone (Shikoku)"
+
+#~ msgid "{0}@s.vodafone.ne.jp"
+#~ msgstr "{0}@s.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Touhoku)"
+#~ msgstr "Vodafone (Touhoku)"
+
+#~ msgid "{0}@h.vodafone.ne.jp"
+#~ msgstr "{0}@h.vodafone.ne.jp"
+
+#~ msgid "Vodafone (Toukai)"
+#~ msgstr "Vodafone (Toukai)"
+
+#~ msgid "{0}@c.vodafone.ne.jp"
+#~ msgstr "{0}@c.vodafone.ne.jp"
+
+#~ msgid "Willcom"
+#~ msgstr "Willcom"
+
+#~ msgid "{0}@pdx.ne.jp"
+#~ msgstr "{0}@pdx.ne.jp"
+
+#~ msgid "Willcom (di)"
+#~ msgstr "Willcom (di)"
+
+#~ msgid "{0}@di.pdx.ne.jp"
+#~ msgstr "{0}@di.pdx.ne.jp"
+
+#~ msgid "Willcom (dj)"
+#~ msgstr "Willcom (dj)"
+
+#~ msgid "{0}@dj.pdx.ne.jp"
+#~ msgstr "{0}@dj.pdx.ne.jp"
+
+#~ msgid "Willcom (dk)"
+#~ msgstr "Willcom (dk)"
+
+#~ msgid "{0}@dk.pdx.ne.jp"
+#~ msgstr "{0}@dk.pdx.ne.jp"
