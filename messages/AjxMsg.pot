@@ -1,29 +1,32 @@
-#. extracted from .\messages\AjxMsg.properties
+#. extracted from AjxMsg.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2017-12-31 16:33+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
-#. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
-#. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 Synacor, Inc.
+#. #
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. #
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <https://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. # 
 #. # formats for calendar use
@@ -98,6 +101,10 @@ msgstr ""
 msgid "Forwarded Message"
 msgstr ""
 
+#: forwardedMessage1
+msgid "Begin forwarded message:"
+msgstr ""
+
 #: origMsg
 msgid "Original Message"
 msgstr ""
@@ -130,16 +137,17 @@ msgstr ""
 msgid "cc:"
 msgstr ""
 
+#. # used to recognize attribution such as "On Feb 5, 2013, John wrote:"
+#: on
+msgid "on"
+msgstr ""
+
 #: wrote
 msgid "wrote"
 msgstr ""
 
 #: changed
 msgid "changed"
-msgstr ""
-
-#: on
-msgid "on"
 msgstr ""
 
 #: colorBlue
@@ -251,6 +259,10 @@ msgstr ""
 msgid "years"
 msgstr ""
 
+#: atEventTime
+msgid "at time of event"
+msgstr ""
+
 #: yesterday
 msgid "yesterday"
 msgstr ""
@@ -263,8 +275,21 @@ msgstr ""
 msgid "tomorrow"
 msgstr ""
 
+#: midnight
+msgid "Midnight"
+msgstr ""
+
+#: noon
+msgid "Noon"
+msgstr ""
+
 #: cancel
 msgid "Cancel"
+msgstr ""
+
+#: close
+msgctxt "close"
+msgid "Close"
 msgstr ""
 
 #: detail
@@ -336,6 +361,10 @@ msgstr ""
 msgid "Show password"
 msgstr ""
 
+#: ellipsis
+msgid "…"
+msgstr ""
+
 #. # tooltip
 #: loading
 msgid "Loading..."
@@ -360,6 +389,7 @@ msgid "Finish"
 msgstr ""
 
 #: _close
+msgctxt "_close"
 msgid "Close"
 msgstr ""
 
@@ -569,8 +599,8 @@ msgstr ""
 
 #: invalidDateString
 msgid ""
-"Date value must be entered in the form: MM/DD/YYYY or \"today\", \"yesterday\" "
-"or \"tomorrow\"."
+"Date value must be entered in the form: MM/DD/YYYY or \"today\", \""
+"yesterday\" or \"tomorrow\"."
 msgstr ""
 
 #: invalidTimeString
@@ -622,415 +652,12 @@ msgstr ""
 msgid "{0} {1}"
 msgstr ""
 
-#. # Timezone names
-#: Africa/Algiers
-msgid "GMT +01:00 West Central Africa"
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: fontSizes
+msgid "8pt 9pt 10pt 11pt 12pt 13pt 14pt 16pt 18pt 24pt 36pt 48pt"
 msgstr ""
 
-#: America/Asuncion
-msgid "GMT -04:00 Asuncion  "
-msgstr ""
-
-#: Africa/Cairo
-msgid "GMT +02:00 Egypt"
-msgstr ""
-
-#: Africa/Casablanca
-msgid "GMT +00:00 Casablanca"
-msgstr ""
-
-#: Africa/Monrovia
-msgid "GMT +00:00 Monrovia"
-msgstr ""
-
-#: Africa/Harare
-msgid "GMT +02:00 Harare, Pretoria"
-msgstr ""
-
-#: Africa/Nairobi
-msgid "GMT +03:00 Nairobi"
-msgstr ""
-
-#: Africa/Windhoek
-msgid "GMT +01:00 Namibia"
-msgstr ""
-
-#: America/Bogota
-msgid "GMT -05:00 Colombia"
-msgstr ""
-
-#: America/Argentina/Buenos_Aires
-msgid "GMT -03:00 Argentina"
-msgstr ""
-
-#: America/Caracas
-msgid "GMT -04:30 Caracas"
-msgstr ""
-
-#: America/Cayenne
-msgid "GMT -03:00 Cayenne, Fortaleza"
-msgstr ""
-
-#: America/Chihuahua
-msgid "GMT -07:00 Chihuahua, La Paz, Mazatlan"
-msgstr ""
-
-#: America/Cuiaba
-msgid "GMT -04:00 Cuiaba"
-msgstr ""
-
-#: America/Godthab
-msgid "GMT -03:00 Greenland"
-msgstr ""
-
-#: America/Guatemala
-msgid "GMT -06:00 Central America"
-msgstr ""
-
-#: America/Guyana
-msgid "GMT -04:00 Georgetown, La Paz, Manaus, San Juan"
-msgstr ""
-
-#: America/La_Paz
-msgid "GMT -04:00 La Paz"
-msgstr ""
-
-#: America/Manaus
-msgid "GMT -04:00 Manaus"
-msgstr ""
-
-#: America/Mexico_City
-msgid "GMT -06:00 Guadalajara, Mexico City, Monterrey"
-msgstr ""
-
-#: America/Montevideo
-msgid "GMT -03:00 Montevideo"
-msgstr ""
-
-#: America/Santiago
-msgid "GMT -04:00 Pacific South America"
-msgstr ""
-
-#: America/Tijuana
-msgid "GMT -08:00 Baja California"
-msgstr ""
-
-#: Asia/Almaty
-msgid "GMT +06:00 Astana"
-msgstr ""
-
-#: Asia/Amman
-msgid "GMT +02:00 Jordan"
-msgstr ""
-
-#: Asia/Baghdad
-msgid "GMT +03:00 Iraq"
-msgstr ""
-
-#: Asia/Baku
-msgid "GMT +04:00 Baku"
-msgstr ""
-
-#: Asia/Bangkok
-msgid "GMT +07:00 Bangkok, Hanoi, Jakarta"
-msgstr ""
-
-#: Asia/Beirut
-msgid "GMT +02:00 Beirut"
-msgstr ""
-
-#: Asia/Kolkata
-msgid "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
-msgstr ""
-
-#: Asia/Colombo
-msgid "GMT +05:30 Sri Jayawardenepura"
-msgstr ""
-
-#: Asia/Damascus
-msgid "GMT +02:00 Damascus"
-msgstr ""
-
-#: Asia/Dhaka
-msgid "GMT +06:00 Dhaka"
-msgstr ""
-
-#: Asia/Hong_Kong
-msgid "GMT +08:00 Beijing, Chongqing, Hong Kong, Urumqi"
-msgstr ""
-
-#: Asia/Irkutsk
-msgid "GMT +09:00 Irkutsk"
-msgstr ""
-
-#: Asia/Jerusalem
-msgid "GMT +02:00 Jerusalem"
-msgstr ""
-
-#: Asia/Kabul
-msgid "GMT +04:30 Kabul"
-msgstr ""
-
-#: Asia/Kamchatka
-msgid "GMT +12:00 Petropavlovsk-Kamchatsky"
-msgstr ""
-
-#: Asia/Karachi
-msgid "GMT +05:00 Islamabad, Karachi"
-msgstr ""
-
-#: Asia/Katmandu
-msgid "GMT +05:45 Kathmandu"
-msgstr ""
-
-#: Asia/Krasnoyarsk
-msgid "GMT +08:00 Krasnoyarsk"
-msgstr ""
-
-#: Asia/Kuala_Lumpur
-msgid "GMT +08:00 Kuala Lumpur, Singapore"
-msgstr ""
-
-#: Asia/Kuwait
-msgid "GMT +03:00 Kuwait, Riyadh"
-msgstr ""
-
-#: Asia/Magadan
-msgid "GMT +11:00 Magadan, Solomon Is., New Caledonia"
-msgstr ""
-
-#: Asia/Muscat
-msgid "GMT +04:00 Abu Dhabi, Muscat"
-msgstr ""
-
-#: Asia/Novosibirsk
-msgid "GMT +07:00 Novosibirsk"
-msgstr ""
-
-#: Asia/Rangoon
-msgid "GMT +06:30 Rangoon"
-msgstr ""
-
-#: Asia/Seoul
-msgid "GMT +09:00 Korea"
-msgstr ""
-
-#: Asia/Taipei
-msgid "GMT +08:00 Taipei"
-msgstr ""
-
-#: Asia/Tashkent
-msgid "GMT +05:00 Tashkent"
-msgstr ""
-
-#: Asia/Tbilisi
-msgid "GMT +04:00 Tbilisi"
-msgstr ""
-
-#: Asia/Tehran
-msgid "GMT +03:30 Tehran"
-msgstr ""
-
-#: Asia/Tokyo
-msgid "GMT +09:00 Japan"
-msgstr ""
-
-#: Asia/Ulaanbaatar
-msgid "GMT +08:00 Ulaanbaatar"
-msgstr ""
-
-#: Asia/Vladivostok
-msgid "GMT +11:00 Vladivostok"
-msgstr ""
-
-#: Asia/Yakutsk
-msgid "GMT +10:00 Yakutsk"
-msgstr ""
-
-#: Asia/Yekaterinburg
-msgid "GMT +06:00 Yekaterinburg"
-msgstr ""
-
-#: Asia/Yerevan
-msgid "GMT +04:00 Yerevan"
-msgstr ""
-
-#: Atlantic/Azores
-msgid "GMT -01:00 Azores"
-msgstr ""
-
-#: Atlantic/Cape_Verde
-msgid "GMT -01:00 Cape Verde Is."
-msgstr ""
-
-#: Atlantic/South_Georgia
-msgid "GMT -02:00 Mid-Atlantic"
-msgstr ""
-
-#: Australia/Adelaide
-msgid "GMT +09:30 Adelaide"
-msgstr ""
-
-#: Australia/Brisbane
-msgid "GMT +10:00 Brisbane"
-msgstr ""
-
-#: Australia/Darwin
-msgid "GMT +09:30 Darwin"
-msgstr ""
-
-#: Australia/Hobart
-msgid "GMT +10:00 Hobart"
-msgstr ""
-
-#: Australia/Perth
-msgid "GMT +08:00 Perth"
-msgstr ""
-
-#: Australia/Sydney
-msgid "GMT +10:00 Canberra, Melbourne, Sydney"
-msgstr ""
-
-#: America/Sao_Paulo
-msgid "GMT -03:00 Brasilia"
-msgstr ""
-
-#: America/Halifax
-msgid "GMT -04:00 Atlantic Time (Canada)"
-msgstr ""
-
-#: America/St_Johns
-msgid "GMT -03:30 Newfoundland"
-msgstr ""
-
-#: America/Regina
-msgid "GMT -06:00 Saskatchewan"
-msgstr ""
-
-#: Etc/GMT-12
-msgid "GMT +12:00 GMT+12"
-msgstr ""
-
-#: Etc/GMT+11
-msgid "GMT -11:00 GMT-11"
-msgstr ""
-
-#: Etc/GMT+12
-msgid "GMT -12:00 Dateline"
-msgstr ""
-
-#: Etc/GMT+2
-msgid "GMT -02:00 GMT-02"
-msgstr ""
-
-#: UTC
-msgid "GMT/UTC Coordinated Universal Time"
-msgstr ""
-
-#: Europe/Athens
-msgid "GMT +02:00 Athens, Beirut, Bucharest, Istanbul"
-msgstr ""
-
-#: Europe/Belgrade
-msgid "GMT +01:00 Belgrade, Bratislava, Budapest, Ljubljana, Prague"
-msgstr ""
-
-#: Europe/Berlin
-msgid "GMT +01:00 Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
-msgstr ""
-
-#: Europe/Brussels
-msgid "GMT +01:00 Brussels, Copenhagen, Madrid, Paris"
-msgstr ""
-
-#: Europe/Helsinki
-msgid "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
-msgstr ""
-
-#: Europe/Istanbul
-msgid "GMT +02:00 Istanbul"
-msgstr ""
-
-#: Europe/Kaliningrad
-msgid "GMT +03:00 Kaliningrad"
-msgstr ""
-
-#: Europe/London
-msgid "GMT +00:00 Britain, Ireland, Portugal"
-msgstr ""
-
-#: Europe/Minsk
-msgid "GMT +03:00 Minsk"
-msgstr ""
-
-#: Europe/Moscow
-msgid "GMT +04:00 Moscow, St. Petersburg, Volgograd"
-msgstr ""
-
-#: Europe/Warsaw
-msgid "GMT +01:00 Sarajevo, Skopje, Warsaw, Zagreb"
-msgstr ""
-
-#: Indian/Mauritius
-msgid "GMT +04:00 Port Louis"
-msgstr ""
-
-#: Pacific/Auckland
-msgid "GMT +12:00 New Zealand"
-msgstr ""
-
-#: Pacific/Fiji
-msgid "GMT +12:00 Fiji"
-msgstr ""
-
-#: Pacific/Guadalcanal
-msgid "GMT +11.00 Solomon Is. / New Caledonia"
-msgstr ""
-
-#: Pacific/Guam
-msgid "GMT +10:00 Guam, Port Moresby"
-msgstr ""
-
-#: Pacific/Midway
-msgid "GMT -11:00 Samoa"
-msgstr ""
-
-#: Pacific/Tongatapu
-msgid "GMT +13:00 Nuku'alofa"
-msgstr ""
-
-#: America/Anchorage
-msgid "GMT -09:00 Alaska"
-msgstr ""
-
-#: America/Phoenix
-msgid "GMT -07:00 Arizona"
-msgstr ""
-
-#: America/Chicago
-msgid "GMT -06:00 US/Canada Central"
-msgstr ""
-
-#: America/Indiana/Indianapolis
-msgid "GMT -05:00 Indiana (East)"
-msgstr ""
-
-#: America/New_York
-msgid "GMT -05:00 US/Canada Eastern"
-msgstr ""
-
-#: Pacific/Honolulu
-msgid "GMT -10:00 Hawaii"
-msgstr ""
-
-#: America/Denver
-msgid "GMT -07:00 US/Canada Mountain"
-msgstr ""
-
-#: America/Los_Angeles
-msgid "GMT -08:00 US/Canada Pacific"
-msgstr ""
-
+#. #L10N_IGNORE_BLOCK_END
 #. # The font family options specified below are a list of fonts for
 #. # HTML compose. Each value is a comma-separated list of font names
 #. # to be used. The entries whose key ends in ".display" is used as
@@ -1110,27 +737,27 @@ msgid "arial, helvetica, sans-serif"
 msgstr ""
 
 #: fontFamilyBase2.css
-msgid "times new roman, new york, times, serif"
+msgid "'times new roman', 'new york', times, serif"
 msgstr ""
 
 #: fontFamilyBase3.css
-msgid "arial black,avant garde"
+msgid "'arial black','avant garde'"
 msgstr ""
 
 #: fontFamilyBase4.css
-msgid "courier new, courier, monaco, monospace, sans-serif"
+msgid "'courier new', courier, monaco, monospace, sans-serif"
 msgstr ""
 
 #: fontFamilyBase5.css
-msgid "comic sans ms, comic sans, sans-serif"
+msgid "'comic sans ms', 'comic sans', sans-serif"
 msgstr ""
 
 #: fontFamilyBase6.css
-msgid "lucida console, sans-serif"
+msgid "'lucida console', sans-serif"
 msgstr ""
 
 #: fontFamilyBase7.css
-msgid "garamond, new york, times, serif"
+msgid "garamond, 'new york', times, serif"
 msgstr ""
 
 #: fontFamilyBase8.css
@@ -1138,7 +765,7 @@ msgid "georgia,serif"
 msgstr ""
 
 #: fontFamilyBase9.css
-msgid "tahoma, new york, times, serif"
+msgid "tahoma, 'new york', times, serif"
 msgstr ""
 
 #: fontFamilyBase10.css
@@ -1146,7 +773,7 @@ msgid "terminal,monaco"
 msgstr ""
 
 #: fontFamilyBase11.css
-msgid "trebuchet ms,sans-serif"
+msgid "'trebuchet ms',sans-serif"
 msgstr ""
 
 #: fontFamilyBase12.css
@@ -1494,4 +1121,8 @@ msgstr ""
 
 #: collapsedGroup
 msgid "Collapsed Group"
+msgstr ""
+
+#: kbffTitle
+msgid "Keyboard focus field (you should never see or hear this)"
 msgstr ""

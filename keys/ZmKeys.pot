@@ -1,30 +1,33 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
-#. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
-#. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 Synacor, Inc.
+#. #
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. #
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <https://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
-#. extracted from .\keys\ZmKeys.properties
+#. extracted from ZmKeys.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2017-12-31 16:33+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #. # Keyboard Shortcuts for the ZCS Web Client
 #. #
@@ -102,7 +105,23 @@ msgstr ""
 #. # key. For example: Ctrl+C. If you want to add more than one modifier, use
 #. # another plus sign. For example: Ctrl+Shift+O.
 #. #
-#. # If you want to have more than one shortcut for the same action, use a 
+#. # When using a modifier as part of the "display" property (which is what the user
+#. # sees as how to enter the shortcut), put the modifier in lower case in curly
+#. # brackets (but leave it as Shift, Ctrl, Alt, or Meta in the "keycode" property).
+#. # For example:
+#. #
+#. #   list.SelectAll.display = {ctrl}+A
+#. #   list.SelectAll.keycode = Ctrl+65
+#. #
+#. # That will accomplish two things:
+#. #
+#. #   1. Translators will need to translate the modifier only once. (For example,
+#. #      "Ctrl" on a German keyboard is "Strg".
+#. #
+#. #   2. If the modifier varies by platform, the appropriate one will be shown. For
+#. #      example, the "Meta" key on a PC is "Windows" and on a Mac it's "Cmd".
+#. #
+#. # If you want to have more than one shortcut for the same action, use a
 #. # semicolon (and optional space) to separate the shortcuts. For example, to
 #. # specify three different shortcuts for the global action Foo:
 #. #
@@ -138,6 +157,34 @@ msgstr ""
 #. # the actions within a map, from low to high. There are gaps so that
 #. # properties may be inserted and given a sort order without having to
 #. # change the order of other properties.
+#. #
+#. #
+#. # Translation
+#. # -----------
+#. #
+#. # To translate this file into another language, follow these steps:
+#. #
+#. # 1. Translate the "description" properties. These are documentation for the user.
+#. #    Most of them will be shortcuts; a few will be maps.
+#. #
+#. # 2. Change letter-based shortcuts so they are appropriate for the language. For example,
+#. #    let's say you're working on the Portuguese translation. The word for "Inbox" in
+#. #    Portuguese is "Entrada". If you want the mnemonic shortcut for going to the Inbox
+#. #    to make more sense, you can change the shortcut to be "E" instead of "I". First,
+#. #    update its "keycode" property. You'll also want to update its "display" property so
+#. #    that the user knows what to type. Here's how it might look in Portuguese:
+#. #
+#. #        mail.GoToInbox.display = E; V,E
+#. #        mail.GoToInbox.keycode = 69; 86,69
+#. #        mail.GoToInbox.description = Entrada
+#. #        mail.GoToInbox.sort = 20010
+#. #
+#. #    Note that you can specify modifiers in "display" properties using curly brackets, for
+#. #    example "{shift}". Those will get replaced with the translated version in the user-visible
+#. #    documentation. You still need to use "Shift" in the "keycode" property, since that is what
+#. #    ZCS will recognize.
+#. #
+#. #    DO NOT translate the "INHERIT" properties. Those must contain valid internal map names.
 #. # Map: global
 #: global.description
 msgid "All Applications"
@@ -185,7 +232,7 @@ msgid "10210"
 msgstr ""
 
 #: global.ShiftDelete.display
-msgid "Shift+Del; Shift+Backspace"
+msgid "{shift}+Del; {shift}+Backspace"
 msgstr ""
 
 #: global.ShiftDelete.keycode
@@ -201,7 +248,7 @@ msgid "10215"
 msgstr ""
 
 #: global.FocusContentPane.display
-msgid "Ctrl+/"
+msgid "{ctrl}+/"
 msgstr ""
 
 #: global.FocusContentPane.keycode
@@ -213,7 +260,7 @@ msgid "Focus content pane"
 msgstr ""
 
 #: global.FocusContentPane.sort
-msgid "10280"
+msgid "10063"
 msgstr ""
 
 #: global.FocusSearchBox.display
@@ -229,12 +276,11 @@ msgid "Focus search box"
 msgstr ""
 
 #: global.FocusSearchBox.sort
-msgctxt "global.FocusSearchBox.sort"
-msgid "10270"
+msgid "10060"
 msgstr ""
 
 #: global.FocusToolbar.display
-msgid "Ctrl+Y"
+msgid "{ctrl}+Y"
 msgstr ""
 
 #: global.FocusToolbar.keycode
@@ -246,23 +292,7 @@ msgid "Focus toolbar"
 msgstr ""
 
 #: global.FocusToolbar.sort
-msgid "10275"
-msgstr ""
-
-#: global.FocusWebSearchBox.display
-msgid "Alt+/"
-msgstr ""
-
-#: global.FocusWebSearchBox.keycode
-msgid "Alt+191"
-msgstr ""
-
-#: global.FocusWebSearchBox.description
-msgid "Focus web search box"
-msgstr ""
-
-#: global.FocusWebSearchBox.sort
-msgid "10277"
+msgid "10067"
 msgstr ""
 
 #: global.GoToCalendar.display
@@ -326,8 +356,7 @@ msgid "Go to Briefcase"
 msgstr ""
 
 #: global.GoToBriefcase.sort
-msgctxt "global.GoToBriefcase.sort"
-msgid "10070"
+msgid "10040"
 msgstr ""
 
 #: global.GoToOptions.display
@@ -407,7 +436,6 @@ msgid "New item"
 msgstr ""
 
 #: global.New.sort
-msgctxt "global.New.sort"
 msgid "10070"
 msgstr ""
 
@@ -460,22 +488,6 @@ msgstr ""
 msgid "10130"
 msgstr ""
 
-#: global.NewChat.display
-msgid "N,H"
-msgstr ""
-
-#: global.NewChat.keycode
-msgid "78,72"
-msgstr ""
-
-#: global.NewChat.description
-msgid "New chat"
-msgstr ""
-
-#: global.NewChat.sort
-msgid "10117"
-msgstr ""
-
 #: global.NewContact.display
 msgid "N,C"
 msgstr ""
@@ -510,7 +522,7 @@ msgid "10080"
 msgstr ""
 
 #: global.NewMessageWindow.display
-msgid "Shift+C"
+msgid "{shift}+C"
 msgstr ""
 
 #: global.NewMessageWindow.keycode
@@ -539,6 +551,22 @@ msgstr ""
 
 #: global.NewRosterItem.sort
 msgid "10125"
+msgstr ""
+
+#: global.NewSearch.display
+msgid "N,S"
+msgstr ""
+
+#: global.NewSearch.keycode
+msgid "78,83"
+msgstr ""
+
+#: global.NewSearch.description
+msgid "Open a search tab"
+msgstr ""
+
+#: global.NewSearch.sort
+msgid "10195"
 msgstr ""
 
 #: global.NewTag.display
@@ -573,8 +601,24 @@ msgstr ""
 msgid "10115"
 msgstr ""
 
+#: global.NewDocument.display
+msgid "N,D"
+msgstr ""
+
+#: global.NewDocument.keycode
+msgid "78,68"
+msgstr ""
+
+#: global.NewDocument.description
+msgid "New document"
+msgstr ""
+
+#: global.NewDocument.sort
+msgid "10135"
+msgstr ""
+
 #: global.NextPage.display
-msgid "Ctrl+ArrowRight"
+msgid "{ctrl}+ArrowRight"
 msgstr ""
 
 #: global.NextPage.keycode
@@ -582,6 +626,7 @@ msgid "Ctrl+39"
 msgstr ""
 
 #: global.NextPage.description
+msgctxt "global.NextPage.description"
 msgid "Next page"
 msgstr ""
 
@@ -590,7 +635,7 @@ msgid "10170"
 msgstr ""
 
 #: global.PreviousPage.display
-msgid "Ctrl+ArrowLeft"
+msgid "{ctrl}+ArrowLeft"
 msgstr ""
 
 #: global.PreviousPage.keycode
@@ -598,6 +643,7 @@ msgid "Ctrl+37"
 msgstr ""
 
 #: global.PreviousPage.description
+msgctxt "global.PreviousPage.description"
 msgid "Previous page"
 msgstr ""
 
@@ -659,7 +705,7 @@ msgid "10260"
 msgstr ""
 
 #: global.SelectAll.display
-msgid "Ctrl+Shift+A"
+msgid "{ctrl}+{shift}+A"
 msgstr ""
 
 #: global.SelectAll.keycode
@@ -676,11 +722,11 @@ msgid "10270"
 msgstr ""
 
 #: global.Shortcuts.display
-msgid "Ctrl+Q;Shift+/"
+msgid "{ctrl}+Q; {shift}+/"
 msgstr ""
 
 #: global.Shortcuts.keycode
-msgid "Ctrl+81;Shift+191"
+msgid "Ctrl+81; Shift+191"
 msgstr ""
 
 #: global.Shortcuts.description
@@ -691,6 +737,30 @@ msgstr ""
 #: global.Shortcuts.sort
 msgctxt "global.Shortcuts.sort"
 msgid "10270"
+msgstr ""
+
+#: global.SubMenu.display
+msgid ",; {ctrl}+Enter; {ctrl}+Space; {shift}+F10"
+msgstr ""
+
+#: global.SubMenu.keycode
+msgid "188; Ctrl+13; Ctrl+32; Shift+121"
+msgstr ""
+
+#: global.SubMenu.display.mac
+msgid ",; {ctrl}+Enter; {ctrl}+Space"
+msgstr ""
+
+#: global.SubMenu.keycode.mac
+msgid "188; Ctrl+13; Ctrl+32"
+msgstr ""
+
+#: global.SubMenu.description
+msgid "Show right-click menu"
+msgstr ""
+
+#: global.SubMenu.sort
+msgid "10275"
 msgstr ""
 
 #: global.Tag.display
@@ -758,13 +828,11 @@ msgid "10234"
 msgstr ""
 
 #. # Map: mail
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: mail.INHERIT
 msgctxt "mail.INHERIT"
 msgid "global"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: mail.description
 msgid "Mail"
 msgstr ""
@@ -792,7 +860,7 @@ msgid "20060"
 msgstr ""
 
 #: mail.FirstUnread.display
-msgid "Shift+["
+msgid "{shift}+["
 msgstr ""
 
 #: mail.FirstUnread.keycode
@@ -954,7 +1022,7 @@ msgid "20177"
 msgstr ""
 
 #: mail.LastUnread.display
-msgid "Shift+]"
+msgid "{shift}+]"
 msgstr ""
 
 #: mail.LastUnread.keycode
@@ -969,24 +1037,10 @@ msgstr ""
 msgid "20192"
 msgstr ""
 
-#: mail.MuteUnmuteConv.display
-msgctxt "mail.MuteUnmuteConv.display"
-msgid "E"
-msgstr ""
-
-#: mail.MuteUnmuteConv.keycode
-msgctxt "mail.MuteUnmuteConv.keycode"
-msgid "69"
-msgstr ""
-
-#: mail.MuteUnmuteConv.description
-msgid "Mark mute"
-msgstr ""
-
-#: mail.MuteUnmuteConv.sort
-msgid "20063"
-msgstr ""
-
+#. #mail.MuteUnmuteConv.display = E
+#. #mail.MuteUnmuteConv.keycode = 69
+#. #mail.MuteUnmuteConv.description = Mark mute
+#. #mail.MuteUnmuteConv.sort = 20063
 #: mail.MarkRead.display
 msgid "M,R; Z"
 msgstr ""
@@ -1269,30 +1323,6 @@ msgstr ""
 msgid "20100"
 msgstr ""
 
-#: mail.Undo.display
-msgid "Ctrl+Z"
-msgstr ""
-
-#: mail.Undo.display.mac
-msgid "Cmd+Z"
-msgstr ""
-
-#: mail.Undo.keycode
-msgid "Ctrl+90"
-msgstr ""
-
-#: mail.Undo.keycode.mac
-msgid "Meta+90"
-msgstr ""
-
-#: mail.Undo.description
-msgid "Undo"
-msgstr ""
-
-#: mail.Undo.sort
-msgid "20300"
-msgstr ""
-
 #: mail.ViewByConversation.display
 msgid "V,C"
 msgstr ""
@@ -1326,13 +1356,11 @@ msgid "20210"
 msgstr ""
 
 #. # Map: conversationList
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: conversationList.INHERIT
 msgctxt "conversationList.INHERIT"
 msgid "mail"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: conversationList.description
 msgid "Conversation List View"
 msgstr ""
@@ -1360,7 +1388,7 @@ msgid "25020"
 msgstr ""
 
 #: conversationList.CollapseAll.display
-msgid "Ctrl+O"
+msgid "{ctrl}+O"
 msgstr ""
 
 #: conversationList.CollapseAll.keycode
@@ -1394,7 +1422,7 @@ msgid "25010"
 msgstr ""
 
 #: conversationList.ExpandAll.display
-msgid "Shift+O"
+msgid "{shift}+O"
 msgstr ""
 
 #: conversationList.ExpandAll.keycode
@@ -1402,7 +1430,7 @@ msgid "Shift+79"
 msgstr ""
 
 #: conversationList.ExpandAll.description
-msgid "Expand all conversations"
+msgid "Expand all loaded conversations"
 msgstr ""
 
 #: conversationList.ExpandAll.sort
@@ -1410,7 +1438,7 @@ msgid "25032"
 msgstr ""
 
 #: conversationList.FirstUnreadMsg.display
-msgid "Shift+Ctrl+["
+msgid "{shift}+{ctrl}+["
 msgstr ""
 
 #: conversationList.FirstUnreadMsg.keycode
@@ -1426,7 +1454,7 @@ msgid "25060"
 msgstr ""
 
 #: conversationList.LastUnreadMsg.display
-msgid "Shift+Ctrl+]"
+msgid "{shift}+{ctrl}+]"
 msgstr ""
 
 #: conversationList.LastUnreadMsg.keycode
@@ -1442,7 +1470,7 @@ msgid "25070"
 msgstr ""
 
 #: conversationList.NextUnreadMsg.display
-msgid "Ctrl+]"
+msgid "{ctrl}+]"
 msgstr ""
 
 #: conversationList.NextUnreadMsg.keycode
@@ -1458,7 +1486,7 @@ msgid "25050"
 msgstr ""
 
 #: conversationList.PreviousUnreadMsg.display
-msgid "Ctrl+["
+msgid "{ctrl}+["
 msgstr ""
 
 #: conversationList.PreviousUnreadMsg.keycode
@@ -1500,7 +1528,7 @@ msgid "30000"
 msgstr ""
 
 #: compose.AddressPicker.display
-msgid "Ctrl+G"
+msgid "{ctrl}+G"
 msgstr ""
 
 #: compose.AddressPicker.keycode
@@ -1516,7 +1544,7 @@ msgid "30050"
 msgstr ""
 
 #: compose.Attachment.display
-msgid "Ctrl+M"
+msgid "{ctrl}+M"
 msgstr ""
 
 #: compose.Attachment.keycode
@@ -1552,7 +1580,7 @@ msgstr ""
 
 #: compose.HtmlFormat.display
 msgctxt "compose.HtmlFormat.display"
-msgid "Ctrl+H"
+msgid "{ctrl}+H"
 msgstr ""
 
 #: compose.HtmlFormat.keycode
@@ -1570,7 +1598,7 @@ msgid "30060"
 msgstr ""
 
 #: compose.NewWindow.display
-msgid "Ctrl+D"
+msgid "{ctrl}+D"
 msgstr ""
 
 #: compose.NewWindow.keycode
@@ -1587,7 +1615,7 @@ msgstr ""
 
 #: compose.Save.display
 msgctxt "compose.Save.display"
-msgid "Ctrl+S"
+msgid "{ctrl}+S"
 msgstr ""
 
 #: compose.Save.keycode
@@ -1605,7 +1633,7 @@ msgstr ""
 
 #: compose.Send.display
 msgctxt "compose.Send.display"
-msgid "Ctrl+Enter"
+msgid "{ctrl}+Enter"
 msgstr ""
 
 #: compose.Send.keycode
@@ -1624,7 +1652,7 @@ msgstr ""
 
 #: compose.Shortcuts.display
 msgctxt "compose.Shortcuts.display"
-msgid "Ctrl+Q"
+msgid "{ctrl}+Q"
 msgstr ""
 
 #: compose.Shortcuts.keycode
@@ -1638,16 +1666,15 @@ msgid "Show shortcuts"
 msgstr ""
 
 #: compose.Shortcuts.sort
-msgctxt "compose.Shortcuts.sort"
-msgid "10270"
+msgid "31000"
 msgstr ""
 
 #: compose.Spellcheck.display
-msgid "Alt+X"
+msgid "{alt}+X"
 msgstr ""
 
 #: compose.Spellcheck.display.mac
-msgid "Ctrl+X"
+msgid "{ctrl}+X"
 msgstr ""
 
 #: compose.Spellcheck.keycode
@@ -1696,7 +1723,7 @@ msgstr ""
 
 #: quickReply.Send.display
 msgctxt "quickReply.Send.display"
-msgid "Ctrl+Enter"
+msgid "{ctrl}+Enter"
 msgstr ""
 
 #: quickReply.Send.keycode
@@ -1714,13 +1741,10 @@ msgid "35010"
 msgstr ""
 
 #. # Map: conversation
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: conversation.INHERIT
-msgctxt "conversation.INHERIT"
-msgid "mail"
+msgid "conversationList"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: conversation.description
 msgid "Conversation View"
 msgstr ""
@@ -1730,7 +1754,7 @@ msgid "40000"
 msgstr ""
 
 #: conversation.NextConversation.display
-msgid "Shift+ArrowRight"
+msgid "{shift}+ArrowRight"
 msgstr ""
 
 #: conversation.NextConversation.keycode
@@ -1746,7 +1770,7 @@ msgid "40010"
 msgstr ""
 
 #: conversation.PreviousConversation.display
-msgid "Shift+ArrowLeft"
+msgid "{shift}+ArrowLeft"
 msgstr ""
 
 #: conversation.PreviousConversation.keycode
@@ -1762,21 +1786,17 @@ msgid "40020"
 msgstr ""
 
 #. # Map: message
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: message.INHERIT
 msgctxt "message.INHERIT"
 msgid "mail"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #. # Map: contacts
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: contacts.INHERIT
 msgctxt "contacts.INHERIT"
 msgid "global"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: contacts.description
 msgid "Address Book"
 msgstr ""
@@ -1849,7 +1869,7 @@ msgstr ""
 
 #: editContact.Save.display
 msgctxt "editContact.Save.display"
-msgid "Ctrl+S"
+msgid "{ctrl}+S"
 msgstr ""
 
 #: editContact.Save.keycode
@@ -1867,13 +1887,11 @@ msgid "60010"
 msgstr ""
 
 #. # Map: calendar
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: calendar.INHERIT
 msgctxt "calendar.INHERIT"
 msgid "global"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: calendar.description
 msgid "Calendar"
 msgstr ""
@@ -1935,20 +1953,22 @@ msgstr ""
 msgid "70010"
 msgstr ""
 
-#: calendar.Copy.display
-msgid "Ctrl+C"
+#: calendar.Select.display
+msgctxt "calendar.Select.display"
+msgid "Enter"
 msgstr ""
 
-#: calendar.Copy.keycode
-msgid "Ctrl+67"
+#: calendar.Select.keycode
+msgctxt "calendar.Select.keycode"
+msgid "13"
 msgstr ""
 
-#: calendar.Copy.description
-msgid "Copy appointment"
+#: calendar.Select.description
+msgid "Open appointment"
 msgstr ""
 
-#: calendar.Copy.sort
-msgid "70110"
+#: calendar.Select.sort
+msgid "70005"
 msgstr ""
 
 #: calendar.FBView.display
@@ -1965,22 +1985,6 @@ msgstr ""
 
 #: calendar.FBView.sort
 msgid "70096"
-msgstr ""
-
-#: calendar.Paste.display
-msgid "Ctrl+V"
-msgstr ""
-
-#: calendar.Paste.keycode
-msgid "Ctrl+86"
-msgstr ""
-
-#: calendar.Paste.description
-msgid "Paste appointment"
-msgstr ""
-
-#: calendar.Paste.sort
-msgid "70120"
 msgstr ""
 
 #: calendar.CalListView.display
@@ -2099,13 +2103,117 @@ msgstr ""
 msgid "70070"
 msgstr ""
 
+#: calendar.NextPage.display
+msgid "{ctrl}+ArrowRight; Page Down"
+msgstr ""
+
+#: calendar.NextPage.keycode
+msgid "Ctrl+39; 34"
+msgstr ""
+
+#: calendar.NextPage.description
+msgctxt "calendar.NextPage.description"
+msgid "Next page"
+msgstr ""
+
+#: calendar.NextPage.sort
+msgid "70200"
+msgstr ""
+
+#: calendar.PreviousPage.display
+msgid "{ctrl}+ArrowLeft; Page Up"
+msgstr ""
+
+#: calendar.PreviousPage.keycode
+msgid "Ctrl+37; 33"
+msgstr ""
+
+#: calendar.PreviousPage.description
+msgctxt "calendar.PreviousPage.description"
+msgid "Previous page"
+msgstr ""
+
+#: calendar.PreviousPage.sort
+msgid "70210"
+msgstr ""
+
+#: calendar.NextDay.display
+msgctxt "calendar.NextDay.display"
+msgid "ArrowRight"
+msgstr ""
+
+#: calendar.NextDay.keycode
+msgctxt "calendar.NextDay.keycode"
+msgid "39"
+msgstr ""
+
+#: calendar.NextDay.description
+msgid "Next day"
+msgstr ""
+
+#: calendar.NextDay.sort
+msgid "70220"
+msgstr ""
+
+#: calendar.PreviousDay.display
+msgctxt "calendar.PreviousDay.display"
+msgid "ArrowLeft"
+msgstr ""
+
+#: calendar.PreviousDay.keycode
+msgctxt "calendar.PreviousDay.keycode"
+msgid "37"
+msgstr ""
+
+#: calendar.PreviousDay.description
+msgid "Previous day"
+msgstr ""
+
+#: calendar.PreviousDay.sort
+msgid "70230"
+msgstr ""
+
+#: calendar.NextAppointment.display
+msgctxt "calendar.NextAppointment.display"
+msgid "ArrowDown"
+msgstr ""
+
+#: calendar.NextAppointment.keycode
+msgctxt "calendar.NextAppointment.keycode"
+msgid "40"
+msgstr ""
+
+#: calendar.NextAppointment.description
+msgid "Next appointment"
+msgstr ""
+
+#: calendar.NextAppointment.sort
+msgid "70240"
+msgstr ""
+
+#: calendar.PreviousAppointment.display
+msgctxt "calendar.PreviousAppointment.display"
+msgid "ArrowUp"
+msgstr ""
+
+#: calendar.PreviousAppointment.keycode
+msgctxt "calendar.PreviousAppointment.keycode"
+msgid "38"
+msgstr ""
+
+#: calendar.PreviousAppointment.description
+msgid "Previous appointment"
+msgstr ""
+
+#: calendar.PreviousAppointment.sort
+msgid "70250"
+msgstr ""
+
 #. # Map: editAppointment
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: editAppointment.INHERIT
 msgid "tabView"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: editAppointment.description
 msgid "Edit Appointment"
 msgstr ""
@@ -2135,7 +2243,7 @@ msgstr ""
 
 #: editAppointment.HtmlFormat.display
 msgctxt "editAppointment.HtmlFormat.display"
-msgid "Ctrl+H"
+msgid "{ctrl}+H"
 msgstr ""
 
 #: editAppointment.HtmlFormat.keycode
@@ -2154,7 +2262,7 @@ msgstr ""
 
 #: editAppointment.Save.display
 msgctxt "editAppointment.Save.display"
-msgid "Ctrl+S"
+msgid "{ctrl}+S"
 msgstr ""
 
 #: editAppointment.Save.keycode
@@ -2173,7 +2281,7 @@ msgstr ""
 
 #: editAppointment.Shortcuts.display
 msgctxt "editAppointment.Shortcuts.display"
-msgid "Ctrl+Q"
+msgid "{ctrl}+Q"
 msgstr ""
 
 #: editAppointment.Shortcuts.keycode
@@ -2187,17 +2295,47 @@ msgid "Show shortcuts"
 msgstr ""
 
 #: editAppointment.Shortcuts.sort
-msgctxt "editAppointment.Shortcuts.sort"
-msgid "10270"
+msgid "81000"
+msgstr ""
+
+#. # Map: viewAppointment
+#: viewAppointment.INHERIT
+msgctxt "viewAppointment.INHERIT"
+msgid "global"
+msgstr ""
+
+#: viewAppointment.description
+msgid "View Appointment"
+msgstr ""
+
+#: viewAppointment.sort
+msgid "85000"
+msgstr ""
+
+#: viewAppointment.Cancel.display
+msgctxt "viewAppointment.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: viewAppointment.Cancel.keycode
+msgctxt "viewAppointment.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: viewAppointment.Cancel.description
+msgctxt "viewAppointment.Cancel.description"
+msgid "Close"
+msgstr ""
+
+#: viewAppointment.Cancel.sort
+msgid "85020"
 msgstr ""
 
 #. # Map: options
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: options.INHERIT
 msgid "global,tabView"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: options.description
 msgid "Preferences"
 msgstr ""
@@ -2208,7 +2346,7 @@ msgstr ""
 
 #: options.Save.display
 msgctxt "options.Save.display"
-msgid "Ctrl+S"
+msgid "{ctrl}+S"
 msgstr ""
 
 #: options.Save.keycode
@@ -2226,13 +2364,11 @@ msgid "90010"
 msgstr ""
 
 #. # Map: tasks
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: tasks.INHERIT
 msgctxt "tasks.INHERIT"
 msgid "global"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: tasks.description
 msgid "Tasks"
 msgstr ""
@@ -2381,7 +2517,7 @@ msgstr ""
 
 #: editTask.Save.display
 msgctxt "editTask.Save.display"
-msgid "Ctrl+S"
+msgid "{ctrl}+S"
 msgstr ""
 
 #: editTask.Save.keycode
@@ -2399,13 +2535,11 @@ msgid "106010"
 msgstr ""
 
 #. # Map: briefcase
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: briefcase.INHERIT
 msgctxt "briefcase.INHERIT"
 msgid "global"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: briefcase.description
 msgid "Briefcase"
 msgstr ""
@@ -2472,13 +2606,11 @@ msgid "107013"
 msgstr ""
 
 #. # Map: voicemail
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: voicemail.INHERIT
 msgctxt "voicemail.INHERIT"
 msgid "global"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: voicemail.description
 msgid "Voice Mail View"
 msgstr ""
@@ -2632,13 +2764,11 @@ msgid "45020"
 msgstr ""
 
 #. # Map: call
-#. #L10N_IGNORE_BLOCK_BEGIN
 #: call.INHERIT
 msgctxt "call.INHERIT"
 msgid "global"
 msgstr ""
 
-#. #L10N_IGNORE_BLOCK_END
 #: call.description
 msgid "Call List View"
 msgstr ""
@@ -2686,9 +2816,7 @@ msgid "46010"
 msgstr ""
 
 #. # Map: address
-#. #L10N_IGNORE_BLOCK_BEGIN
 #. #address.INHERIT = compose
-#. #L10N_IGNORE_BLOCK_END
 #: address.description
 msgid "Address Bubble"
 msgstr ""
@@ -2726,6 +2854,7 @@ msgid "39"
 msgstr ""
 
 #: address.SelectNext.description
+msgctxt "address.SelectNext.description"
 msgid "Select next address"
 msgstr ""
 
@@ -2744,9 +2873,84 @@ msgid "37"
 msgstr ""
 
 #: address.SelectPrevious.description
+msgctxt "address.SelectPrevious.description"
 msgid "Select previous address"
 msgstr ""
 
 #: address.SelectPrevious.sort
 msgid "30130"
+msgstr ""
+
+#: dlAddressList.SelectPrevious.display
+msgctxt "dlAddressList.SelectPrevious.display"
+msgid "ArrowUp"
+msgstr ""
+
+#: dlAddressList.SelectPrevious.keycode
+msgctxt "dlAddressList.SelectPrevious.keycode"
+msgid "38"
+msgstr ""
+
+#: dlAddressList.SelectPrevious.description
+msgctxt "dlAddressList.SelectPrevious.description"
+msgid "Select previous address"
+msgstr ""
+
+#: dlAddressList.SelectPrevious.sort
+msgid "30140"
+msgstr ""
+
+#: dlAddressList.SelectNext.display
+msgctxt "dlAddressList.SelectNext.display"
+msgid "ArrowDown"
+msgstr ""
+
+#: dlAddressList.SelectNext.keycode
+msgctxt "dlAddressList.SelectNext.keycode"
+msgid "40"
+msgstr ""
+
+#: dlAddressList.SelectNext.description
+msgctxt "dlAddressList.SelectNext.description"
+msgid "Select next address"
+msgstr ""
+
+#: dlAddressList.SelectNext.sort
+msgid "30150"
+msgstr ""
+
+#: dlAddressList.Enter.display
+msgctxt "dlAddressList.Enter.display"
+msgid "Enter"
+msgstr ""
+
+#: dlAddressList.Enter.keycode
+msgid "13; 32"
+msgstr ""
+
+#: dlAddressList.Enter.description
+msgid "Select (in list)"
+msgstr ""
+
+#: dlAddressList.Enter.sort
+msgid "30160"
+msgstr ""
+
+#: dlAddressList.Cancel.display
+msgctxt "dlAddressList.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: dlAddressList.Cancel.keycode
+msgctxt "dlAddressList.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: dlAddressList.Cancel.description
+msgctxt "dlAddressList.Cancel.description"
+msgid "Close"
+msgstr ""
+
+#: dlAddressList.Cancel.sort
+msgid "30170"
 msgstr ""

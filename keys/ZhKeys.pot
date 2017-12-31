@@ -1,30 +1,33 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2007, 2008, 2009, 2010, 2012, 2013 Zimbra Software, LLC.
-#. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
-#. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # Copyright (C) 2007, 2008, 2009, 2010, 2013, 2014, 2015, 2016 Synacor, Inc.
+#. #
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. #
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <https://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
-#. extracted from .\keys\ZhKeys.properties
+#. extracted from ZhKeys.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2017-12-31 16:33+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #. # Keyboard Shortcuts for the ZCS Standard (HTML) Client
 #. #
@@ -99,7 +102,23 @@ msgstr ""
 #. # key. For example: Ctrl+C. If you want to add more than one modifier, use
 #. # another plus sign. For example: Ctrl+Shift+O.
 #. #
-#. # If you want to have more than one shortcut for the same action, use a 
+#. # When using a modifier as part of the "display" property (which is what the user
+#. # sees as how to enter the shortcut), put the modifier in lower case in curly
+#. # brackets (but leave it as Shift, Ctrl, Alt, or Meta in the "keycode" property).
+#. # For example:
+#. #
+#. #   list.SelectAll.display = {ctrl}+A
+#. #   list.SelectAll.keycode = Ctrl+65
+#. #
+#. # That will accomplish two things:
+#. #
+#. #   1. Translators will need to translate the modifier only once. (For example,
+#. #      "Ctrl" on a German keyboard is "Strg".
+#. #
+#. #   2. If the modifier varies by platform, the appropriate one will be shown. For
+#. #      example, the "Meta" key on a PC is "Windows" and on a Mac it's "Cmd".
+#. #
+#. # If you want to have more than one shortcut for the same action, use a
 #. # semicolon (and optional space) to separate the shortcuts. For example, to
 #. # specify three different shortcuts for the global action Foo:
 #. #
@@ -122,15 +141,6 @@ msgstr ""
 #. #
 #. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
 #. #
-#. # The sequence "NNN" has a special meaning in shortcuts. It stands for "any
-#. # number". For example, with the shortcut
-#. #
-#. #    global.Tag.display = T,NNN
-#. #    global.Tag.keycode = 84,NNN
-#. #
-#. # the key sequence "T,3" will tag selected items with the tag which has
-#. # 3 as its alias. Only actions which contain "NNN" support that sort of mapping.
-#. #
 #. # Documentation
 #. # -------------
 #. #
@@ -146,6 +156,33 @@ msgstr ""
 #. # the actions within a map, from low to high. There are gaps so that
 #. # properties may be inserted and given a sort order without having to
 #. # change the order of other properties.
+#. #
+#. #
+#. # Translation
+#. # -----------
+#. #
+#. # To translate this file into another language, follow these steps:
+#. #
+#. # 1. Translate the "description" properties. These are documentation for the user.
+#. #    Most of them will be shortcuts; a few will be maps.
+#. #
+#. # 2. Change letter-based shortcuts so they are appropriate for the language. For example,
+#. #    let's say you're working on the Portuguese translation. The word for "Inbox" in
+#. #    Portuguese is "Entrada". If you want the mnemonic shortcut for going to the Inbox
+#. #    to make more sense, you can change the shortcut to be "E" instead of "I". First,
+#. #    update its "keycode" property. You'll also want to update its "display" property so
+#. #    that the user knows what to type. Here's how it might look in Portuguese:
+#. #
+#. #        mail.GoToInbox.display = E; V,E
+#. #        mail.GoToInbox.keycode = 69; 86,69
+#. #        mail.GoToInbox.description = Entrada
+#. #
+#. #    You can translate modifier keys (Shift, Ctrl, Alt, Meta) in the "display" properties,
+#. #    but be careful not to change them in the "keycode" properties.
+#. #
+#. #    DO NOT translate the "INHERIT" properties. Those must contain valid internal map names.
+#. #
+#. #    DO NOT translate the "keys" properties (eg "global.keys").
 #. # Map: global
 #: global.description
 msgid "Shortcuts for All Applications"
@@ -337,12 +374,10 @@ msgstr ""
 msgid "84,NNN"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: global.keys
 msgid "global.NewMessage, global.GoToMail, global.GoToOptions"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: mail
 #: mail.description
 msgid "Shortcuts in Mail"
@@ -589,7 +624,6 @@ msgstr ""
 msgid "Unflag messages"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: mail.keys
 msgid ""
 "mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, "
@@ -598,7 +632,6 @@ msgid ""
 "mail.ShowExternalImages, overview.folders, overview.tags"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: compose
 #: compose.description
 msgid "Shortcuts in Mail Compose form"
@@ -724,14 +757,12 @@ msgstr ""
 msgid "Send the message"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: compose.keys
 msgid ""
 "compose.Send, compose.Save, compose.Attachment, compose.AddressPicker, "
 "compose.HighPriority, compose.NormalPriority, compose.LowPriority"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: conversation
 #: conversation.description
 msgid "Shortcuts in Mail Conversation View"
@@ -771,13 +802,11 @@ msgstr ""
 msgid "Show the previous page of messages in conversation"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: conversation.keys
 msgid ""
 "conversation.NextConversationPage, conversation.PreviousConversationPage"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: contacts
 #: contacts.description
 msgid "Shortcuts for Address Book"
@@ -847,14 +876,12 @@ msgstr ""
 msgid "New contact group"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: contacts.keys
 msgid ""
 "contacts.GoToContacts, contacts.NewContact, contacts.Delete, contacts.Edit, "
 "contacts.NewGroup, overview.addressbooks"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: editContact
 #: editContact.description
 msgid "Shortcuts in Edit Contact form"
@@ -1063,7 +1090,6 @@ msgstr ""
 msgid "Show work-week view"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: calendar.keys
 msgid ""
 "calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, "
@@ -1072,7 +1098,6 @@ msgid ""
 "global.PreviousPage, overview.calendars"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: overview
 #: overview.addressbooks.display
 msgid "E,A"
@@ -1206,14 +1231,12 @@ msgctxt "mfolders.Save.description"
 msgid "Save changes"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: mfolders.keys
 msgid ""
 "global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, "
 "mfolders.NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: maddrbooks
 #: maddrbooks.description
 msgid "Manage Address Books"
@@ -1247,13 +1270,11 @@ msgstr ""
 msgid "Link to shared address book"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: maddrbooks.keys
 msgid ""
 "global.Cancel, maddrbooks.NewAddressBook, maddrbooks.NewLink, mfolders.Save"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: mtags
 #: mtags.description
 msgid "Manage Tags"
@@ -1296,12 +1317,10 @@ msgctxt "mtags.Save.description"
 msgid "Save changes"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: mtags.keys
 msgid "global.Cancel, mtags.NewTag, mail.MarkAllRead, mtags.Save"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: mcalendars
 #: mcalendars.description
 msgid "Manage Calendars"
@@ -1349,14 +1368,12 @@ msgstr ""
 msgid "Subscribe to calendar"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: mcalendars.keys
 msgid ""
 "global.Cancel, mcalendars.NewCalendar, mcalendars.NewSubscription, "
 "mcalendars.NewLink, mfolders.Save"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: voicemail
 #: voicemail.description
 msgid "Shortcuts in Voice Mail View"
@@ -1480,14 +1497,12 @@ msgstr ""
 msgid "Reply by email to the sender of the voice mail message"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: voicemail.keys
 msgid ""
 "voicemail.Delete, voicemail.Reply, voicemail.Forward, voicemail.MarkHeard, "
 "voicemail.MarkUnheard, voicemail.Print, voicemail.CallManager"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: call
 #: call.description
 msgid "Shortcuts in Call List View"
@@ -1522,12 +1537,10 @@ msgstr ""
 msgid "Print the list of calls"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: call.keys
 msgid "call.Print, call.CallManager"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_END
 #. # Map: key
 #: key.Alt
 msgid "alt"
@@ -1647,7 +1660,6 @@ msgstr ""
 msgid "Shortcuts on pages with lists"
 msgstr ""
 
-#. # L10N_IGNORE_BLOCK_BEGIN
 #: list.keys
 msgid ""
 "global.NextItem, global.PreviousItem, global.NextPage, global.PreviousPage, "
