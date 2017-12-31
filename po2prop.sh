@@ -3,7 +3,7 @@
 #build-properties-files.sh script release 0.1.
 #This script is used to install language packs to Zimbra CS 5.x or higher
 #as the instructions in:
-#https://wiki.zimbra.com/wiki/Translations#Converting_.po_back_to_.properties
+#https://wiki.zimbra.com/wiki/Translations#Converting_.properties_to_.po
 #
 #Copyright (C) 2009 Truong Anh Tuan - tuanta@iwayvietnam.com.
 #
