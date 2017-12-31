@@ -19,7 +19,7 @@ Gói ngôn ngữ Tiếng Việt cho Hệ thống cộng tác Zimbra
 * Fork một kho riêng của bạn trên GitHub
 * Clone kho riêng của bạn về máy local (nếu đã có kho local thì pull/fetch các cập nhật mới nhất về)
 * Thực hiện chỉnh sửa chuỗi dịch trên file .po tương ứng
-* Chạy "sh build-properties-files.sh" từ thư mục gốc để sinh lại files .properties
+* Chạy "sh po2prop.sh" từ thư mục gốc để sinh lại files .properties
 * Commit vào kho git local (cloned) & push các thay đổi lên kho của bạn trên GitHub
 * Tạo pull request để đóng góp & chờ approval
 
