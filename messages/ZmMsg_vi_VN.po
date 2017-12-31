@@ -3,11 +3,11 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-07 23:28+0700\n"
-"PO-Revision-Date: 2015-12-14 08:58+0700\n"
+"PO-Revision-Date: 2017-12-31 16:12+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 2.0.3\n"
 "Last-Translator: Truong Anh Tuan <tuanta@iwayvietnam.com>\n"
 "Language-Team: \n"
 "Language: vi_VN\n"
@@ -66,12 +66,12 @@ msgstr ""
 "Mỹ và quốc tế. \"Telligent\" và \"Zimbra\" là các thương hiệu được đăng ký hoặc "
 "thương hiệu của Telligent Systems, Inc tại Hoa Kỳ và các nước khác. Tất cả các nhãn "
 "hiệu khác và tên đề cập ở đây có thể là thương hiệu của công ty tương ứng.<br><br> "
-"Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br>www.zimbra.com"
+"Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br>www.zimbra.com."
 
 #: <br>www.zimbra.com
 msgctxt "<br>www.zimbra.com<br>www.zimbra.com"
 msgid ""
-msgstr ""
+msgstr "<br>www.zimbra.com<br>www.zimbra.com"
 
 #: above
 msgid "Above"
@@ -214,7 +214,7 @@ msgstr "Các thiết lập tài khoản chính"
 #: accountInactiveContent
 msgid "This account could not be activated. Please verify the account settings."
 msgstr ""
-"Tài khoản này không thể được kích hoạt. Vui lòng xác minh trong thiết lập tài khoản"
+"Tài khoản này không thể được kích hoạt. Vui lòng xác minh trong thiết lập tài khoản."
 
 #: accountInactiveTitle
 msgid "Inactive Account"
@@ -439,7 +439,7 @@ msgstr "Thêm người tham dự"
 
 #: addCallerToForward
 msgid "Add to Call Forwarding List"
-msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi:"
+msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi"
 
 #: addCallerToReject
 msgid "Add to Call Screening List"
@@ -548,7 +548,7 @@ msgstr "Sổ địa chỉ"
 
 #: addressFieldLabel
 msgid "{0} address"
-msgstr ""
+msgstr "{0} địa chỉ"
 
 #: addressHint
 msgid "Address (jsmith@address.com)"
@@ -748,7 +748,7 @@ msgstr "123:0"
 #: alphabetEndSortValue
 msgctxt "alphabetEndSortValue"
 msgid ""
-msgstr ""
+msgstr "alphabetEndSortValue"
 
 #: ALT_ERROR
 msgctxt "ALT_ERROR"
@@ -794,7 +794,7 @@ msgstr "AOL"
 
 #: appearance
 msgid "Appearance"
-msgstr ""
+msgstr "Xuất hiện"
 
 #: appExitPrompt
 msgid "You will have {0} minutes to save your changes before being signed off."
@@ -812,7 +812,7 @@ msgstr ""
 msgid ""
 "Doing so will terminate Zimbra Web Client, and you will lose your unsaved changes. "
 msgstr ""
-"Làm như vậy sẽ chấm dứt Trình khách web Zimbra, và bạn sẽ mất thay đổi của bạn."
+"Làm như vậy sẽ chấm dứt Trình khách web Zimbra, và bạn sẽ mất thay đổi của bạn. "
 
 #: appExitWarningZD
 msgid ""
@@ -881,7 +881,7 @@ msgstr "Cuộc hẹn đã tạo"
 
 #: apptCreationError
 msgid "Unable to create the appointment"
-msgstr "Không thể tạo cuộc hẹn."
+msgstr "Không thể tạo cuộc hẹn"
 
 #: apptCreating
 msgid "Creating Appointments"
@@ -967,7 +967,7 @@ msgstr "Hiển thị nhắc nhở:"
 
 #: apptPastDueReminderLabel
 msgid "Show reminders for past-due meetings"
-msgstr "Hiển thị nhắc nhở cho các cuộc họp quá hạn."
+msgstr "Hiển thị nhắc nhở cho các cuộc họp quá hạn"
 
 #: apptRemindNever
 msgctxt "apptRemindNever"
@@ -1004,7 +1004,7 @@ msgstr "Không lưu nhưng cuộc họp mở."
 
 #: apptSaveDiscard
 msgid "Discard changes and close. "
-msgstr "Loại bỏ những thay đổi và đóng."
+msgstr "Loại bỏ những thay đổi và đóng. "
 
 #: apptSave
 msgid "Save Appointment"
@@ -1252,15 +1252,17 @@ msgstr "Ít nhất một tập tin vượt quá giới hạn kích thước tậ
 
 #: attachmentSizeError_MSG
 msgid "Attachment failed since the message would exceed the size limit of {0}."
-msgstr ""
+msgstr "Tệp đính kèm không thành công vì thư sẽ vượt quá giới hạn kích thước {0}."
 
 #: attachmentSizeError_BRIEFCASE_ITEM
 msgid "Attachment failed since the document would exceed the size limit of {0}."
 msgstr ""
+"Tệp đính kèm không thành công vì tài liệu sẽ vượt quá giới hạn kích thước {0}."
 
 #: attachmentSizeError_APPT
 msgid "Attachment failed since the appointment would exceed the size limit of {0}."
 msgstr ""
+"Tệp đính kèm không thành công vì cuộc hẹn sẽ vượt quá giới hạn kích thước {0}."
 
 #: attachments
 msgid "Attachments"
@@ -1331,7 +1333,9 @@ msgstr ""
 msgid ""
 "Authentication failed with account \"{0}\".<br>Please go to Account Setup for more "
 "information."
-msgstr "xác thực không thành công"
+msgstr ""
+"Xác thực không thành công với tài khoản \"{0}\".<br> Vui lòng chuyển đến Cài đặt "
+"Tài khoản để biết thêm thông tin."
 
 #: author
 msgid "Author"
@@ -1348,7 +1352,7 @@ msgid ""
 msgstr ""
 "Bạn sẽ được đăng xuất trong {0} {1}. Lưu các thay đổi của bạn bây giờ và <span "
 "class=\"FakeAnchor\" onclick=\"ZmZimbraMail.logOff(null, true)\">đăng nhập</span> "
-"lại."
+"lại. "
 
 #: auto
 msgid "Auto"
@@ -1368,11 +1372,11 @@ msgstr "Tự động hoàn thành"
 
 #: autocompleteAddressesAdded
 msgid "{0,number} {0,choice,0#addresses|1#address|2#addresses} added"
-msgstr ""
+msgstr "{0,number} {0,choice,0#addresses|1#address|2#addresses} đã thêm"
 
 #: autocompleteDL
 msgid "Distribution List: {0}"
-msgstr ""
+msgstr "Danh sách phân phối: {0}"
 
 #: autocompleteFailed
 msgid "Autocomplete failed"
@@ -1380,17 +1384,17 @@ msgstr "Tự động hoàn thành thất bại"
 
 #: autocompleteGroup
 msgid "Group: {0}"
-msgstr ""
+msgstr "Nhóm: {0}"
 
 #: autocompleteMatches
 msgid "{0,number} {0,choice,0#matches|1#match|2#matches}"
-msgstr ""
+msgstr "{0,number} {0,choice,0#matches|1#match|2#matches}"
 
 #. # 0 = name, 1 = email (accessibility text)
 #: autocompleteMatchText
 msgctxt "autocompleteMatchText"
 msgid "{0}, {1}"
-msgstr ""
+msgstr "{0}, {1}"
 
 #: autocompleteNotReady
 msgid "Contacts Not Loaded, Yet"
@@ -1446,7 +1450,7 @@ msgstr "Tự động xóa bản sao của cùng một thông điệp khi nhận 
 
 #: availableCount
 msgid "{0} of {1} available"
-msgstr "{0} của {1} có sẵn."
+msgstr "{0} của {1} có sẵn"
 
 #: availableFilters
 msgid "Available Filters"
@@ -1979,7 +1983,7 @@ msgstr "Khoảng ngày"
 #: calPrintTo
 msgctxt "calPrintTo"
 msgid "To"
-msgstr ""
+msgstr "Tới"
 
 #: calPrintFitToPage
 msgid "Fit to Page:"
@@ -2028,7 +2032,7 @@ msgstr "Ngày đã chọn"
 
 #: calPrintView
 msgid "Print View:"
-msgstr "Khung hiển thị in"
+msgstr "Khung hiển thị in:"
 
 #: calPrintWorkDaysOnly
 msgid "Print work days only"
@@ -2235,11 +2239,11 @@ msgstr "Nạp lại tất cả nguồn tin"
 
 #: checkboxChangeRestartHide
 msgid "Would you like to reload the application now to hide checkboxes?"
-msgstr ""
+msgstr "Bạn có muốn tải lại ứng dụng ngay bây giờ để ẩn hộp chọn?"
 
 #: checkboxChangeRestartShow
 msgid "Would you like to reload the application now to show checkboxes?"
-msgstr ""
+msgstr "Bạn có muốn tải lại ứng dụng ngay bây giờ để hiển thị hộp chọn?"
 
 #: checkIn
 msgid "Check In"
@@ -2255,7 +2259,7 @@ msgstr "Đăng ký tập tin vào Cặp tài liệu"
 
 #: checkInFileChoose
 msgid "Select file to upload and Check In."
-msgstr "Chọn tập tin để tải lên và Đăng ký vào"
+msgstr "Chọn tập tin để tải lên và Đăng ký vào."
 
 #: checkedOutFile
 msgid "File Checked Out"
@@ -2478,6 +2482,14 @@ msgid ""
 "set <b>Default</b> to be your preferred client type, change the sign in options in "
 "your Preferences, General tab after you sign in."
 msgstr ""
+"<h3 style=\"text-align:center;\">Loại Trình Khách:</h3>\t<b>Nâng cao</b> cung cấp "
+"đầy đủ các tính năng cộng tác của trang Web. Trình khách ưeb này hoạt động tốt nhất "
+"với các trình duyệt mới hơn và kết nối Internet nhanh hơn. <br><br><b>Chuẩn</b> "
+"được khuyến cáo khi kết nối Internet chậm, khi sử dụng các trình duyệt cũ, hoặc cho "
+"khả năng tiếp cận dễ dàng hơn. <br><br><b>Mobile</b> được khuyến cáo cho các thiết "
+"bị di động. <br><br>Để thiết lập <b>Mặc định</b> là kiểu trình khách ưu thích của "
+"bạn, bạn thay đổi các tùy chọn đăng nhập trong mục Tùy chọn, tab Tổng quan sau khi "
+"đăng nhập."
 
 #: close
 msgid "Close"
@@ -2555,7 +2567,7 @@ msgstr "Thu gọn"
 
 #: collapsed
 msgid "Collapsed"
-msgstr ""
+msgstr "Thu gọn"
 
 #: collapseAllGroups
 msgid "Collapse All Groups"
@@ -2575,20 +2587,20 @@ msgstr "Xem cột trình duyệt"
 
 #: communityConnections
 msgid "Connections (follows, mentions, memberships, friendships, private messages)"
-msgstr ""
+msgstr "Kết nối (theo sau, đề cập, thành viên, tình bạn, tin nhắn riêng)"
 
 #: communityContent
 msgid "Content (new posts, comments, likes, ratings, updates, etc)"
-msgstr ""
+msgstr "Nội dung (bài đăng, nhận xét, lượt thích, xếp hạng, cập nhật, v.v ...)"
 
 #. # default community name (used for tab title and in filter select), overwritten by value of zimbraFeatureSocialName
 #: communityName
 msgid "Community"
-msgstr ""
+msgstr "Cộng đồng"
 
 #: communityRequests
 msgid "Requests (friendship, group membership, moderation)"
-msgstr ""
+msgstr "Yêu cầu (tình bạn, thành viên nhóm, kiểm duyệt)"
 
 #: company
 msgctxt "company"
@@ -2646,7 +2658,7 @@ msgstr "Như văn bản thường (Text)"
 
 #: composeBody
 msgid "Compose body"
-msgstr ""
+msgstr "Nội dung soạn thảo"
 
 #: composeDirectionLabel
 msgid "Compose Direction:"
@@ -2679,7 +2691,7 @@ msgstr "Thay đổi định dạng, ẩn/hiện trường BCC"
 
 #: composeReplyLabel
 msgid "Email Reply:"
-msgstr "Trả lời email"
+msgstr "Trả lời email:"
 
 #: composing
 msgid "Composing"
@@ -2905,7 +2917,7 @@ msgstr "<b>Người nhận không có sổ địa chỉ của bạn:</b>"
 
 #: confirmNewAddressesCheck
 msgid "(check the contacts you want to add)"
-msgstr "(kiểm tra liên hệ mà bạn muốn thêm):"
+msgstr "(kiểm tra liên hệ mà bạn muốn thêm)"
 
 #: confirmPasswordHasWhitespace
 msgid ""
@@ -2946,7 +2958,7 @@ msgstr "Danh sách"
 
 #: contactLists
 msgid "Contact Lists"
-msgstr ""
+msgstr "Danh sách liên hệ"
 
 #: contactPickerHint
 msgid "Type recipient's name here."
@@ -2975,7 +2987,7 @@ msgstr "Đã lưu liên hệ"
 
 #: contactsFolder
 msgid "Contacts Folder"
-msgstr ""
+msgstr "Thư mục liên hệ"
 
 #: contactsImportedResult
 msgid "{0,number} {0,choice,0#Contacts|1#Contact|2#Contacts} Imported"
@@ -3000,7 +3012,7 @@ msgstr ""
 
 #: convDisplayNew
 msgid "Selecting a conversation displays all its messages "
-msgstr "Chọn lựa một cuộc đàm thoại để hiển thị tất cả thông điệp của nó"
+msgstr "Chọn lựa một cuộc đàm thoại để hiển thị tất cả thông điệp của nó "
 
 #: convIParticipateLabel
 msgid "in conversations I participated"
@@ -3020,7 +3032,7 @@ msgstr "Cuộc đàm thoại"
 
 #: conversationList
 msgid "Conversation list"
-msgstr ""
+msgstr "Danh sách cuộc đàm thoại"
 
 #: convOrderAscending
 msgid "From old to new"
@@ -3116,7 +3128,7 @@ msgstr "Tạo mới lịch"
 
 #: createFilter
 msgid "Create Filter"
-msgstr ""
+msgstr "Tạo bộ lọc"
 
 #: freeBusyLink
 msgid "Send Free & Busy Link As"
@@ -3579,11 +3591,11 @@ msgstr ""
 
 #: delegateSendSettings
 msgid "Delegate Send Settings:"
-msgstr ""
+msgstr "Cài đặt ủy quyền gửi:"
 
 #: delegatesLabel
 msgid "Delegates:"
-msgstr ""
+msgstr "Ủy quyền:"
 
 #: deleteCell
 msgid "Delete Cell"
@@ -3625,7 +3637,7 @@ msgstr "Bạn có muốn xoá các mẫu  hoặc theo hàng loạt đối với 
 msgid ""
 "This will also delete all exceptions (before and after this instance) in the series"
 msgstr ""
-"Việc này cũng sẽ xóa tất cả trường hợp ngoại lệ (trước và sau mẫu này) trong chuỗi."
+"Việc này cũng sẽ xóa tất cả trường hợp ngoại lệ (trước và sau mẫu này) trong chuỗi"
 
 #: deleteGroupError
 msgid "The group cannot be deleted because it still contains buddies."
@@ -3754,7 +3766,7 @@ msgstr "Phải sang Trái"
 
 #: directoryLabel
 msgid "Directory:"
-msgstr "Thư mục"
+msgstr "Thư mục:"
 
 #: disableSuggestions
 msgid "Disable Suggestions"
@@ -3893,7 +3905,7 @@ msgstr "Thành viên danh sách phân phối"
 
 #: dlModifyFailed
 msgid "Modify distribution list failed"
-msgstr ""
+msgstr "Sửa danh sách phân phối thất bại"
 
 #: dlProperties
 msgid "Distribution List Properties"
@@ -3930,7 +3942,7 @@ msgstr "Danh sách này không mở cho tự đăng ký."
 
 #: dlSubscriptionRequested
 msgid "Your subscription request was sent."
-msgstr "Yêu cầu đăng ký của bạn đã được gửi"
+msgstr "Yêu cầu đăng ký của bạn đã được gửi."
 
 #: dlSubscribeRequestApproved
 msgid "Subscribe request approved"
@@ -3960,7 +3972,7 @@ msgstr "Bạn không thể bỏ đăng ký cho mình từ danh sách."
 
 #: dlUnsubscriptionRequested
 msgid "Your unsubscribe request was sent."
-msgstr "Yêu cầu hủy bỏ đăng ký của bạn đã được gửi"
+msgstr "Yêu cầu hủy bỏ đăng ký của bạn đã được gửi."
 
 #: dlUnsubscribeRequestApproved
 msgid "Unsubscribe request approved"
@@ -4026,7 +4038,7 @@ msgstr "Tải về tât cả các tập tin đính kèm"
 
 #: downloadAllDefaultFileName
 msgid "attachments"
-msgstr "Đính kèm"
+msgstr "đính kèm"
 
 #: downloadPop
 msgid "Message Downloads:"
@@ -4115,10 +4127,12 @@ msgid ""
 "appointment to repeat (Daily, Weekly,...) must be greater than the duration of each "
 "appointment instance."
 msgstr ""
+"Không thể lưu. Bạn có lỗi phải được sửa chữa: Thời gian được chỉ định cho cuộc hẹn "
+"để lặp lại (Hàng ngày, Hàng tuần, ...) phải lớn hơn thời lượng của mỗi cuộc hẹn."
 
 #: durationRecurrenceErrorTitle
 msgid "Appointment Repeat-Duration Conflict"
-msgstr ""
+msgstr "Thời lượng cuộc hẹn xung đột"
 
 #: dndTooltip
 msgid "Tip: drag and drop files from your desktop to add attachments to this message."
@@ -4819,7 +4833,7 @@ msgstr "Các trường bắt buộc không được chỉ rõ."
 
 #: errorMoveAppt
 msgid "Unable to move appointment."
-msgstr "Không thể chuyển cuộc hẹn"
+msgstr "Không thể chuyển cuộc hẹn."
 
 #: errorNoPhone
 msgid "You need to enter a phone number to forward from."
@@ -4954,7 +4968,7 @@ msgstr ""
 
 #: errorJavaScriptDisabled
 msgid "Click here to continue"
-msgstr "Bấm ở đây để tiếp tục."
+msgstr "Bấm ở đây để tiếp tục"
 
 #: errorQueryParse
 msgid "Unable to parse the search query."
@@ -5145,7 +5159,7 @@ msgid ""
 msgstr ""
 "Tài liệu trình chiếu có chữa các thay đổi chưa lưu.\n"
 "Làm như vậy sẽ chấm dứt trình chiếu của bạn và bạn sẽ mất các thay đổi chưa lưu của "
-"bạn."
+"bạn"
 
 #: exitSpreadsheetUnsavedChanges
 msgid ""
@@ -5161,11 +5175,11 @@ msgstr "Mở rộng"
 
 #: expandConversations
 msgid "Expand Conversations"
-msgstr ""
+msgstr "Mở rộng cuộc đàm thoại"
 
 #: expanded
 msgid "Expanded"
-msgstr ""
+msgstr "Mở rộng"
 
 #: expandAll
 msgid "Expand All"
@@ -5322,7 +5336,7 @@ msgstr "Facebook"
 
 #: facebookNotifications
 msgid "Facebook notifications"
-msgstr ""
+msgstr "Thông báo Facebook"
 
 #: favIconUrl
 msgid "/img/logo/favicon.ico"
@@ -5341,7 +5355,7 @@ msgstr ""
 
 #: feedLabel
 msgid "Feed:"
-msgstr ""
+msgstr "Nguồn tin:"
 
 #: feedUnreachable
 msgid "The following URL is not currently reachable: {0}"
@@ -5357,7 +5371,7 @@ msgstr "trường"
 
 #: fieldNameIsARequiredField
 msgid "\"{0}\" is a required field"
-msgstr "\"{0}\" là trường bắt buộc."
+msgstr "\"{0}\" là trường bắt buộc"
 
 #: file
 msgid "File"
@@ -5666,7 +5680,7 @@ msgstr "Cờ"
 
 #: unflag
 msgid "Unflag"
-msgstr ""
+msgstr "Bỏ cờ"
 
 #: flagged
 msgctxt "flagged"
@@ -5700,11 +5714,11 @@ msgstr "Thư mục"
 
 #: folderEmptied
 msgid "Folder \"{0}\" emptied"
-msgstr ""
+msgstr "Thư mục \"{0}\" đã rỗng"
 
 #: folderInfoTitle
 msgid "Folder Information"
-msgstr ""
+msgstr "Thông tin thư mục"
 
 #: folderLabel
 msgid "Folder:"
@@ -5728,7 +5742,7 @@ msgstr "Bạn phải chọn một nơi cho thư mục."
 
 #: folderNotify
 msgid "Folder Notifications"
-msgstr "Thông báo thư mục:"
+msgstr "Thông báo thư mục"
 
 #: folderOrSearchNameExists
 msgid ""
@@ -5742,6 +5756,8 @@ msgid ""
 "Cannot move folder to the selected destination folder. A folder with that name "
 "already exists under the destination folder."
 msgstr ""
+"Không thể di chuyển thư mục đến thư mục đích đã chọn. Một thư mục có tên đó đã tồn "
+"tại dưới thư mục đích."
 
 #: folderPreviewMessage
 msgid "Double click on the folder to view its contents."
@@ -5819,7 +5835,7 @@ msgstr "Phông:"
 
 #: fontSizeLabel
 msgid "Display Font Size:"
-msgstr ""
+msgstr "Cỡ chữ hiển thị:"
 
 #: fontModern
 msgid "Modern"
@@ -5835,20 +5851,20 @@ msgstr "Rộng"
 
 #: fontSizeSmall
 msgid "Small"
-msgstr ""
+msgstr "Nhỏ"
 
 #: fontSizeNormal
 msgctxt "fontSizeNormal"
 msgid "Normal"
-msgstr ""
+msgstr "Thường"
 
 #: fontSizeLarge
 msgid "Large"
-msgstr ""
+msgstr "Lớn"
 
 #: fontSizeExtraLarge
 msgid "Extra Large"
-msgstr ""
+msgstr "Rất lớn"
 
 #: fontSystem
 msgid "Standard"
@@ -5927,7 +5943,7 @@ msgstr "Chuyển tiếp thông điệp thư thoại đã chọn như một tập
 
 #: forwardConv
 msgid "Forward conversation"
-msgstr ""
+msgstr "Chuyển tiếp cuộc đàm thoại"
 
 #: forwardCopyTo
 msgid "Forward a copy to:"
@@ -6092,7 +6108,7 @@ msgstr "Đã vô hiệu tự động hoàn thành GAL"
 
 #: galAutocompleteSession
 msgid "GAL autocomplete has been temporarily disabled. Check to re-enable."
-msgstr "Tự động hoàn thành GAL tạm thời vô hiệu hoá. Cho phép lại"
+msgstr "Tự động hoàn thành GAL tạm thời vô hiệu hoá. Chọn để cho phép lại."
 
 #: galAutocompleteTimedOut
 msgid "GAL Auto-Complete Timed Out"
@@ -6120,7 +6136,7 @@ msgstr "Nhập văn bản"
 
 #: getInfo
 msgid "Get info"
-msgstr ""
+msgstr "Lấy thông tin"
 
 #: gifImage
 msgid "GIF Image"
@@ -6193,7 +6209,7 @@ msgstr "Chuyển tới trang Chào mừng"
 
 #: goToSocial
 msgid "Go to Social page"
-msgstr ""
+msgstr "Chuyển đến trang Xã hội"
 
 #: goToTasks
 msgid "Go to Tasks"
@@ -6201,7 +6217,7 @@ msgstr "Chuyển tới Công việc"
 
 #: goToUrlAlt
 msgid "Go to URL"
-msgstr ""
+msgstr "Chuyển tới URL"
 
 #: goToUrl
 msgctxt "goToUrl"
@@ -6329,7 +6345,7 @@ msgstr "có bí danh"
 #: hasAttachment
 msgctxt "hasAttachment"
 msgid "has attachment"
-msgstr ""
+msgstr "có đính kèm"
 
 #: header
 msgid "Header"
@@ -6382,7 +6398,7 @@ msgstr "/help/advanced/zimbra_user_help.htm"
 #. #L10N_IGNORE_BLOCK_END
 #: hiddenInGlobal
 msgid "Private - List is Hidden in Global Address List "
-msgstr "Riêng tư - Danh sách là ẩn trong Danh sách địa chỉ chung"
+msgstr "Riêng tư - Danh sách là ẩn trong Danh sách địa chỉ chung "
 
 #: hide
 msgid "Hide"
@@ -6444,11 +6460,11 @@ msgstr "Nhà riêng"
 
 #: htmlClient
 msgid "HTML Client"
-msgstr ""
+msgstr "Trình khách HTML"
 
 #: htmlEditorTitle
 msgid "Zimbra rich text editor"
-msgstr ""
+msgstr "Trình soạn tạo văn bản giàu Zimbra"
 
 #: icon
 msgid "Icon"
@@ -6601,7 +6617,7 @@ msgstr "Hình ảnh:"
 
 #: imageUploadedToBriefcase
 msgid "Image uploaded to briefcase"
-msgstr ""
+msgstr "Ảnh đã tải tới cặp tài liệu"
 
 #: imAnonymousLabel
 msgid "Anonymous:"
@@ -6826,7 +6842,7 @@ msgstr "[{0} tán gẫu]"
 
 #: imNewBuddy
 msgid "Add \"{0}\" to Buddy List..."
-msgstr "Thêm \"{0}\" vào Danh sách bạn"
+msgstr "Thêm \"{0}\" vào Danh sách bạn..."
 
 #: imNewBuddyTooltip
 msgid "Create a new buddy"
@@ -7019,7 +7035,7 @@ msgstr "Tên phòng đang trống. Nó là bắt buộc."
 
 #: imRoomPasswordRequired
 msgid "A password is required to enter the room"
-msgstr "Một mật khẩu là bắt buộc để vào phòng."
+msgstr "Một mật khẩu là bắt buộc để vào phòng"
 
 #: imRoomPasswordFailed
 msgid "The password is incorrect."
@@ -7163,7 +7179,7 @@ msgid ""
 "download and install it. You will need to restart your browser after the "
 "installation is complete."
 msgstr ""
-" Adobe Flash Player là bắt buộc để kết nối tới Yahoo! Messenger. <a target='_blank' "
+"Adobe Flash Player là bắt buộc để kết nối tới Yahoo! Messenger. <a target='_blank' "
 "href=http://www.adobe.com/go/getflashplayer/'>Bấm vào đây</a> để tải và cài đặt nó. "
 "Bạn sẽ cần khởi động lại trình duyệt sau khi việc cài đặt hoàn thành."
 
@@ -7301,7 +7317,7 @@ msgstr ""
 
 #: importStarted
 msgid "Import started."
-msgstr "Nhập bắt đầu"
+msgstr "Nhập bắt đầu."
 
 #: importSuccess
 msgid "Import succeeded."
@@ -7425,11 +7441,11 @@ msgstr "Bộ lọc thông điệp đến"
 
 #: incomingPOPDeleted
 msgid "Incoming Deleted Messages:"
-msgstr "Thông điệp đã xóa đến"
+msgstr "Thông điệp đã xóa đến:"
 
 #: incomingPOPJunk
 msgid "Incoming Junk Messages:"
-msgstr "Thông điệp Thư rác đến"
+msgstr "Thông điệp Thư rác đến:"
 
 #: inContacts
 msgid "In Personal Contacts"
@@ -7613,7 +7629,7 @@ msgstr "{0} đã chấp nhận lời mời."
 
 #: inviteMsgCancelled
 msgid "{0} has cancelled the invitation."
-msgstr ""
+msgstr "{0} đã hủy lời mời."
 
 #: inviteMsgDeclined
 msgid "{0} has declined the invitation."
@@ -7749,7 +7765,7 @@ msgstr "{0} của {1} {2}"
 #. # {0} = number {1} = type, eg "3 messages selected"
 #: itemSelectionCount
 msgid "{0} {1} selected"
-msgstr ""
+msgstr "{0} {1} đã chọn"
 
 #: items
 msgid "Items"
@@ -7931,7 +7947,7 @@ msgstr "LinkedIn"
 
 #: linkedinMessagesConnections
 msgid "LinkedIn messages and connections"
-msgstr ""
+msgstr "Tin nhắn và kết nối LinkedIn"
 
 #: linkProperties
 msgid "Link Properties"
@@ -8016,7 +8032,7 @@ msgstr "Chinese (Hong Kong)"
 
 #: localeName_zh_TW
 msgid "Chinese (Taiwan)"
-msgstr ""
+msgstr "Tiếng Trung Quốc (Đài Loan)"
 
 #: localeName_da
 msgid "Danish"
@@ -8048,11 +8064,11 @@ msgstr "Tiếng Pháp"
 
 #: localeName_fr_CA
 msgid "French (Canada)"
-msgstr ""
+msgstr "Tiếng Pháp (Canada)"
 
 #: localeName_fr_FR
 msgid "French (France)"
-msgstr ""
+msgstr "Tiếng Pháp (Pháp)"
 
 #: localeName_de
 msgid "German"
@@ -8096,7 +8112,7 @@ msgstr "Tiếng Bồ Đào Nha (Brazil)"
 
 #: localeName_pt_PT
 msgid "Portuguese (Portugal)"
-msgstr ""
+msgstr "Tiếng Bồ Đào Nha (Portugal)"
 
 #: localeName_ro
 msgid "Romanian"
@@ -8132,7 +8148,7 @@ msgstr "Các thư mục cục bộ"
 
 #: localPart
 msgid "local part"
-msgstr "Phần cục bộ"
+msgstr "phần cục bộ"
 
 #: location
 msgid "Location"
@@ -8377,7 +8393,7 @@ msgstr "Chỉ người dùng nội bộ có thể gửi tới danh sách này"
 
 #: mailOnlySpecific
 msgid "Only these users can send to this list:"
-msgstr "Chỉ những người dùng này có thể gửi tới danh sách này"
+msgstr "Chỉ những người dùng này có thể gửi tới danh sách này:"
 
 #: makeLabel
 msgid "{0}:"
@@ -8397,7 +8413,7 @@ msgstr "Bắt buộc kiểm tra chính tả trước khi gửi một thông đi�
 
 #: manualSignature
 msgid "Manually via the \"Add Signature\" button"
-msgstr "Tuỳ chọn thông qua nút \"Thêm chữ ký\""
+msgstr "Tuỳ chọn thông qua nút Thêm chữ ký"
 
 #: mark
 msgid "Mark"
@@ -8550,7 +8566,8 @@ msgid ""
 "restart the browser. If the problem persists, contact your System Administrator. "
 msgstr ""
 "Có một vấn đề hiển thị thông điệp. Vui lòng thử lại, tải lại trang này, hoặc khởi "
-"động lại trình duyệt. Nếu vấn đề vẫn tồn tại, liên hệ với Quản trị hệ thống của bạn."
+"động lại trình duyệt. Nếu vấn đề vẫn tồn tại, liên hệ với Quản trị hệ thống của "
+"bạn. "
 
 #: messageDisposalEnable
 msgid "Enable Message Disposal"
@@ -8578,7 +8595,7 @@ msgstr "Thông điệp:"
 
 #: messageList
 msgid "Message list"
-msgstr ""
+msgstr "Danh sách thông điệp"
 
 #: messageReadLabel
 msgid "Reading Pane:"
@@ -8650,11 +8667,11 @@ msgstr "Trạng thái thông điệp"
 
 #: messageTitle
 msgid "Message with subject: {0}"
-msgstr ""
+msgstr "Thông điêp với chủ đề: {0}"
 
 #: messageTitleInConv
 msgid "Message {0}"
-msgstr ""
+msgstr "Thông điệp {0}"
 
 #: messageTooLarge
 msgid "This message is too large to display properly."
@@ -8703,11 +8720,11 @@ msgstr "Các cuộc gọi nhỡ"
 
 #: missingAwayMessage
 msgid "Auto-reply message for external senders is missing."
-msgstr "Làm trống thông điệp đi"
+msgstr "Thư trả lời tự động cho người gửi bên ngoài bị thiếu."
 
 #: missingPlugin
 msgid "Sorry, a required plugin is missing."
-msgstr "Xin lỗi, một trình bắt buộc bị thiếu"
+msgstr "Xin lỗi, một trình plugin bắt buộc bị thiếu."
 
 #: missingPluginHelpIE
 msgid ""
@@ -8886,7 +8903,7 @@ msgstr "Được thay đổi"
 
 #: modifiedDate
 msgid "Modified date."
-msgstr "Ngày sửa"
+msgstr "Ngày sửa."
 
 #: modifiedField
 msgctxt "modifiedField"
@@ -9169,6 +9186,8 @@ msgid ""
 "persona. The persona must be the owner of the calendar or have admin privileges "
 "over it."
 msgstr ""
+"Bạn không được phép tạo cuộc hẹn trên lịch này, sử dụng persona đã chọn của bạn. "
+"Persona phải là chủ sở hữu của lịch hoặc có quyền quản trị đối với nó."
 
 #: mute
 msgid "Mute"
@@ -9204,7 +9223,7 @@ msgstr "Máy tính của tôi"
 
 #: myStatusLabel
 msgid "My Status:"
-msgstr ""
+msgstr "Trạng thái của tôi:"
 
 #: _name
 msgctxt "_name"
@@ -9238,20 +9257,20 @@ msgstr "Tên phải có tối đa {0} độ dài ký tự"
 
 #: navTextNoItems
 msgid "0 {0}"
-msgstr ""
+msgstr "0 {0}"
 
 #: navTextOneItem
 msgid "1 {0}"
-msgstr ""
+msgstr "1 {0}"
 
 #: navTextWithTotal
 msgid "{0} - {1} of {2}"
-msgstr ""
+msgstr "{0} - {1} của {2}"
 
 #: navTextRange
 msgctxt "navTextRange"
 msgid "{0} - {1}"
-msgstr ""
+msgstr "{0} - {1}"
 
 #: needsAction
 msgctxt "needsAction"
@@ -9556,7 +9575,7 @@ msgstr "Tuần làm việc kế tiếp"
 
 #: noAddresses
 msgid "There must be at least one address in the To:, Cc:, or Bcc: fields"
-msgstr "Phải có ít nhất một địa chỉ trong các trường Tới:, Cc:, hoặc Bcc:"
+msgstr "Phải có ít nhất một địa chỉ trong các trường Tới, Cc, hoặc Bcc"
 
 #: noAppts
 msgid "No Appointments"
@@ -9580,7 +9599,7 @@ msgstr "Không có xung đột địa điểm tồn tại"
 
 #: noContactImage
 msgid "Contact image unavailable"
-msgstr ""
+msgstr "Ảnh liên hệ không có sẵn"
 
 #: noFreeSlotFound
 msgid "No free time slots found with on selected week range"
@@ -9588,7 +9607,7 @@ msgstr "Không có khoảng thời gian rỗi trên khoảng tuần đã chọn"
 
 #: noForwardAddresses
 msgid "There must be at least one address in the To: field"
-msgstr "Phải có ít nhất một địa chỉ trong trường Tới:"
+msgstr "Phải có ít nhất một địa chỉ trong trường Tới"
 
 #: noGreenSuggestionsFound
 msgid ""
@@ -9604,7 +9623,7 @@ msgstr "Không có {0}"
 
 #: noItemsFound
 msgid "No Items Found"
-msgstr "Không có mục nào được tìm thấy."
+msgstr "Không có mục nào được tìm thấy"
 
 #: noLocation
 msgid "No Location"
@@ -9624,7 +9643,7 @@ msgstr "Đúng chính tả"
 
 #: noMeetingsFound
 msgid "No meetings found"
-msgstr "Không có cuộc họp được tìm thấy."
+msgstr "Không có cuộc họp được tìm thấy"
 
 #: noMembers
 msgid "List has no members"
@@ -9640,7 +9659,7 @@ msgstr "Không làm việc"
 
 #: noShareDetailsFound
 msgid "No share details found"
-msgstr "Không có chi tiết chia sẻ được tìm thấy."
+msgstr "Không có chi tiết chia sẻ được tìm thấy"
 
 #: noSubject
 msgid "<No Subject>"
@@ -9751,7 +9770,7 @@ msgstr "không tồn tại"
 
 #: notificationPermission
 msgid "Do you want to update your notification permission?"
-msgstr ""
+msgstr "Bạn có muốn cập nhật thông báo cho phép không?"
 
 #: notifications
 msgid "Notifications"
@@ -9924,7 +9943,7 @@ msgstr "Địa điểm:"
 
 #: offlineBackUpKeep
 msgid "Backup files per account:"
-msgstr "Tập tin sao lưu cho mỗi tài khoản"
+msgstr "Tập tin sao lưu cho mỗi tài khoản:"
 
 #: offlineBackUpNow
 msgid "Backup Now"
@@ -9969,31 +9988,37 @@ msgstr "Sao lưu của tài khoản \"{0}\" đã bắt đầu"
 
 #: offlineCachingDone
 msgid "Zimbra is ready for offline use"
-msgstr ""
+msgstr "Zimbra đã sẵn sàng để sử dụng ngoại tuyến"
 
 #: offlineCachingSync
 msgid "Synchronizing data for offline use"
-msgstr ""
+msgstr "Đồng bộ hóa dữ liệu để sử dụng ngoại tuyến"
 
 #: offlineFolderSyncInterval
 msgid ""
 "Store up to <input id=\"folderOfflineLblId\" class=\"ZmOfflineSyncInterval\" type="
 "\"number\" min=\"0\" max=\"30\"> days of messages. (set to 0 for no sync)"
 msgstr ""
+"Lưu trữ tối đa <input id=\"folderOfflineLblId\" class=\"ZmOfflineSyncInterval\" "
+"type=\"number\" min=\"0\" max=\"30\"> ngày thư. (đặt thành 0 cho không đồng bộ)"
 
 #: invalidFolderSyncInterval
 msgid "Invalid folder sync interval value. It should be a number between 0 and 30."
 msgstr ""
+"Giá trị khoảng thời gian đồng bộ hóa thư mục không hợp lệ. Nó phải là một số từ 0 "
+"đến 30."
 
 #: offlineChangeRestart
 msgid ""
 "Would you like to reload the application now to enable offline access? "
 "<br>(Otherwise, the offline access will be available the next time you sign in.)"
 msgstr ""
+"Bạn có muốn tải lại ứng dụng ngay bây giờ để bật tính năng truy cập ngoại tuyến? "
+"<br>(Nếu không, quyền truy cập ngoại tuyến sẽ có sẵn vào lần đăng nhập tiếp theo.)"
 
 #: offlineLabel
 msgid "Offline:"
-msgstr ""
+msgstr "Ngoại tuyến:"
 
 #: offlineQuota
 msgid "Mailbox size:"
@@ -10042,6 +10067,8 @@ msgstr "Tài khoản \"{0}\" không được đồng bộ quá lâu. Bạn có m
 #: offlineMustGalReSync
 msgid "Account \"{0}\" hasn't synced GAL for too long. Do you want to sync now?"
 msgstr ""
+"Tài khoản \"{0}\" chưa đồng bộ hóa GAL quá lâu. Bạn có muốn đồng bộ hóa ngay bây "
+"giờ không?"
 
 #: offlineHeapDump
 msgid ""
@@ -10056,27 +10083,31 @@ msgstr "Thư mục di chuyển thất bại, vui lòng thử lại sau"
 
 #: OfflineServerReachable
 msgid "Connected to server. You are back online."
-msgstr ""
+msgstr "Đã kết nối với máy chủ. Bạn đã trở lại trực tuyến."
 
 #: OfflineServerNotReachable
 msgid "Cannot connect to server. You are now offline."
-msgstr ""
+msgstr "Không thể kết nối tới máy chủ. Bạn hiện đang ngoại tuyến."
 
 #: offlineSettings
 msgid "Offline Mode"
-msgstr ""
+msgstr "Chế độ ngoại tuyến"
 
 #: offlineSignOutWarning
 msgid ""
 "Signing out will also turn off the offline mode and clear the locally stored data."
 "<br><br>Are you sure you want to continue?"
 msgstr ""
+"Đăng xuất cũng sẽ tắt chế độ ngoại tuyến và xóa dữ liệu được lưu trữ cục bộ. <br> "
+"<br> Bạn có chắc chắn muốn tiếp tục không?"
 
 #: offlineSupportedBrowser
 msgid ""
 "This feature is currently supported only in Google Chrome and Mozilla Firefox "
 "browser."
 msgstr ""
+"Tính năng này hiện chỉ được hỗ trợ trong trình duyệt Google Chrome và Mozilla "
+"Firefox."
 
 #: ok
 msgctxt "ok"
@@ -10278,7 +10309,7 @@ msgstr "khác"
 
 #: overviewLabel
 msgid "Overview"
-msgstr ""
+msgstr "Tổng quan"
 
 #: owner
 msgctxt "owner"
@@ -10348,7 +10379,7 @@ msgstr "Cuộn:"
 
 #: pageSizeDesc
 msgid "items fetched when scrolling"
-msgstr "Số các mục được nạp khi cuộn"
+msgstr "số các mục được nạp khi cuộn"
 
 #: parentFolderLabel
 msgid "Parent:"
@@ -10597,7 +10628,7 @@ msgstr ""
 
 #: pluralList
 msgid "{0} and {1}"
-msgstr ""
+msgstr "{0} và {1}"
 
 #: pngImage
 msgid "PNG Image"
@@ -10617,7 +10648,7 @@ msgstr "Tự động từ chối"
 
 #: policyTypeLabel
 msgid "Policy type: {0}"
-msgstr ""
+msgstr "Loại chính sách: {0}"
 
 #: pollingInterval
 msgid "Polling interval (minutes after which to check for new mail)"
@@ -10995,15 +11026,15 @@ msgstr "Dừng lại trên quy tắc ưu tiên"
 
 #: priorityHigh
 msgid "High priority"
-msgstr ""
+msgstr "Ưu tiên cao"
 
 #: priorityLow
 msgid "Low priority"
-msgstr ""
+msgstr "Ưu tiên thấp"
 
 #: priorityNormal
 msgid "Normal priority"
-msgstr ""
+msgstr "Ưu tiên thường"
 
 #: priorityInbox
 msgid "Priority Inbox"
@@ -11098,7 +11129,7 @@ msgstr "Bạn đã chấp nhận lời mời"
 
 #: ptstMsgDeclined
 msgid "You have declined the invitation"
-msgstr "Bạn đã từ chối lời mời."
+msgstr "Bạn đã từ chối lời mời"
 
 #: ptstMsgNeedsAction
 msgid "You have not responded to the invitation"
@@ -11106,7 +11137,7 @@ msgstr "Bạn không phản hồi tới lời mời"
 
 #: ptstMsgTentative
 msgid "You have responded with status tentative to the invitation"
-msgstr "Bạn đã phản hồi với tình trạng tạm chấp nhận lời mời."
+msgstr "Bạn đã phản hồi với tình trạng tạm chấp nhận lời mời"
 
 #: _public
 msgctxt "_public"
@@ -11121,7 +11152,7 @@ msgstr "Màu tía"
 #: queryLabel
 msgctxt "queryLabel"
 msgid "Search:"
-msgstr ""
+msgstr "Tìm kiếm:"
 
 #: quick
 msgid "Quick"
@@ -11137,7 +11168,7 @@ msgstr "Thêm nhanh liên hệ"
 
 #: quickAddPrefLabel
 msgid "QuickAdd Dialog "
-msgstr ""
+msgstr "Hộp thêm nhanh "
 
 #: quota
 msgid "Quota"
@@ -11165,7 +11196,7 @@ msgstr "Đã đọc / Chưa đọc"
 #. # reading pane options now in a submenu, so we break it up
 #: readingPane
 msgid "Reading Pane"
-msgstr ""
+msgstr "Khung đọc"
 
 #: readingPaneAtBottom
 msgid "At The Bottom"
@@ -11424,7 +11455,7 @@ msgstr "Quá hạn {5,number,integer} {5,choice,1#phút|2#phút}."
 
 #: reminderOverdueByToday
 msgid "Due Today"
-msgstr ""
+msgstr "Cho đến hôm nay"
 
 #. # {0} minutes
 #: reminderSnoozeClickNoDuration
@@ -11744,7 +11775,7 @@ msgstr "Bỏ qua xung đột và vào sổ"
 #: resourceConflictInfo
 msgid ""
 "The selected resources/location cannot be scheduled for the following instances"
-msgstr "Tài nguyên/địa điểm đã chọn không thể được lên lịch cho các trường hợp sau."
+msgstr "Tài nguyên/địa điểm đã chọn không thể được lên lịch cho các trường hợp sau"
 
 #: resourceConflictLabel
 msgid "Conflicting Resources"
@@ -11875,7 +11906,7 @@ msgstr "Bấm chuột phải để thêm các tùy chọn."
 
 #: leftClickYahoohint
 msgid "Click to visit user's Yahoo! profile"
-msgstr "Bấm chuột để ghé thăm hồ sở người dùng Yahoo!"
+msgstr "Bấm chuột để ghé thăm hồ sở người dùng Yahoo"
 
 #: role
 msgctxt "role"
@@ -11900,7 +11931,7 @@ msgstr "Bạn phỉ chỉ định một địa chỉ."
 
 #: rotfl
 msgid "rolling on the floor laughing "
-msgstr "cười lăn trên sàn"
+msgstr "cười lăn trên sàn "
 
 #: ruleNoConditonActivityFilter
 msgid "You must select a condition to enable the activity stream filter."
@@ -12068,19 +12099,21 @@ msgstr "Lưu một bản sao vào thư mục Thư đã gửi"
 
 #: saveToSentDelegatedSender
 msgid "Save a copy of sent messages to delegate's Sent folder"
-msgstr ""
+msgstr "Lưu một bản sao của thư đã gửi vào thư mục Gửi đại diện của tôi"
 
 #: saveToSentDelegatedOwner
 msgid "Save a copy of sent messages to my Sent folder"
-msgstr ""
+msgstr "Lưu một bản sao của thư đã gửi vào thư mục Gửi của tôi"
 
 #: saveToSentDelegatedNone
 msgid "Don't save a copy of sent messages"
-msgstr ""
+msgstr "Không lưu một bản sao của thư đã gửi"
 
 #: saveToSentDelegatedBoth
 msgid "Save a copy of sent messages to delegate's Sent folder and my Sent folder"
 msgstr ""
+"Lưu một bản sao của tin nhắn đã gửi đến thư mục Đã gửi của delegate và thư mục Đã "
+"gửi của tôi"
 
 #: saveToSentNOT
 msgid "Do not save sent messages"
@@ -12134,7 +12167,7 @@ msgstr "Đang tìm {0,date,MMM yyyy}..."
 
 #: searchInType
 msgid "Search in {0}"
-msgstr ""
+msgstr "Tìm kiếm trong \"{0}\"."
 
 #: searchInput
 msgctxt "searchInput"
@@ -12178,7 +12211,7 @@ msgstr "vd. has:attachment"
 #: searchOptions
 msgctxt "searchOptions"
 msgid "Search"
-msgstr ""
+msgstr "Tìm kiếm"
 
 #: searchScope
 msgid "Search Scope"
@@ -12264,7 +12297,7 @@ msgstr "Các kết quả tìm kiếm"
 
 #: searchResultsEnterSearch
 msgid "Search for:"
-msgstr ""
+msgstr "Tìm kiếm:"
 
 #. # {0} = number of results, {1} = possible plus sign indicating more results
 #: searchResultsLabel
@@ -12318,7 +12351,7 @@ msgstr ""
 
 #: selectionLabel
 msgid "Selection:"
-msgstr ""
+msgstr "Chọn lựa:"
 
 #: selectAdapt
 msgid "Select next message based on previous selections (moving up or down)"
@@ -12335,7 +12368,7 @@ msgid ""
 "selecting one or more messages, and then clicking the \"To\" header."
 msgstr ""
 "Sắp xếp trên người nhận là hiện không có sẵn. Bạn có thể tìm kiếm theo người nhận "
-"bằng cách chọn một hoặc nhiều thông điệp, và sau đó bấm vào đầu đề  \"Tới\""
+"bằng cách chọn một hoặc nhiều thông điệp, và sau đó bấm vào đầu đề Tới."
 
 #: selectAddrText
 msgid ""
@@ -12456,15 +12489,15 @@ msgstr "Gửi như"
 
 #: sendAsAddress
 msgid "{1} <{0}>"
-msgstr ""
+msgstr "{1} <{0}>"
 
 #: sendOboAddress
 msgid "{0} on behalf of {1}"
-msgstr ""
+msgstr "{0} thay mặt cho {1}"
 
 #: sendOboAddressAndDispName
 msgid "{0} on behalf of {2} <{1}>"
-msgstr ""
+msgstr "{0} thay mặt cho {2} <{1}>"
 
 #: sendAsAndSendOnBehalfOf
 msgid "Send As and Send On Behalf Of"
@@ -12772,12 +12805,12 @@ msgstr "Thêm lịch ngoài (Thư mục)"
 #: sharedCalTitleGoogle
 msgctxt "sharedCalTitleGoogle"
 msgid "Google Calendar"
-msgstr "Lịch Google "
+msgstr "Lịch Google"
 
 #: sharedCalTitleYahoo
 msgctxt "sharedCalTitleYahoo"
 msgid "Yahoo! Calendar"
-msgstr "Lịch Yahoo! "
+msgstr "Lịch Yahoo"
 
 #: sharedCalTitleOther
 msgid "Add External Calendar (Other)"
@@ -12790,12 +12823,12 @@ msgstr "Thư mục công cộng của Lịch chia sẻ"
 #: sharedCalGoogle
 msgctxt "sharedCalGoogle"
 msgid "Google Calendar"
-msgstr "Lịch Google "
+msgstr "Lịch Google"
 
 #: sharedCalYahoo
 msgctxt "sharedCalYahoo"
 msgid "Yahoo! Calendar"
-msgstr "Lịch Yahoo!"
+msgstr "Lịch Yahoo"
 
 #: sharedCalOther
 msgid "Other Calendar Source"
@@ -12807,7 +12840,7 @@ msgstr "Tài khoản CalDAV"
 
 #: sharedCalTypeICal
 msgid "iCAL Subscription"
-msgstr "Thuê bao iCAL"
+msgstr "đăng ký iCAL"
 
 #: sharedCalTypeLabel
 msgctxt "sharedCalTypeLabel"
@@ -12855,7 +12888,7 @@ msgstr "caldav.calendar.yahoo.com"
 
 #: sharedCalErrorMissingUrl
 msgid "CalDAV Server URL is a required field"
-msgstr "URL máy chủ CalDAV là trường bắt buộc."
+msgstr "URL máy chủ CalDAV là trường bắt buộc"
 
 #: sharedCalIcsUrlLabel
 msgctxt "sharedCalIcsUrlLabel"
@@ -12899,7 +12932,7 @@ msgstr "Đang tải {0} chia sẻ..."
 
 #: sharedFoldersNoGroupsFound
 msgid "No group shares found"
-msgstr "Không có nhóm chia sẻ được tìm thấy."
+msgstr "Không có nhóm chia sẻ được tìm thấy"
 
 #: sharedFoldersNoneFound
 msgid "None Found"
@@ -12917,7 +12950,7 @@ msgstr "name@example.com"
 
 #: sharedFoldersFilterHint
 msgid "Enter text to filter results"
-msgstr "Nhập văn bản để lọc kết quả:"
+msgstr "Nhập văn bản để lọc kết quả"
 
 #: sharedFoldersAddTitle
 msgid "Add Shared Folder"
@@ -13022,7 +13055,7 @@ msgstr "Tất cả người dùng đã xác thực"
 
 #: shareWithExternalGuest
 msgid "External guests"
-msgstr ""
+msgstr "Khách bên ngoài"
 
 #: shareWithGuest
 msgid "External guests (view only)"
@@ -13095,7 +13128,7 @@ msgstr "Mỗi người dùng sẽ duy trì cờ đọc/chưa đọc của chính
 
 #: sharingErrorOwnerMissing
 msgid "Owner is a required field"
-msgstr "Chủ sở hữu là trường bắt buộc."
+msgstr "Chủ sở hữu là trường bắt buộc"
 
 #: sharingErrorOwnerSelf
 msgid "You cannot search for shares from yourself"
@@ -13103,7 +13136,7 @@ msgstr "Bạn không thể tìm kiếm cho các chia sẻ từ bản thân bạn
 
 #: sharingErrorWithSelf
 msgid "You cannot share a folder with yourself."
-msgstr ""
+msgstr "Bạn không thể chia sẻ thư mục với chính mình."
 
 #: shareExists
 msgid ""
@@ -13208,7 +13241,7 @@ msgstr "Hiển thị các tùy chọn nâng cao"
 
 #: showAllEventsFromSelectedCalendars
 msgid "Show all events from selected calendars"
-msgstr ""
+msgstr "Hiển thị tất cả các sự kiện từ các lịch được chọn"
 
 #: showAllItemTypes
 msgid "Show All Item Types"
@@ -13232,7 +13265,7 @@ msgstr "Hiển thị như:"
 
 #: showBcc
 msgid "Show BCC"
-msgstr ""
+msgstr "Hiển thị BCC"
 
 #: showCalendar
 msgid "Show calendar"
@@ -13244,7 +13277,7 @@ msgstr "Hiển thị cuộc đàm thoại"
 
 #: showDeclinedMeetings
 msgid "Show declined meetings"
-msgstr "Hiển thị cuộc họp bị từ chối."
+msgstr "Hiển thị cuộc họp đã từ chối"
 
 #: showDetails
 msgid "Show Details"
@@ -13268,7 +13301,7 @@ msgstr "Tự động hiển thị hình ảnh trong email HTML"
 
 #: showFragments
 msgid "Display snippets of messages in email list"
-msgstr "Hiển thị các mẩu thông điệp trong danh sách email:"
+msgstr "Hiển thị các mẩu thông điệp trong danh sách email"
 
 #. #showFragmentsMsg = Show fragments in message lists
 #: showGroupShares
@@ -13393,7 +13426,7 @@ msgstr "Đã có một chữ ký với tên \"{0}\". "
 
 #: signatureNameHint
 msgid "<span style=\"font-style:italic\">enter name</span>"
-msgstr ""
+msgstr "<span style=\"font-style:italic\">nhập tên</span>"
 
 #: signatureNameLabel
 msgid "Signature Name:"
@@ -13480,7 +13513,7 @@ msgstr "Chỉ bao gồm thông điệp cuối"
 #. #       browser locale.
 #: smimeHelpURI
 msgid "/help/advanced/zwc_help_files/15_s_mime/setting_up_smime.htm"
-msgstr ""
+msgstr "/help/advanced/zwc_help_files/15_s_mime/setting_up_smime.htm"
 
 #. #L10N_IGNORE_BLOCK_END
 #: snooze
@@ -13493,11 +13526,11 @@ msgstr "Báo lại tất cả đối với:"
 
 #: snoozeAllLabel
 msgid "Snooze All"
-msgstr ""
+msgstr "Báo lại tất cả"
 
 #: snoozeFor
 msgid "Snooze for:"
-msgstr ""
+msgstr "Báo lại đối với:"
 
 #: socialcast
 msgid "Socialcast"
@@ -13713,7 +13746,7 @@ msgstr "Tên bảng tính"
 #: spreadsheetTitle
 msgctxt "spreadsheetTitle"
 msgid "Zimbra Spreadsheet"
-msgstr "Bảng tính Zimbra "
+msgstr "Bảng tính Zimbra"
 
 #: start
 msgid "Start"
@@ -13858,7 +13891,7 @@ msgstr "Thời gian đề nghị"
 
 #: suggestionsLabel
 msgid "Suggestions:"
-msgstr "Đề nghị"
+msgstr "Đề nghị:"
 
 #: suggestionsAutomatic
 msgctxt "suggestionsAutomatic"
@@ -13906,6 +13939,9 @@ msgid ""
 "Switching to text will discard all HTML formatting. Also, text that you've added at "
 "the top will be preserved, but other changes you've made may be lost. Continue?"
 msgstr ""
+"Chuyển sang văn bản sẽ loại bỏ tất cả định dạng HTML. Ngoài ra, văn bản mà bạn đã "
+"thêm ở trên cùng sẽ được giữ nguyên, nhưng những thay đổi khác bạn đã thực hiện có "
+"thể bị mất. Tiếp tục?"
 
 #: switchIncludeWarning
 msgid ""
@@ -13974,7 +14010,7 @@ msgstr "Thẻ"
 
 #: taggedAs
 msgid "Tagged as {0}"
-msgstr ""
+msgstr "Đã tag với {0}"
 
 #: tagAppts
 msgid "Tag {0,choice,1#Appointment|2#Appointments}"
@@ -14051,15 +14087,15 @@ msgstr "Gắn thẻ với"
 
 #: targetAddressBook
 msgid "Select the destination contacts folder."
-msgstr "Chọn sổ địa chỉ đích"
+msgstr "Chọn thư mục liên hệ đích."
 
 #: targetCalendar
 msgid "Select the destination calendar."
-msgstr "Chọn lịch đích"
+msgstr "Chọn lịch đích."
 
 #: targetFolder
 msgid "Select the destination folder."
-msgstr "Chọn thư mục đích"
+msgstr "Chọn thư mục đích."
 
 #: targetTag
 msgid "Select a tag:"
@@ -14079,7 +14115,7 @@ msgstr "Danh sách công việc:"
 
 #: taskLists
 msgid "Task Lists"
-msgstr ""
+msgstr "Danh sách công việc"
 
 #: tasksFolder
 msgid "Task Folder"
@@ -14112,7 +14148,7 @@ msgstr "Công việc"
 
 #: taskSecPastDue
 msgid "Past Due"
-msgstr "Quá hạn."
+msgstr "Quá hạn"
 
 #: taskSecUpcoming
 msgid "Upcoming"
@@ -14198,7 +14234,7 @@ msgstr "Hồ"
 
 #: theme-harmony
 msgid "Harmony"
-msgstr ""
+msgstr "Harmony"
 
 #: theme-hotrod
 msgid "Hot Rod"
@@ -14282,7 +14318,7 @@ msgstr "Tùy chọn thời gian"
 
 #: timezoneLanguage
 msgid "Time Zone and Language"
-msgstr ""
+msgstr "Múi giờ và Ngôn ngữ"
 
 #: timezoneConflictMsg
 msgid ""
@@ -14302,7 +14338,7 @@ msgstr "Tùy chọn múi giờ đã lưu"
 
 #: timezonePrefLabel
 msgid "Time Zones"
-msgstr ""
+msgstr "Múi giờ"
 
 #: titleLabel
 msgid "Title:"
@@ -14382,7 +14418,7 @@ msgstr "Twitter"
 
 #: twitterNotifications
 msgid "Twitter notifications"
-msgstr ""
+msgstr "Thông báo Twitter"
 
 #: twoWeeksAgo
 msgid "Two Weeks Ago"
@@ -14428,7 +14464,7 @@ msgstr "Gõ bỏ"
 
 #: unit
 msgid "Unit"
-msgstr ""
+msgstr "Đơn vị"
 
 #: unitsLabel
 msgid "Units:"
@@ -14453,7 +14489,7 @@ msgstr "Một lỗi không biết đã xảy ra."
 
 #: unknownPerson
 msgid "Unknown person"
-msgstr ""
+msgstr "Người không biết"
 
 #: unknownUser
 msgid "Unknown user \"{0}\". Must specify a valid Zimbra user."
@@ -14554,7 +14590,7 @@ msgstr "Chọn tập tin để tải lên:"
 
 #: uploadChooseImage
 msgid "Choose image to upload"
-msgstr "Chọn hình ảnh để tải lên:"
+msgstr "Chọn hình ảnh để tải lên"
 
 #: uploadAction
 msgid "If a file already exists with the same name:"
@@ -14582,7 +14618,7 @@ msgstr "Lỗi tải lên: Truy cập bị từ chối<br>Không thể tải lên
 
 #: uploadFailed
 msgid "Upload Failed:"
-msgstr ""
+msgstr "Tải lên thất bại:"
 
 #: uploadFileToBriefcase
 msgid "Upload New Files to Briefcase"
@@ -14592,11 +14628,14 @@ msgstr "Tải lên tập tin mới vào Cặp tài liệu"
 msgctxt "uploadInvalidName"
 msgid "\"{0}\" is not a valid filename. It contains at least one invalid character."
 msgstr ""
+"Xin lỗi, \"{0}\" là một tên không hợp lệ. Nó chứa ít nhất một ký tự không hợp lệ."
 
 #: uploadInvalidNames
 msgid ""
 "The files {0} are not valid filenames. Each contains at least one invalid character."
 msgstr ""
+"Các tệp {0} không phải là tên tập tin hợp lệ. Mỗi tệp chứa ít nhất một ký tự không "
+"hợp lệ."
 
 #: uploadNewFile
 msgid "Upload File"
@@ -14604,27 +14643,27 @@ msgstr "Tải lên tập tin"
 
 #: uploading
 msgid "Uploading..."
-msgstr ""
+msgstr "Đang tải lên ..."
 
 #: uploadPercentComplete
 msgid "{0}% of the upload completed."
-msgstr ""
+msgstr "{0}% tải lên được hoàn thành."
 
 #: uploadDisabledInProgress
 msgid "No more uploads are allowed until the current one completes."
-msgstr ""
+msgstr "Không được phép tải lên nhiều hơn nữa cho đến khi bản hiện tại hoàn tất."
 
 #: uploadRejectedError
 msgid "The upload was rejected, {0} contains a virus, {1}."
-msgstr ""
+msgstr "Tải lên đã bị từ chối, {0} chứa vi-rút, {1}."
 
 #: uploadSizeError
 msgid "The files {0} each exceed the size limit of {1}."
-msgstr ""
+msgstr "Các tập tin {0} vượt quá giới hạn kích thước của {1}."
 
 #: singleUploadSizeError
 msgid "The file {0} exceeds the size limit of {1}."
-msgstr ""
+msgstr "Tập tin {0} vượt quá giới hạn kích thước của {1}."
 
 #: url
 msgid "URL"
@@ -14652,7 +14691,7 @@ msgstr "Người dùng"
 
 #: userActions
 msgid "User actions"
-msgstr ""
+msgstr "Hành động người dùng"
 
 #: username
 msgid "Username"
@@ -14668,7 +14707,7 @@ msgstr "NGƯỜI DÙNG KHÔNG RÕ"
 
 #: useSendMsgShortcut
 msgid "Use keyboard shortcut <b>{0}</b> to send message"
-msgstr ""
+msgstr "Sử dụng phím tắt <b>{0}</ b> để gửi tin thư"
 
 #: useSignature
 msgid "Use signature:"
@@ -14676,11 +14715,11 @@ msgstr "Sử dụng chữ ký:"
 
 #: usingDescLimited
 msgid "Using {0} {1} of {2} quota"
-msgstr ""
+msgstr "Sử dụng {0} - {1} của {2} hạn ngạch"
 
 #: usingDescUnlimited
 msgid "Using {0} of unlimited"
-msgstr ""
+msgstr "Đang sử dụng {0} không giới hạn"
 
 #: validateLocation
 msgid "Validating Location"
@@ -15176,7 +15215,7 @@ msgstr "Bạn là chủ sở hữu của danh sách này."
 
 #: youAreMember
 msgid "You are a member of this list."
-msgstr "Bạn là thành viên của danh sách này"
+msgstr "Bạn là một thành viên của danh sách này."
 
 #: zeroSizedAtts
 msgid "Files of zero size and invalid path have been discarded."
@@ -15193,7 +15232,7 @@ msgstr "Trình diễn Zimbra"
 #: zimbraSpreadsheet
 msgctxt "zimbraSpreadsheet"
 msgid "Zimbra Spreadsheet"
-msgstr "Bảng tính Zimbra "
+msgstr "Bảng tính Zimbra"
 
 #: zimbraTitle
 msgctxt "zimbraTitle"
@@ -15242,7 +15281,7 @@ msgstr "Tập tin tải lên thành công. Đang cài đặt zimlet..."
 
 #: zimletFetchingTooltipData
 msgid "fetching data..."
-msgstr ""
+msgstr "đang tìm nạp dữ liệu ..."
 
 #: zimletInitError
 msgid ""
@@ -15370,6 +15409,15 @@ msgid ""
 "\n"
 "Grantee: {1}"
 msgstr ""
+"{2} đã cấp quyền \"{0}\" cho {1}\n"
+"\n"
+"----------------------------------------------\n"
+"\n"
+"Quyền được cấp: {0}\n"
+"\n"
+"Chủ sở hữu: {2}\n"
+"\n"
+"Người được cấp: {1}"
 
 #: delegateRevokedHtml
 msgid ""
@@ -15452,6 +15500,15 @@ msgid ""
 "Role: {4}\n"
 "Allowed actions: {5}"
 msgstr ""
+"{2} đã chia sẻ \"{0}\" với {3}\n"
+"\n"
+"----------------------------------------------\n"
+"\n"
+"Mục đã chia sẻ: {0} {1}\n"
+"Chủ sở hữu: {2}\n"
+"Người được ban: {3}\n"
+"Vai trò: {4}\n"
+"Các hành động được phép: {5}"
 
 #: shareCreatedHtml
 msgid ""
@@ -15781,10 +15838,12 @@ msgid ""
 "Would you like to enable offline mode to manage and compose mail, contacts \n"
 "and appointments when you're not connected to the Internet?"
 msgstr ""
+"Bạn có muốn bật chế độ ngoại tuyến để quản lý và soạn thư, địa chỉ liên hệ\n"
+"và các cuộc hẹn khi bạn không kết nối với Internet?"
 
 #: enableOffline
 msgid "Allow offline mode"
-msgstr ""
+msgstr "Cho phép chế độ ngoại tuyến"
 
 #: enableOfflineDetails
 msgid ""
@@ -15793,10 +15852,14 @@ msgid ""
 "Properties to \n"
 "manage individual folder offline settings."
 msgstr ""
+"Bản sao của các mục gần đây sẽ được đồng bộ hóa và lưu vào máy tính này.\n"
+"Nếu bạn đang sử dụng máy tính dùng chung hoặc công cộng, điều này không được khuyến "
+"khích. Xem Thuộc tính của Thư mục để\n"
+"quản lý cài đặt ngoại tuyến thư cá nhân."
 
 #: disableOffline
 msgid "Don't allow offline mode"
-msgstr ""
+msgstr "Không cho phép chế độ ngoại tuyến"
 
 #: disableOfflineDetails
 msgid ""
@@ -15805,6 +15868,10 @@ msgid ""
 "not be saved \n"
 "on this computer."
 msgstr ""
+"Bạn có thể đọc và soạn thư mới, chỉnh sửa và tạo danh bạ, và chỉnh sửa và\n"
+"tạo các cuộc hẹn chỉ khi bạn kết nối với Internet. Các mục gần đây sẽ không được "
+"lưu\n"
+"trên máy tính này."
 
 #. # generic address
 #: AB_FIELD_street
@@ -15855,7 +15922,7 @@ msgstr "Sửa liên hệ"
 
 #: AB_EDIT_DL
 msgid "Edit Distribution List"
-msgstr ""
+msgstr "Sửa danh sách phân phối"
 
 #: AB_EDIT_GROUP
 msgid "Edit Group"
@@ -16269,7 +16336,7 @@ msgid ""
 "<a href='javascript:switchToStandardClient()'>Switch to the Standard (HTML) "
 "version</a>"
 msgstr ""
-"<a href='javascript:switchToStandardClient()'>Chuyển tới phiên bản Chuẩn (HTML)</a>."
+"<a href='javascript:switchToStandardClient()'>Chuyển tới phiên bản Chuẩn (HTML)</a>"
 
 #: splashScreenVersion
 msgctxt "splashScreenVersion"
@@ -16282,15 +16349,15 @@ msgstr "<a href='http://www.zimbra.com' target=_blank>http://www.zimbra.com</a>"
 
 #: recurDailyEveryDay
 msgid "Every day"
-msgstr "Mọi ngày."
+msgstr "Hàng ngày"
 
 #: recurDailyEveryWeekday
 msgid "Every weekday"
-msgstr "Mọi ngày trong tuần."
+msgstr "Mọi ngày trong tuần"
 
 #: recurDailyEveryNumDays
 msgid "Every {0,number,integer} days"
-msgstr "Mỗi {0,number,integer} ngày."
+msgstr "Mỗi {0,number,integer} ngày"
 
 #: recurWeeklyEveryWeekday
 msgid "Every {0,date,EEEE}"
@@ -16347,7 +16414,7 @@ msgstr "Có hiệu lực {0,date,medium}."
 
 #: recurEndNone
 msgid "No end date"
-msgstr "Không có ngày kết thúc."
+msgstr "Không có ngày kết thúc"
 
 #: recurEndNumber
 msgid "End after {0,number,integer} occurrence(s)"
@@ -16763,7 +16830,7 @@ msgstr "Liên hệ của Thunderbird"
 
 #: yahoo-csv
 msgid "Yahoo! Contacts"
-msgstr "Liên hệ của Yahoo!"
+msgstr "Liên hệ của Yahoo"
 
 #: windows-live-mail-csv
 msgid "Windows Live Contacts"
@@ -16816,7 +16883,7 @@ msgstr "Nhấn chuột để tạo Đồ họa SmartArt"
 
 #: zd_docQuickInsertTT
 msgid "Click to insert"
-msgstr "Bấm để chèn."
+msgstr "Bấm để chèn"
 
 #. # slides
 #: slides_deleteSlide
@@ -16955,7 +17022,7 @@ msgstr "{0} {0,choice,1#liên hệ|2#liên hệ}"
 
 #: typeGroup
 msgid "{0,choice,1#contact group|2#contact groups}"
-msgstr ""
+msgstr "{0,choice,1#nhóm liên hệ|2#nhóm liên hệ}"
 
 #: typeAppointment
 msgid "{0,choice,1#appointment|2#appointments}"
@@ -17066,7 +17133,7 @@ msgstr "{0} {1} bỏ đánh dấu ưu tiên"
 #. # {2} - additional argument, eg name of destination organizer for a move
 #: actionMoveOrganizer
 msgid "{0} \"{1}\" moved to \"{2}\""
-msgstr ""
+msgstr "{0} {1} đã chuyển tới \"{2}\""
 
 #: quickCommands
 msgid "Quick Commands"

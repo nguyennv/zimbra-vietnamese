@@ -2,17 +2,129 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-07 23:26+0700\n"
-"PO-Revision-Date: 2015-10-10 11:05+0700\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
+"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"PO-Revision-Date: 2017-12-30 12:00+0700\n"
 "Last-Translator: Truong Anh Tuan <tuanta@iwayvietnam.com>\n"
 "Language-Team: \n"
 "Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
 
-#. # Keyboard Shortcuts for the ZCS Web Client### Below is a list of properties that define shortcuts. Each shortcut belongs# to a "map", which is the context in which the shortcut applies. For these# shortcuts, that is typically determined by the current view (for example,# a list of messages or a compose form).## The property key consists of several parts joined by dots. The first part# is always the name of a map. The second part is either the name of an action,# or the name of a field. Field names are lowercase, and action names are mixed# case. The final part of the key may be a platform.### Maps# ----## The map names in this properties file refer to views within the ZCS web # client. The following are valid map names:##    global					applies to all views#    compose				a form for creating a new message#    mail					a list of mail messages or conversations#    conversation			a single conversation, which is a list of mail messages#    message				the content of a single mail message#    contacts				a set of contacts#    editContact			a form for creating or editing a contact#    calendar				any of several calendar views (week, month, etc)#    editAppointment		a form for creating or editing an appointment#    options				a set of tabs for changing personal settings#    voicemail				a list of voicemail messages#    call					a list of phone calls#    address				an address bubble## Actions# -------## An action is an event triggered by a shortcut. It is what the shortcut# does. Most of the time, the action invoked by a web client shortcut emulates# something that could have been done using the mouse, for example by clicking# on a particular button. To see what actions are available and what each action does,# check the documentation section below. ## The action "INHERIT" has special meaning. When it is used, the name of a# map is given rather than a key sequence. The current map will copy all the# shortcuts of the given map, and then may add or override those shortcuts.# In general, you probably do not want to change the "INHERIT" properties.## To define a shortcut that applies only on a particular platform (Windows,# Macintosh, or Linux), add a platform identifier to the action. The platform# identifier can be one of:##    win mac linux## For example:##    compose.Send.display.mac = Ctrl+Enter; Ctrl+S#    compose.Send.keycode.mac = Ctrl+13; Ctrl+83#    # Key Sequences (shortcuts)# -------------## A key sequence is a set of one or more keys that triggers an action. Each# key in the sequence may have a modifier (such as the Control or Shift key).# Most key sequences consist of just one key. The keys in multiple-key# sequences are separated with a comma. The next key in a sequence must be# struck within a short time for the sequence to continue.## The following are valid modifiers:##    Ctrl Alt Shift Meta## To add a modifier to a key, specify the modifier, then a plus sign, then the# key. For example: Ctrl+C. If you want to add more than one modifier, use# another plus sign. For example: Ctrl+Shift+O.## If you want to have more than one shortcut for the same action, use a # semicolon (and optional space) to separate the shortcuts. For example, to# specify three different shortcuts for the global action Foo:##    global.Foo.display		= A; B; C #    global.Foo.keycode		= 65; 66; 67# # Key sequences have no notion of upper case or lower case. They map to what# you see on your keyboard (for example, a "T"), rather than the character it# produces when you strike it (a "t"). To specify a keystroke that requires the# Shift key, you must use the Shift modifier. For example, to specify the "@"# key, you'd use: Shift+2.## Each letter, number, and non-shifted printable character represents itself:##    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9#    ` - = [ ] ' . /## Non-printable keys are specified with special names. The following special# names are available:##    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space### Documentation# -------------## Maps and actions can be documented by appending ".description" to the map# name or the action and using that as a property name. The descriptive# text is the property's value. The descriptions below show up as content in# the Shortcuts tab on the Options page.## The "sort" field sets the sorting order among either map names or among# the actions within a map, from low to high. There are gaps so that# properties may be inserted and given a sort order without having to# change the order of other properties.# Map: global
+#. # Keyboard Shortcuts for the ZCS Web Client
+#. #
+#. #
+#. # Below is a list of properties that define shortcuts. Each shortcut belongs
+#. # to a "map", which is the context in which the shortcut applies. For these
+#. # shortcuts, that is typically determined by the current view (for example,
+#. # a list of messages or a compose form).
+#. #
+#. # The property key consists of several parts joined by dots. The first part
+#. # is always the name of a map. The second part is either the name of an action,
+#. # or the name of a field. Field names are lowercase, and action names are mixed
+#. # case. The final part of the key may be a platform.
+#. #
+#. #
+#. # Maps
+#. # ----
+#. #
+#. # The map names in this properties file refer to views within the ZCS web
+#. # client. The following are valid map names:
+#. #
+#. #    global					applies to all views
+#. #    compose				a form for creating a new message
+#. #    mail					a list of mail messages or conversations
+#. #    conversation			a single conversation, which is a list of mail messages
+#. #    message				the content of a single mail message
+#. #    contacts				a set of contacts
+#. #    editContact			a form for creating or editing a contact
+#. #    calendar				any of several calendar views (week, month, etc)
+#. #    editAppointment		a form for creating or editing an appointment
+#. #    options				a set of tabs for changing personal settings
+#. #    voicemail				a list of voicemail messages
+#. #    call					a list of phone calls
+#. #    address				an address bubble
+#. #
+#. # Actions
+#. # -------
+#. #
+#. # An action is an event triggered by a shortcut. It is what the shortcut
+#. # does. Most of the time, the action invoked by a web client shortcut emulates
+#. # something that could have been done using the mouse, for example by clicking
+#. # on a particular button. To see what actions are available and what each action does,
+#. # check the documentation section below.
+#. #
+#. # The action "INHERIT" has special meaning. When it is used, the name of a
+#. # map is given rather than a key sequence. The current map will copy all the
+#. # shortcuts of the given map, and then may add or override those shortcuts.
+#. # In general, you probably do not want to change the "INHERIT" properties.
+#. #
+#. # To define a shortcut that applies only on a particular platform (Windows,
+#. # Macintosh, or Linux), add a platform identifier to the action. The platform
+#. # identifier can be one of:
+#. #
+#. #    win mac linux
+#. #
+#. # For example:
+#. #
+#. #    compose.Send.display.mac = Ctrl+Enter; Ctrl+S
+#. #    compose.Send.keycode.mac = Ctrl+13; Ctrl+83
+#. #
+#. # Key Sequences (shortcuts)
+#. # -------------
+#. #
+#. # A key sequence is a set of one or more keys that triggers an action. Each
+#. # key in the sequence may have a modifier (such as the Control or Shift key).
+#. # Most key sequences consist of just one key. The keys in multiple-key
+#. # sequences are separated with a comma. The next key in a sequence must be
+#. # struck within a short time for the sequence to continue.
+#. #
+#. # The following are valid modifiers:
+#. #
+#. #    Ctrl Alt Shift Meta
+#. #
+#. # To add a modifier to a key, specify the modifier, then a plus sign, then the
+#. # key. For example: Ctrl+C. If you want to add more than one modifier, use
+#. # another plus sign. For example: Ctrl+Shift+O.
+#. #
+#. # If you want to have more than one shortcut for the same action, use a
+#. # semicolon (and optional space) to separate the shortcuts. For example, to
+#. # specify three different shortcuts for the global action Foo:
+#. #
+#. #    global.Foo.display		= A; B; C
+#. #    global.Foo.keycode		= 65; 66; 67
+#. #
+#. # Key sequences have no notion of upper case or lower case. They map to what
+#. # you see on your keyboard (for example, a "T"), rather than the character it
+#. # produces when you strike it (a "t"). To specify a keystroke that requires the
+#. # Shift key, you must use the Shift modifier. For example, to specify the "@"
+#. # key, you'd use: Shift+2.
+#. #
+#. # Each letter, number, and non-shifted printable character represents itself:
+#. #
+#. #    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9
+#. #    ` - = [ ] ' . /
+#. #
+#. # Non-printable keys are specified with special names. The following special
+#. # names are available:
+#. #
+#. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
+#. #
+#. #
+#. # Documentation
+#. # -------------
+#. #
+#. # Maps and actions can be documented by appending ".description" to the map
+#. # name or the action and using that as a property name. The descriptive
+#. # text is the property's value. The descriptions below show up as content in
+#. # the Shortcuts tab on the Options page.
+#. #
+#. # The "sort" field sets the sorting order among either map names or among
+#. # the actions within a map, from low to high. There are gaps so that
+#. # properties may be inserted and given a sort order without having to
+#. # change the order of other properties.
+#. # Map: global
 #: global.description
 msgid "All Applications"
 msgstr "Tất cả Ứng dụng"
@@ -87,7 +199,7 @@ msgid "Focus content pane"
 msgstr "Tập trung vào khung nội dung"
 
 #: global.FocusContentPane.sort
-msgid "10063"
+msgid "10280"
 msgstr "10280"
 
 #: global.FocusSearchBox.display
@@ -103,7 +215,8 @@ msgid "Focus search box"
 msgstr "Tập trung vào hộp tìm kiếm"
 
 #: global.FocusSearchBox.sort
-msgid "10060"
+msgctxt "global.FocusSearchBox.sort"
+msgid "10270"
 msgstr "10270"
 
 #: global.FocusToolbar.display
@@ -119,8 +232,24 @@ msgid "Focus toolbar"
 msgstr "Tập trung vào thanh công cụ"
 
 #: global.FocusToolbar.sort
-msgid "10067"
+msgid "10275"
 msgstr "10275"
+
+#: global.FocusWebSearchBox.display
+msgid "Alt+/"
+msgstr "Alt+/"
+
+#: global.FocusWebSearchBox.keycode
+msgid "Alt+191"
+msgstr "Alt+191"
+
+#: global.FocusWebSearchBox.description
+msgid "Focus web search box"
+msgstr "Tập trung vào hộp tìm kiếm web"
+
+#: global.FocusWebSearchBox.sort
+msgid "10277"
+msgstr "10277"
 
 #: global.GoToCalendar.display
 msgid "G,C"
@@ -183,7 +312,8 @@ msgid "Go to Briefcase"
 msgstr "Chuyển tới Cặp tài liệu"
 
 #: global.GoToBriefcase.sort
-msgid "10040"
+msgctxt "global.GoToBriefcase.sort"
+msgid "10070"
 msgstr "10070"
 
 #: global.GoToOptions.display
@@ -263,6 +393,7 @@ msgid "New item"
 msgstr "Mục mới"
 
 #: global.New.sort
+msgctxt "global.New.sort"
 msgid "10070"
 msgstr "10070"
 
@@ -396,22 +527,6 @@ msgstr "Bạn mới"
 msgid "10125"
 msgstr "10125"
 
-#: global.NewSearch.display
-msgid "N,S"
-msgstr "N,S"
-
-#: global.NewSearch.keycode
-msgid "78,83"
-msgstr "78,83"
-
-#: global.NewSearch.description
-msgid "Open a search tab"
-msgstr "Mở thẻ tìm kiếm"
-
-#: global.NewSearch.sort
-msgid "10195"
-msgstr "10195"
-
 #: global.NewTag.display
 msgid "N,T"
 msgstr "N,T"
@@ -443,22 +558,6 @@ msgstr "Công việc mới"
 #: global.NewTask.sort
 msgid "10115"
 msgstr "10115"
-
-#: global.NewDocument.display
-msgid "N,D"
-msgstr "N,D"
-
-#: global.NewDocument.keycode
-msgid "78,68"
-msgstr "78,68"
-
-#: global.NewDocument.description
-msgid "New document"
-msgstr "Tài liệu mới"
-
-#: global.NewDocument.sort
-msgid "10135"
-msgstr "10135"
 
 #: global.NextPage.display
 msgid "Ctrl+ArrowRight"
@@ -579,30 +678,6 @@ msgstr "Hiển thị phím tắt"
 msgctxt "global.Shortcuts.sort"
 msgid "10270"
 msgstr "10270"
-
-#: global.ContextMenu.display
-msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
-msgstr ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
-
-#: global.ContextMenu.keycode
-msgid "188; Ctrl+13; Ctrl+32; Shift+121"
-msgstr "188; Ctrl+13; Ctrl+32; Shift+121"
-
-#: global.ContextMenu.display.mac
-msgid ",; Ctrl+Enter; Ctrl+Space"
-msgstr ",; Ctrl+Enter; Ctrl+Space"
-
-#: global.ContextMenu.keycode.mac
-msgid "188; Ctrl+13; Ctrl+32"
-msgstr "188; Ctrl+13; Ctrl+32"
-
-#: global.ContextMenu.description
-msgid "Show right-click menu"
-msgstr "Hiện trình đơn chuột phải"
-
-#: global.ContextMenu.sort
-msgid "10275"
-msgstr "10275"
 
 #: global.Tag.display
 msgid "T"
@@ -880,7 +955,24 @@ msgstr "Chưa đọc cuối"
 msgid "20192"
 msgstr "20192"
 
-#. #mail.MuteUnmuteConv.display = E#mail.MuteUnmuteConv.keycode = 69#mail.MuteUnmuteConv.description = Mark mute#mail.MuteUnmuteConv.sort = 20063
+#: mail.MuteUnmuteConv.display
+msgctxt "mail.MuteUnmuteConv.display"
+msgid "E"
+msgstr "E"
+
+#: mail.MuteUnmuteConv.keycode
+msgctxt "mail.MuteUnmuteConv.keycode"
+msgid "69"
+msgstr "69"
+
+#: mail.MuteUnmuteConv.description
+msgid "Mark mute"
+msgstr "Đánh dấu tắt tiếng"
+
+#: mail.MuteUnmuteConv.sort
+msgid "20063"
+msgstr "20063"
+
 #: mail.MarkRead.display
 msgid "M,R; Z"
 msgstr "M,R; Z"
@@ -1163,7 +1255,30 @@ msgstr "Báo cáo (đánh dấu là) thư rác"
 msgid "20100"
 msgstr "20100"
 
-#. #mail.Undo.display = Ctrl+Z#mail.Undo.display.mac = Cmd+Z#mail.Undo.keycode = Ctrl+90#mail.Undo.keycode.mac = Meta+90#mail.Undo.description = Undo#mail.Undo.sort = 20300
+#: mail.Undo.display
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: mail.Undo.display.mac
+msgid "Cmd+Z"
+msgstr "Cmd+Z"
+
+#: mail.Undo.keycode
+msgid "Ctrl+90"
+msgstr "Ctrl+90"
+
+#: mail.Undo.keycode.mac
+msgid "Meta+90"
+msgstr "Meta+90"
+
+#: mail.Undo.description
+msgid "Undo"
+msgstr "Hoàn tác"
+
+#: mail.Undo.sort
+msgid "20300"
+msgstr "20300"
+
 #: mail.ViewByConversation.display
 msgid "V,C"
 msgstr "V,C"
@@ -1509,7 +1624,8 @@ msgid "Show shortcuts"
 msgstr "Hiển thị phím tắt"
 
 #: compose.Shortcuts.sort
-msgid "31000"
+msgctxt "compose.Shortcuts.sort"
+msgid "10270"
 msgstr "10270"
 
 #: compose.Spellcheck.display
@@ -1586,7 +1702,8 @@ msgstr "35010"
 #. # Map: conversation
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: conversation.INHERIT
-msgid "conversationList"
+msgctxt "conversation.INHERIT"
+msgid "mail"
 msgstr "thư"
 
 #. #L10N_IGNORE_BLOCK_END
@@ -1637,7 +1754,8 @@ msgctxt "message.INHERIT"
 msgid "mail"
 msgstr "thư"
 
-#. #L10N_IGNORE_BLOCK_END# Map: contacts
+#. #L10N_IGNORE_BLOCK_END
+#. # Map: contacts
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: contacts.INHERIT
 msgctxt "contacts.INHERIT"
@@ -1803,6 +1921,22 @@ msgstr "Sửa cuộc hẹn"
 msgid "70010"
 msgstr "70010"
 
+#: calendar.Copy.display
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: calendar.Copy.keycode
+msgid "Ctrl+67"
+msgstr "Ctrl+67"
+
+#: calendar.Copy.description
+msgid "Copy appointment"
+msgstr "Sao chép cuộc hẹn"
+
+#: calendar.Copy.sort
+msgid "70110"
+msgstr "70110"
+
 #: calendar.FBView.display
 msgid "F; 2"
 msgstr "F; 2"
@@ -1818,6 +1952,22 @@ msgstr "Khung hiển thị Bận/Rỗi"
 #: calendar.FBView.sort
 msgid "70096"
 msgstr "70096"
+
+#: calendar.Paste.display
+msgid "Ctrl+V"
+msgstr "Ctrl+V"
+
+#: calendar.Paste.keycode
+msgid "Ctrl+86"
+msgstr "Ctrl+86"
+
+#: calendar.Paste.description
+msgid "Paste appointment"
+msgstr "Dán cuộc hẹn"
+
+#: calendar.Paste.sort
+msgid "70120"
+msgstr "70120"
 
 #: calendar.CalListView.display
 msgid "L; 9"
@@ -2023,43 +2173,9 @@ msgid "Show shortcuts"
 msgstr "Hiển thị phím tắt"
 
 #: editAppointment.Shortcuts.sort
-msgid "81000"
+msgctxt "editAppointment.Shortcuts.sort"
+msgid "10270"
 msgstr "10270"
-
-#. # Map: viewAppointment
-#. #L10N_IGNORE_BLOCK_BEGIN
-#: viewAppointment.INHERIT
-msgctxt "viewAppointment.INHERIT"
-msgid "global"
-msgstr "chung"
-
-#. #L10N_IGNORE_BLOCK_END
-#: viewAppointment.description
-msgid "View Appointment"
-msgstr "Xem lịch hẹn"
-
-#: viewAppointment.sort
-msgid "85000"
-msgstr "85000"
-
-#: viewAppointment.Cancel.display
-msgctxt "viewAppointment.Cancel.display"
-msgid "Esc"
-msgstr "Esc"
-
-#: viewAppointment.Cancel.keycode
-msgctxt "viewAppointment.Cancel.keycode"
-msgid "27"
-msgstr "27"
-
-#: viewAppointment.Cancel.description
-msgctxt "viewAppointment.Cancel.description"
-msgid "Close"
-msgstr "Close"
-
-#: viewAppointment.Cancel.sort
-msgid "85020"
-msgstr "85020"
 
 #. # Map: options
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -2620,3 +2736,85 @@ msgstr "Chọn địa chỉ ở trước"
 #: address.SelectPrevious.sort
 msgid "30130"
 msgstr "30130"
+
+#~ msgid "10060"
+#~ msgstr "10270"
+
+#~ msgid "10067"
+#~ msgstr "10275"
+
+#~ msgid "10040"
+#~ msgstr "10070"
+
+#~ msgid "N,S"
+#~ msgstr "N,S"
+
+#~ msgid "78,83"
+#~ msgstr "78,83"
+
+#~ msgid "Open a search tab"
+#~ msgstr "Mở thẻ tìm kiếm"
+
+#~ msgid "10195"
+#~ msgstr "10195"
+
+#~ msgid "N,D"
+#~ msgstr "N,D"
+
+#~ msgid "78,68"
+#~ msgstr "78,68"
+
+#~ msgid "New document"
+#~ msgstr "Tài liệu mới"
+
+#~ msgid "10135"
+#~ msgstr "10135"
+
+#~ msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
+#~ msgstr ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
+
+#~ msgid "188; Ctrl+13; Ctrl+32; Shift+121"
+#~ msgstr "188; Ctrl+13; Ctrl+32; Shift+121"
+
+#~ msgid ",; Ctrl+Enter; Ctrl+Space"
+#~ msgstr ",; Ctrl+Enter; Ctrl+Space"
+
+#~ msgid "188; Ctrl+13; Ctrl+32"
+#~ msgstr "188; Ctrl+13; Ctrl+32"
+
+#~ msgid "Show right-click menu"
+#~ msgstr "Hiện trình đơn chuột phải"
+
+#~ msgid "31000"
+#~ msgstr "10270"
+
+#~ msgid "conversationList"
+#~ msgstr "thư"
+
+#~ msgid "81000"
+#~ msgstr "10270"
+
+#~ msgctxt "viewAppointment.INHERIT"
+#~ msgid "global"
+#~ msgstr "chung"
+
+#~ msgid "View Appointment"
+#~ msgstr "Xem lịch hẹn"
+
+#~ msgid "85000"
+#~ msgstr "85000"
+
+#~ msgctxt "viewAppointment.Cancel.display"
+#~ msgid "Esc"
+#~ msgstr "Esc"
+
+#~ msgctxt "viewAppointment.Cancel.keycode"
+#~ msgid "27"
+#~ msgstr "27"
+
+#~ msgctxt "viewAppointment.Cancel.description"
+#~ msgid "Close"
+#~ msgstr "Close"
+
+#~ msgid "85020"
+#~ msgstr "85020"
