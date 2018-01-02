@@ -1,29 +1,32 @@
-#. extracted from .\messages\ZhMsg.properties
+#. extracted from ZhMsg.properties
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
+"POT-Creation-Date: 2018-01-02 11:20+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Translate Toolkit 2.2.5\n"
 
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
-#. # 
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
-#. # 
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 Synacor, Inc.
+#. #
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. #
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <https://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
 #: aboveQuotedText
@@ -85,15 +88,15 @@ msgid "The phone number could not be added to the Call Screening List."
 msgstr ""
 
 #: actionAddressBookCreated
-msgid "Created address book \"{0}\"."
+msgid "Created contacts folder \"{0}\"."
 msgstr ""
 
 #: actionAddressBookCheckConfirm
-msgid "Please check the checkbox to confirm address book deletion."
+msgid "Please check the checkbox to confirm contacts folder deletion."
 msgstr ""
 
 #: actionAddressBookColorChanged
-msgid "Address book \"{0}\" color changed to \"{1}\"."
+msgid "Contact folder \"{0}\" color changed to \"{1}\"."
 msgstr ""
 
 #: actionAddressBookContactsImported
@@ -102,23 +105,23 @@ msgid ""
 msgstr ""
 
 #: actionAddressBookDeleted
-msgid "Deleted address book \"{0}\"."
+msgid "Deleted contacts folder \"{0}\"."
 msgstr ""
 
 #: actionAddressBookModified
-msgid "Address book \"{0}\" modified."
+msgid "Contacts folder \"{0}\" modified."
 msgstr ""
 
 #: actionAddressBookRenamed
-msgid "Address book \"{0}\" renamed to \"{1}\"."
+msgid "Contacts folder \"{0}\" renamed to \"{1}\"."
 msgstr ""
 
 #: actionAddressBookTrashed
-msgid "Address book trashed \"{0}\"."
+msgid "Contacts folder trashed \"{0}\"."
 msgstr ""
 
 #: actionAddressBookMovedToTrash
-msgid "Address book \"{0}\" moved to \"Trash\"."
+msgid "Contacts folder \"{0}\" moved to \"Trash\"."
 msgstr ""
 
 #: actionBriefcaseCreated
@@ -147,8 +150,8 @@ msgstr ""
 
 #: actionBriefcaseItemsMoved
 msgid ""
-"{0,choice,0#0 items have been moved to \"{1}\"|1#1 item has been moved to "
-"\"{1}\"|1<{0,number,integer} items have been moved to \"{1}\"}."
+"{0,choice,0#0 items have been moved to \"{1}\"|1#1 item has been moved to \""
+"{1}\"|1<{0,number,integer} items have been moved to \"{1}\"}."
 msgstr ""
 
 #: actionBriefcaseItemsDeleted
@@ -464,9 +467,8 @@ msgstr ""
 
 #: actionConvMessageUntagAll
 msgid ""
-"All tags have been removed from {0} "
-"{0,choice,1#conversation|2#conversations} and {1} "
-"{1,choice,1#message|2#messages}."
+"All tags have been removed from {0} {0,choice,1#conversation|2#conversations}"
+" and {1} {1,choice,1#message|2#messages}."
 msgstr ""
 
 #: actionConvMoved
@@ -713,7 +715,7 @@ msgid "Move selected item(s)"
 msgstr ""
 
 #: actionNoAddressBookNameSpecified
-msgid "No address book name specified."
+msgid "No contacts folder name specified."
 msgstr ""
 
 #: actionNoAddressBookFileImportSpecified
@@ -722,7 +724,7 @@ msgid "No file specified."
 msgstr ""
 
 #: actionNoAddressBookSelected
-msgid "No address book selected."
+msgid "No contacts folder selected."
 msgstr ""
 
 #: actionNoBriefcaseNameSpecified
@@ -802,7 +804,7 @@ msgid "No owner Email specified."
 msgstr ""
 
 #: actionNoOwnerAddressBookSpecified
-msgid "No owner's address book specified."
+msgid "No owner's contacts folder specified."
 msgstr ""
 
 #: actionNoOwnerCalendarSpecified
@@ -977,6 +979,10 @@ msgstr ""
 msgid "Task List \"{0}\" deleted."
 msgstr ""
 
+#: actionTaskListModified
+msgid "Task List \"{0}\" modified."
+msgstr ""
+
 #: actionTaskListTrashed
 msgid "Task List \"{0}\" trashed."
 msgstr ""
@@ -1009,8 +1015,8 @@ msgstr ""
 
 #: actionTaskMoved
 msgid ""
-"{0,choice,0#0 tasks have been moved to \"{1}\"|1#1 task has been moved to "
-"\"{1}\"|1<{0,number,integer} tasks have been moved to \"{1}\"}."
+"{0,choice,0#0 tasks have been moved to \"{1}\"|1#1 task has been moved to \""
+"{1}\"|1<{0,number,integer} tasks have been moved to \"{1}\"}."
 msgstr ""
 
 #: actionTaskCreated
@@ -1053,8 +1059,8 @@ msgstr ""
 
 #: actionVoiceMailMovedInbox
 msgid ""
-"{0,choice,0#0 voice mail messages have been moved to the Voice Mail "
-"folder|1#1 voice mail message has been moved to the Voice Mail "
+"{0,choice,0#0 voice mail messages have been moved to the Voice Mail folder|1#"
+"1 voice mail message has been moved to the Voice Mail "
 "folder|1<{0,number,integer} voice mail messages have been moved to the Voice "
 "Mail folder}."
 msgstr ""
@@ -1117,6 +1123,7 @@ msgid "Active"
 msgstr ""
 
 #: add
+msgctxt "add"
 msgid "Add"
 msgstr ""
 
@@ -1146,61 +1153,62 @@ msgstr ""
 
 #: addressBook
 msgctxt "addressBook"
-msgid "Address Book"
+msgid "Contacts"
 msgstr ""
 
 #: addressBookLabel
-msgid "Address Book:"
+msgid "Contact Folder:"
 msgstr ""
 
 #: addressBookNew
-msgid "New Address Book"
+msgid "New Contact Folder"
 msgstr ""
 
 #: addressBookNewShared
-msgid "Link to Address Book"
+msgid "Link to Contact Folder"
 msgstr ""
 
 #: addressBookName
-msgid "Address Book Name"
+msgid "Contact Folder Name"
 msgstr ""
 
 #: addressBookUser
 msgctxt "addressBookUser"
-msgid "Address Book"
+msgid "Contact Folder"
 msgstr ""
 
 #: addressBookSystem
-msgid "System Address Book"
+msgid "System Contact Folder"
 msgstr ""
 
 #: addressBookShared
-msgid "Shared Address Book"
+msgid "Shared Contact Folder"
 msgstr ""
 
 #: addressBookDelete
 msgctxt "addressBookDelete"
-msgid "Delete Address Book"
+msgid "Delete Contact Folder"
 msgstr ""
 
 #: addressBookUpdated
-msgid "Address Book Updated"
+msgid "Contacts Updated"
 msgstr ""
 
 #: addressBookDeleteConfirmation
-msgid "Delete this address book (move to trash)"
+msgid "Delete this contacts folder (move to trash)"
 msgstr ""
 
 #: addressBookPermDeleteConfirmation
-msgid "Permanently delete this address book"
+msgid "Permanently delete this contacts folder"
 msgstr ""
 
 #: addressBooks
-msgid "Address Books"
+msgctxt "addressBooks"
+msgid "Contacts"
 msgstr ""
 
 #: addressBooksLabel
-msgid "Address Books:"
+msgid "Contacts:"
 msgstr ""
 
 #: addSelected
@@ -1264,6 +1272,7 @@ msgid "From {0} {1} - {2}  {3}"
 msgstr ""
 
 #: apptDateBlurbAllDay
+msgctxt "apptDateBlurbAllDay"
 msgid "{0}"
 msgstr ""
 
@@ -1452,11 +1461,11 @@ msgstr ""
 #: basicClientLoginNotice
 msgid ""
 "You are using the basic client. Click <a href=\"{0}\">here</a> to switch to "
-"the advanced client.<br><br><a target=\"_new\" "
-"href=\"http://www.zimbra.com\">Zimbra</a> :: the leader in open source "
-"messaging and collaboration<br><a target=\"_new\" "
-"href=\"http://www.zimbra.com/blog\">Zimbra Blog</a> <a target=\"_new\" "
-"href=\"http://wiki.zimbra.com\">Zimbra Wiki</a>"
+"the advanced client.<br><br><a target=\"_new\" href=\"https://www.zimbra."
+"com\">Zimbra</a> :: the leader in open source messaging and "
+"collaboration<br><a target=\"_new\" href=\"https://www.zimbra.com/blog\">"
+"Zimbra Blog</a> <a target=\"_new\" href=\"https://wiki.zimbra.com\">Zimbra "
+"Wiki</a>"
 msgstr ""
 
 #: bcc
@@ -1521,6 +1530,23 @@ msgstr ""
 msgid "Detail View"
 msgstr ""
 
+#: briefcaseDocName
+msgctxt "briefcaseDocName"
+msgid "Name"
+msgstr ""
+
+#: briefcaseModifiedBy
+msgid "Author"
+msgstr ""
+
+#: briefcaseModifiedOn
+msgid "Modified"
+msgstr ""
+
+#: briefcaseVersion
+msgid "Version"
+msgstr ""
+
 #: blue
 msgid "Blue"
 msgstr ""
@@ -1566,8 +1592,15 @@ msgstr ""
 msgid "By Message"
 msgstr ""
 
-#. #callingPartyFormat = {0} ({1})
-#. #callingPartyCallerIdFormat = {0}
+#: callingPartyFormat
+msgid "{0} ({1})"
+msgstr ""
+
+#: callingPartyCallerIdFormat
+msgctxt "callingPartyCallerIdFormat"
+msgid "{0}"
+msgstr ""
+
 #: calViewListShort
 msgctxt "calViewListShort"
 msgid "List"
@@ -1769,15 +1802,15 @@ msgid "Load Feed"
 msgstr ""
 
 #: chooseAddressBookToChange
-msgid "Choose address book to change"
+msgid "Choose contacts folder to change"
 msgstr ""
 
 #: chooseAddressBookToRename
-msgid "Choose address book to rename"
+msgid "Choose contacts folder to rename"
 msgstr ""
 
 #: chooseAddressBookToDelete
-msgid "Choose address book to delete"
+msgid "Choose contacts folder to delete"
 msgstr ""
 
 #: chooseFolderToMarkRead
@@ -1805,7 +1838,7 @@ msgid "Change Tag Color"
 msgstr ""
 
 #: changeAddressBookColor
-msgid "Change Address Book Color"
+msgid "Change Contact Folder Color"
 msgstr ""
 
 #: changeCalendarColor
@@ -1917,9 +1950,9 @@ msgstr ""
 
 #: confirmEmptyTrashFolder
 msgid ""
-"{0}This action will delete all items in both the Email and Address Book "
-"trash folders.  Are you sure that you want to permanently delete everything "
-"in the trash folder? {1}{2}"
+"{0}This action will delete all items in both the Email and Contacts trash "
+"folders.  Are you sure that you want to permanently delete everything in the "
+"trash folder? {1}{2}"
 msgstr ""
 
 #: confirmUnsavedChanges
@@ -1978,7 +2011,7 @@ msgid "Conversation"
 msgstr ""
 
 #: createAddressBook
-msgid "Create Address Book"
+msgid "Create Contact Folder"
 msgstr ""
 
 #: createBriefcase
@@ -2003,7 +2036,7 @@ msgid "Create folder in"
 msgstr ""
 
 #: createNewAddressBook
-msgid "Create New Address Book"
+msgid "Create New Contact Folder"
 msgstr ""
 
 #: createNewCalendar
@@ -2115,7 +2148,7 @@ msgstr ""
 
 #: deleteAddressBook
 msgctxt "deleteAddressBook"
-msgid "Delete Address Book"
+msgid "Delete Contact Folder"
 msgstr ""
 
 #: deleteCalendar
@@ -2342,7 +2375,8 @@ msgid ""
 msgstr ""
 
 #: errorPhoneIsTo
-msgid "Sorry, the phone number may not be the same as the \"forward to\" number."
+msgid ""
+"Sorry, the phone number may not be the same as the \"forward to\" number."
 msgstr ""
 
 #: errorPhoneIsOwn
@@ -2546,8 +2580,8 @@ msgstr ""
 
 #: addressBookEmptyConfirmation
 msgid ""
-"Permanently delete all contacts in this address book. This operation can not "
-"be undone."
+"Permanently delete all contacts in this folder. This operation can not be "
+"undone."
 msgstr ""
 
 #: folderPermDeleteConfirmation
@@ -2567,7 +2601,7 @@ msgid "All appointments deleted in \"{0}\"."
 msgstr ""
 
 #: addressBookEmptied
-msgid "Address book \"{0}\" emptied."
+msgid "Contact folder \"{0}\" emptied."
 msgstr ""
 
 #: folderItemCount
@@ -2637,9 +2671,10 @@ msgstr ""
 
 #. # Copyright string must not be translated
 #: footerCopyright
+msgctxt "footerCopyright"
 msgid ""
-"Copyright © 2005-2013 Telligent Systems, Inc. \"Telligent\" and \"Zimbra\"  are "
-"registered trademarks or trademarks of Telligent Systems, Inc."
+"Copyright © 2005-2017 Synacor, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Synacor, Inc."
 msgstr ""
 
 #: formatDateSent
@@ -2691,6 +2726,11 @@ msgstr ""
 #: fromDate
 msgctxt "fromDate"
 msgid "Start Date"
+msgstr ""
+
+#. # {0} first, {1} last
+#: fullname
+msgid "{0} {1}"
 msgstr ""
 
 #: untilDate
@@ -2836,7 +2876,7 @@ msgid "Invitees"
 msgstr ""
 
 #: linkToSharedAddressBook
-msgid "Link to Shared Address Book"
+msgid "Link to Shared Contact Folder"
 msgstr ""
 
 #: linkToSharedCalendar
@@ -2871,7 +2911,7 @@ msgid "Log Out"
 msgstr ""
 
 #: logoURL
-msgid "http://www.zimbra.com"
+msgid "https://www.zimbra.com"
 msgstr ""
 
 #: low
@@ -2939,7 +2979,7 @@ msgstr ""
 
 #: manageAddressBooks
 msgctxt "manageAddressBooks"
-msgid "Manage Address Books"
+msgid "Manage Contacts"
 msgstr ""
 
 #: manageBriefcase
@@ -3149,6 +3189,7 @@ msgid "My Card"
 msgstr ""
 
 #: name
+msgctxt "name"
 msgid "Name"
 msgstr ""
 
@@ -3447,7 +3488,7 @@ msgid "Additional options can be found on the"
 msgstr ""
 
 #: optionsManageAddressBooksLink
-msgid "manage address books"
+msgid "manage contacts"
 msgstr ""
 
 #: optionsManageAddressBooksPost
@@ -3812,8 +3853,8 @@ msgstr ""
 
 #: optionsCallRejectionAllLabel
 msgid ""
-"Screen ALL anonymous calls (you can also manage this feature by dialing "
-"*77/*87 from your Comcast Digital Voice Phone)"
+"Screen ALL anonymous calls (you can also manage this feature by dialing *77/*"
+"87 from your Comcast Digital Voice Phone)"
 msgstr ""
 
 #: optionsCallRejectionSelective
@@ -3853,8 +3894,8 @@ msgstr ""
 
 #: optionsVoiceCenterLinkURL
 msgid ""
-"https://digitalvoice.comcast.net/Comcast/DVPPortal/Dvp.portal?_nfpb=true&_pa"
-"geLabel=DvpPreferencesBook"
+"https://digitalvoice.comcast.net/Comcast/DVPPortal/Dvp.portal?_nfpb=true&_pag"
+"eLabel=DvpPreferencesBook"
 msgstr ""
 
 #: optionsForwardAcopyTo
@@ -4071,7 +4112,7 @@ msgid "Owner's Email"
 msgstr ""
 
 #: ownersAddressBookName
-msgid "Owner's Address Book Name"
+msgid "Owner's Contact Folder Name"
 msgstr ""
 
 #: ownersBriefcaseName
@@ -4431,7 +4472,7 @@ msgid "Rename"
 msgstr ""
 
 #: renameAddressBook
-msgid "Rename Address Book"
+msgid "Rename Contact Folder"
 msgstr ""
 
 #: renameCalendar
@@ -4804,10 +4845,10 @@ msgstr ""
 
 #. # Copyright string must not be translated
 #: splashScreenCopyright
+msgctxt "splashScreenCopyright"
 msgid ""
-"Copyright © 2005-2013 Telligent Systems, Inc.  All rights reserved. "
-"Telligent and Zimbra are registered trademarks or trademarks of Telligent "
-"Systems, Inc."
+"Copyright © 2005-2017 Synacor, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Synacor, Inc."
 msgstr ""
 
 #: splashScreenAppName
@@ -4866,7 +4907,7 @@ msgid "Offline Version"
 msgstr ""
 
 #: switchToOfflineURL
-msgid "http://www.zimbra.com/products/desktop.html"
+msgid "https://www.zimbra.com/products/desktop.html"
 msgstr ""
 
 #: tags
@@ -5137,20 +5178,23 @@ msgstr ""
 
 #: voiceErrorUnableToAuth
 msgid ""
-"Authorization Failed. Please verify that your password is set correctly in "
-"the Voice preferences or contact your administrator for further assistance."
+"Authentication error: please update your voice account password at "
+"Preferences|Voice and verify voice username is correct."
 msgstr ""
 
 #: voiceErrorUnsupported
 msgid ""
-"Account not provisioned for Voice feature. Kindly contact your "
-"administrator."
+"Account not provisioned for Voice feature. Kindly contact your administrator."
 msgstr ""
 
 #: voiceErrorGeneric
 msgid ""
 "Voice mailbox not configured correctly. Check preference settings or contact "
 "your administrator."
+msgstr ""
+
+#: voiceErrorPIN
+msgid "Invalid PIN: please reset your PIN at Preferences|Voice"
 msgstr ""
 
 #: voiceMailsPerPage
@@ -5171,7 +5215,7 @@ msgid ""
 "the voice mail by simply opening the attached file.\n"
 "From: {0}  |  Duration: {1}  |  Received: {2}\n"
 "\n"
-"http://www.zimbra.com "
+"https://www.zimbra.com "
 msgstr ""
 
 #: voiceMailForwardSubject
@@ -5190,26 +5234,6 @@ msgstr ""
 msgid ""
 "Select the phone number you want to manage then select the options for that "
 "number."
-msgstr ""
-
-#: wikiTOC
-msgid "Table of Contents"
-msgstr ""
-
-#: wikiDocName
-msgid "Document name"
-msgstr ""
-
-#: wikiModifiedBy
-msgid "Modified by"
-msgstr ""
-
-#: wikiModifiedOn
-msgid "Modified on"
-msgstr ""
-
-#: wikiVersion
-msgid "Version"
 msgstr ""
 
 #: week
@@ -5613,6 +5637,10 @@ msgstr ""
 
 #: SKIN_froggy
 msgid "Froggy"
+msgstr ""
+
+#: SKIN_harmony
+msgid "Harmony"
 msgstr ""
 
 #: SKIN_harvest
@@ -6343,7 +6371,7 @@ msgstr ""
 
 #: ALT_APP_CONTACTS
 msgctxt "ALT_APP_CONTACTS"
-msgid "Address Book"
+msgid "Contacts"
 msgstr ""
 
 #: ALT_APP_OPTIONS
@@ -6376,7 +6404,7 @@ msgstr ""
 
 #: ALT_APP_MANAGE_ADDRESS_BOOKS
 msgctxt "ALT_APP_MANAGE_ADDRESS_BOOKS"
-msgid "Manage Address Books"
+msgid "Manage Contacts"
 msgstr ""
 
 #: ALT_APP_MANAGE_CALENDARS
@@ -6461,6 +6489,7 @@ msgid "Email Address"
 msgstr ""
 
 #: ALT_CONTACT_FOLDER
+msgctxt "ALT_CONTACT_FOLDER"
 msgid "Contact Folder"
 msgstr ""
 
@@ -7268,6 +7297,10 @@ msgstr ""
 msgid "Hide Details"
 msgstr ""
 
+#: MO_networkError
+msgid "A network error has occurred."
+msgstr ""
+
 #. ## contact
 #: MO_AB_email
 msgid "email"
@@ -7432,14 +7465,6 @@ msgctxt "ZM_replyPrefix"
 msgid "----- {0} wrote:"
 msgstr ""
 
-#: ZM_replySubjectPrefix
-msgid "Re:"
-msgstr ""
-
-#: ZM_forwardSubjectPrefix
-msgid "Fwd:"
-msgstr ""
-
 #: ZM_originalMessage
 msgid "----- Original Message -----"
 msgstr ""
@@ -7522,6 +7547,12 @@ msgstr ""
 msgid ""
 "The username or password is incorrect. Verify that CAPS LOCK is not on, and "
 "then retype the current username and password."
+msgstr ""
+
+#: account.AUTH_FAILED_passwordChangeFailed
+msgid ""
+"The password is incorrect. Verify that CAPS LOCK is not on, and then retype "
+"the current password."
 msgstr ""
 
 #: account.CHANGE_PASSWORD
@@ -8080,7 +8111,13 @@ msgctxt "voice.SECONDARY_NOT_ALLOWED_PREFS"
 msgid "You are not allowed to access voice mail."
 msgstr ""
 
-#. #voice.UNABLE_TO_RETRIEVE_CALL_FEATURES = An error occurred while attempting to retrieve your voice mail preferences. Your telephone number may be out of service. We apologize for this inconvenience.
+#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
+msgid ""
+"An error occurred while attempting to retrieve your voice mail preferences. "
+"Your telephone number may be out of service. We apologize for this "
+"inconvenience."
+msgstr ""
+
 #: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
 msgid ""
 "Sorry, you cannot use your telephone number with this feature. Please enter "
