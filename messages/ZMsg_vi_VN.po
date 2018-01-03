@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-08 22:16+0700\n"
-"PO-Revision-Date: 2017-12-31 16:14+0700\n"
+"POT-Creation-Date: 2018-01-02 11:20+0700\n"
+"PO-Revision-Date: 2018-01-03 10:58+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi_VN\n"
@@ -15,15 +15,17 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015, 2016 Synacor, Inc.
 #. #
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
 #. #
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <https://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
 #: errorEmptyResponse
@@ -65,6 +67,10 @@ msgid ""
 msgstr ""
 "Tên người dùng và mật khẩu không đúng. Kiểm tra xem CAPS LOCK là không bật, "
 "và sau đó gõ lại tên người dùng và mật khẩu hiện thời."
+
+#: account.TWO_FACTOR_AUTH_FAILED
+msgid "The one-time code used is incorrect. Please try again."
+msgstr "Mã dùng một lần được sử dụng không chính xác. Vui lòng thử lại."
 
 #: account.CHANGE_PASSWORD
 msgid "Your password is no longer valid. Please choose a new password."
@@ -378,6 +384,14 @@ msgstr "Không thể gửi thông điệp bởi vì địa chỉ không hợp l�
 msgid "A tag could not be created because you have exceeded the limit."
 msgstr "Một thẻ không thể được tạo bởi vị bạn đã vượt quá giới hạn."
 
+#: mail.EXPORT_PERIOD_NOT_SPECIFIED
+msgid "Start and End date must be set."
+msgstr "Ngày bắt đầu và Ngày kết thúc phải được đặt."
+
+#: mail.EXPORT_PERIOD_TOO_LONG
+msgid "Export period must be {0} days or less."
+msgstr "Thời gian xuất phải là {0} ngày hoặc ít hơn."
+
 #: offline.ONLINE_ONLY_OP
 msgid ""
 "You must be online to use this feature. Please check your network connection "
@@ -408,8 +422,8 @@ msgid "An invalid request was made."
 msgstr "Một yêu cầu không hợp lệ vừa thực hiện."
 
 #: service.UNKNOWN_DOCUMENT
-msgid "Server error (unknown command sent to server)."
-msgstr "Lỗi máy chủ (Lệnh không biết đã gửi tới máy chủ)."
+msgid "Unknown command sent to server: {0}"
+msgstr "Lệnh không xác định được gửi đến máy chủ: {0}"
 
 #: service.RESOURCE_UNREACHABLE
 msgid "Resource unreachable."
